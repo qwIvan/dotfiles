@@ -1,0 +1,10 @@
+*
+!.gitignore
+!.m2/
+!.oh-my-zsh/
+!bin/
+!.gemrc
+!.profile
+!.zshrc
+!chnroute.txt
+!shadowiptables.sh
