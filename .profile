@@ -37,3 +37,6 @@ export PATH="$PATH:$M2_HOME/bin"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+/home/ivan/adbyby/adbyby &
+sh /home/ivan/shadowiptables.sh && \
+/home/ivan/chinadns-1.3.2/src/chinadns -c /home/ivan/chnroute.txt -m -p 8384 -s 45.127.93.239:5354,114.114.114.114 &
