@@ -1,8 +1,8 @@
 *
 !.gitignore
-!.m2/
-!.oh-my-zsh/
-!bin/
+!.m2/*
+!.oh-my-zsh/*
+!bin/*
 !.gemrc
 !.profile
 !.zshrc
