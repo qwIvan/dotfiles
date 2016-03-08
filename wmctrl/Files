@@ -1,0 +1,1 @@
+wmctrl -xa files.Files -F || pantheon-files

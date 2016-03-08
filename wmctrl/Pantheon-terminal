@@ -1,0 +1,1 @@
+wmctrl -xa pantheon-terminal.Pantheon-terminal -F || pantheon-terminal
