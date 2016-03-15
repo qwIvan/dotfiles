@@ -4,7 +4,7 @@
 !.oh-my-zsh/
 !bin/
 !.gemrc
-!.profile
+//!.profile
 !.zshrc
 !chnroute.txt
 !shadowiptables.sh

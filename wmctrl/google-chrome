@@ -1,1 +1,0 @@
-wmctrl -xa google-chrome.google-chrome -F || google-chrome
