@@ -50,7 +50,7 @@ ZSH_THEME="jonathan"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git adb history mvn npm pip web-search extract d gradle z thefuck meteor systemadmin colored-man-pages history-substring-search sprunge httpie urltools common-aliases themes gem github singlechar battery colorize screen archlinux rsync gulp)
+plugins=(git adb history mvn npm pip web-search extract d gradle thefuck meteor systemadmin colored-man-pages history-substring-search sprunge httpie urltools common-aliases themes gem github singlechar battery colorize screen archlinux rsync gulp alias-tips fasd)
 
 # User configuration
 
@@ -87,3 +87,5 @@ eval $(thefuck --alias)
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=$PATH:~/bin
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
