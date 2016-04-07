@@ -9,7 +9,7 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod3
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below. ISO 10646 = Unicode
@@ -26,7 +26,7 @@ floating_modifier $mod
 
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec xterm -rv
+bindsym $mod+Return exec urxvt -rv
 
 # kill focused window
 bindsym $mod+Control+q kill
@@ -98,7 +98,7 @@ bindsym $mod+a focus parent
 
 set $workspace1 "1. Browser"
 set $workspace2 "2. Terminal"
-set $workspace3 "3. IDE"
+set $workspace3 "3. Code"
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
@@ -112,9 +112,11 @@ bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
-bindsym $mod+comma workspace prev
-bindsym $mod+period workspace next
+#bindsym $mod+Shift+comma workspace prev
+#bindsym $mod+Shift+period workspace next
 bindsym $mod+q workspace back_and_forth
+bindsym $mod+comma workspace prev_on_output
+bindsym $mod+period workspace next_on_output
 workspace_auto_back_and_forth yes
 
 # move focused container to workspace
@@ -129,8 +131,8 @@ bindsym $mod+Control+8 move container to workspace 8
 bindsym $mod+Control+9 move container to workspace 9
 bindsym $mod+Control+0 move container to workspace 10
 
-bindsym $mod+Control+comma move container to workspace prev
-bindsym $mod+Control+period move container to workspace next
+bindsym $mod+Control+comma move container to workspace prev_on_output
+bindsym $mod+Control+period move container to workspace next_on_output
 
 bindsym $mod+bracketleft focus output left
 bindsym $mod+bracketright focus output right
@@ -138,9 +140,10 @@ bindsym $mod+Control+bracketleft move workspace to output left
 bindsym $mod+Control+bracketright move workspace to output right
 
 assign [class="google-chrome"] $workspace1
-assign [class="XTerm"] $workspace2
+assign [class="URxvt"] $workspace2
 assign [class="jetbrains-webstorm"] $workspace3
 assign [class="jetbrains-studio"] $workspace3
+assign [class="jetbrains-idea"] $workspace3
 
 # reload the configuration file
 bindsym $mod+Control+c reload
@@ -199,5 +202,15 @@ client.focused_inactive #393939 #393939 #888888 #292d2e
 client.unfocused #2d2d2d #2d2d2d #999999 #292d2e
 client.urgent #2f343a #900000 #ffffff #900000
 
-exec_always --no-startup-id "pgrep chrome || google-chrome-stable"
+exec --no-startup-id "~/shadowiptables.sh" 
+exec_always --no-startup-id "pgrep chrome || google-chrome-stable --proxy-server=http://localhost:8118"
 exec_always --no-startup-id "feh --bg-scale ~/wallpaper ; wget https://unsplash.it/1920/1080/?random -O ~/wallpaper" 
+exec_always --no-startup-id "xcompmgr" 
+exec_always --no-startup-id "fcitx" 
+exec --no-startup-id "sudo pdnsd -c ~/parent_pdnsd.conf" 
+exec --no-startup-id "sudo pdnsd -c ~/pdnsd.conf" 
+exec --no-startup-id "sudo pdnsd -c ~/pdnsd_etc.conf" 
+exec --no-startup-id "sudo chinadns-1.3.2/src/chinadns -c chnroute.txt -s 127.0.1.1:1212,127.0.0.1:1144 -p 5355 -l blacklist -m" 
+exec_always --no-startup-id "ss-redir -c ~/ss_config.json" 
+exec_always --no-startup-id "setxkbmap -option ctrl:swapcaps -option altwin:swap_alt_win" 
+exec_always --no-startup-id "~/adbyby/adbyby" 

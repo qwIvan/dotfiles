@@ -54,7 +54,7 @@ alias a:='cat >>'
 
 # XARGS
 
-alias x='xargs'
+#alias x='xargs'
 
 alias xy='xargs "$GREP" -Ri'
 alias xn='xargs "$GREP" -Riv'
