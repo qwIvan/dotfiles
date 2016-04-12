@@ -215,4 +215,5 @@ exec --no-startup-id "sudo chinadns-1.3.2/src/chinadns -c chnroute.txt -s 127.0.
 exec_always --no-startup-id "ss-redir -c ~/ss_config.json" 
 exec_always --no-startup-id "setxkbmap -option ctrl:swapcaps -option altwin:swap_alt_win" 
 exec_always --no-startup-id "~/adbyby/adbyby" 
+exec_always --no-startup-id "sudo ntpd -gq && sudo hwclock -w" 
 focus_follows_mouse no
