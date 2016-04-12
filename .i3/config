@@ -144,6 +144,7 @@ assign [class="URxvt"] $workspace2
 assign [class="jetbrains-webstorm"] $workspace3
 assign [class="jetbrains-studio"] $workspace3
 assign [class="jetbrains-idea"] $workspace3
+assign [class="Atom"] $workspace3
 
 # reload the configuration file
 bindsym $mod+Control+c reload
