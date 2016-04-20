@@ -22,6 +22,14 @@ else
   update
 fi
 
+start_rule(){
+	sudo iptables -t nat -A OUTPUT -p tcp -j SHADOWSOCKS
+}
+
+stop_rule(){
+	sudo iptables -t nat -D OUTPUT -p tcp -j SHADOWSOCKS
+}
+
 add_tables(){
 	sudo iptables -t nat -N SHADOWSOCKS
 
@@ -43,6 +51,6 @@ add_tables(){
 
 	sudo iptables -t nat -A SHADOWSOCKS -p tcp -j REDIRECT --to-ports 1080
 
-	sudo iptables -t nat -A OUTPUT -p tcp -j SHADOWSOCKS
+	start_rule
 }
 sudo iptables -t nat -C OUTPUT -p tcp -j SHADOWSOCKS || add_tables
