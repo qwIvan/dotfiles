@@ -35,6 +35,7 @@ alias -g L="| less -R"
 alias -g E=" --help"
 alias -g xi="| xargs -i"
 alias x=extract
+alias -g PP="\`clippaste\`"
 unalias ping
 tcb() {
 	tldr $1
