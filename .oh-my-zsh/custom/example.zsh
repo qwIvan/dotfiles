@@ -42,6 +42,11 @@ tcb() {
 	cheat $1
 	bro $1
 }
+fiy() {
+	fanyi $1
+	ici $1
+	yd $1
+}
 export PATH=$PATH:~/bin
 TUXJDK=~/jdk-8u5-tuxjdk-b08
 export STUDIO_JDK=$TUXJDK
