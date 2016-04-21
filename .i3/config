@@ -29,7 +29,7 @@ floating_modifier $mod
 bindsym $mod+Return exec urxvt -rv
 
 # kill focused window
-bindsym $mod+Control+q kill
+bindsym $mod+x kill
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec dmenu_run
