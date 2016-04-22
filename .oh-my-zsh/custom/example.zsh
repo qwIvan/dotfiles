@@ -61,4 +61,5 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=$PATH:~/bin
 bindkey "^P" history-substring-search-up
 bindkey "^N" history-substring-search-down
+eval $(thefuck --alias)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
