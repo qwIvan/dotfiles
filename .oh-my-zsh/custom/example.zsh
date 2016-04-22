@@ -33,10 +33,12 @@ alias -g a4="| awk \"{print \\\$4}\""
 alias -g a5="| awk \"{print \\\$5}\""
 alias -g L="| less -R"
 alias -g E=" --help"
-alias -g xi="| xargs -i"
+alias -g X="| xargs"
+alias -g Xi="| xargs -i"
 alias x=extract
 alias -g PP="\`clippaste\`"
 unalias ping
+alias axel="axel -a"
 tcb() {
 	tldr $1
 	cheat $1
