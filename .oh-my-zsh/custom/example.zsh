@@ -59,5 +59,16 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=$PATH:~/bin
 bindkey "^P" history-substring-search-up
 bindkey "^N" history-substring-search-down
+bindkey "^E" end-of-line
+bindkey "^F" forward-char
+bindkey "^[f" forward-word
 eval $(thefuck --alias)
+
+accept-and-execute(){}
+zle -N accept-and-execute
+bindkey "^M" accept-and-execute
+ZSH_AUTOSUGGEST_EXECUTE_WIDGETS=(
+	accept-and-execute
+)
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
