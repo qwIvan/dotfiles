@@ -59,8 +59,8 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=$PATH:~/bin
 bindkey "^P" history-substring-search-up
 bindkey "^N" history-substring-search-down
-bindkey "^E" autosuggest-accept
-bindkey "^F" autosuggest-accept
+#bindkey "^E" autosuggest-accept
+#bindkey "^F" autosuggest-accept
 bindkey "^[f" forward-word
 eval $(thefuck --alias)
 
