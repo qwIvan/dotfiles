@@ -64,7 +64,7 @@ bindkey "^N" history-substring-search-down
 bindkey "^[f" forward-word
 eval $(thefuck --alias)
 
-bindkey "^M" autosuggest-execute
+#bindkey "^M" autosuggest-execute
 ZSH_AUTOSUGGEST_STRATEGY=match_prev_cmd
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 
