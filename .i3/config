@@ -223,8 +223,10 @@ exec_always --no-startup-id "~/adbyby/adbyby"
 exec_always --no-startup-id "sudo ntpd -gq && sudo hwclock -w" 
 focus_follows_mouse no
 
-#for_window [class="^.*"] border pixel 0
+for_window [class="google-chrome"] border none
+
+
 
 #gaps outer 0
-gaps inner 20
-
+#gaps inner 20
+workspace $workspace gaps inner 20
