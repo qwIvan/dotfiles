@@ -49,6 +49,7 @@ fiy() {
 	trans $1
 }
 export PATH=$PATH:~/bin
+export PATH=$PATH:/usr/bin/core_perl
 TUXJDK=~/jdk-8u5-tuxjdk-b08
 export STUDIO_JDK=$TUXJDK
 export WEBIDE_JDK=$TUXJDK
