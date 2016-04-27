@@ -60,17 +60,17 @@ add_tables(){
 	sudo iptables -t nat -N SHADOWTABLES >& /dev/null
 
 	for ip in ${ignore_ips[@]} ;do
-		sudo iptables -t nat -C SHADOWTABLES -d $ip -j RETURN \
-			|| sudo iptables -t nat -A SHADOWTABLES -d $ip -j RETURN
+		sudo iptables -t nat -C SHADOWTABLES -d $ip -j RETURN >& /dev/null \
+			|| sudo iptables -t nat -I SHADOWTABLES 1 -d $ip -j RETURN
 	done
 
 	sudo ipset create chnroute hash:net -exist
 	cat $chnroute_file | sudo xargs -I ip ipset add chnroute ip -exist
 
-	sudo iptables -t nat -C SHADOWTABLES -m set --match-set chnroute dst -j RETURN \
+	sudo iptables -t nat -C SHADOWTABLES -m set --match-set chnroute dst -j RETURN >& /dev/null \
 		|| sudo iptables -t nat -A SHADOWTABLES -m set --match-set chnroute dst -j RETURN
 
-	sudo iptables -t nat -C SHADOWTABLES -p tcp -j REDIRECT --to-ports $local_port \
+	sudo iptables -t nat -C SHADOWTABLES -p tcp -j REDIRECT --to-ports $local_port >& /dev/null \
 		|| sudo iptables -t nat -A SHADOWTABLES -p tcp -j REDIRECT --to-ports $local_port
 
 }
