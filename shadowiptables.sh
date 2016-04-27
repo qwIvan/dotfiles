@@ -15,6 +15,7 @@
 
 chnroute_file=~/.chnroute
 ignore_ips=(
+	45.32.50.160
 	45.127.93.239
 	0.0.0.0/8
 	10.0.0.0/8
@@ -93,5 +94,9 @@ case $1 in
 	add_rule)
 		add_tables
 		;;
+	restart)
+		stop_rule
+		add_tables
+		start_rule
 
 esac
