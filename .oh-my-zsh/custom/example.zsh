@@ -24,6 +24,7 @@ alias t2="tree -L 2"
 alias t3="tree -L 3"
 alias t4="tree -L 4"
 alias t5="tree -L 5"
+alias x=extract
 alias -g A1="| awk \"{print \\\$1}\""
 alias -g A2="| awk \"{print \\\$2}\""
 alias -g A3="| awk \"{print \\\$3}\""
@@ -33,8 +34,8 @@ alias -g L="| less -R"
 alias -g E="--help"
 alias -g X="| xargs"
 alias -g XI="| xargs -i"
-alias x=extract
 alias -g PP="\`clippaste\`"
+alias -g V="--version"
 unalias ping
 alias axel="axel -a"
 tcb() {
