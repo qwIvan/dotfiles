@@ -4,7 +4,6 @@
 #
 # brainstormr=/Users/robbyrussell/Projects/development/planetargon/brainstormr
 #
-#alias lu="ls -u"
 i() curl ip.cn/$1
 alias tree="tree -C"
 transfer() {
@@ -25,6 +24,8 @@ alias t3="tree -L 3"
 alias t4="tree -L 4"
 alias t5="tree -L 5"
 alias x=extract
+alias ls="ls -rahtc --color=auto"
+alias l="ls -Flrahtc --color=auto"
 alias -g A1="| awk \"{print \\\$1}\""
 alias -g A2="| awk \"{print \\\$2}\""
 alias -g A3="| awk \"{print \\\$3}\""
