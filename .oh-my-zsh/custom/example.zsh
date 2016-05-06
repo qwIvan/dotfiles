@@ -52,13 +52,6 @@ fiy() {
 }
 export PATH=$PATH:~/bin
 export PATH=$PATH:/usr/bin/core_perl
-TUXJDK=~/jdk-8u5-tuxjdk-b08
-export STUDIO_JDK=$TUXJDK
-export WEBIDE_JDK=$TUXJDK
-export IDEA_JDK=$TUXJDK
-export CL_JDK=$TUXJDK
-export RUBYMINE_JDK=$TUXJDK
-export PYCHARM_JDK=$TUXJDK
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=$PATH:~/bin
 bindkey "^P" history-substring-search-up
@@ -66,6 +59,7 @@ bindkey "^N" history-substring-search-down
 #bindkey "^E" autosuggest-accept
 #bindkey "^F" autosuggest-accept
 bindkey "^[f" forward-word
+bindkey "\`" vi-cmd-mode
 eval $(thefuck --alias)
 
 #bindkey "^M" autosuggest-execute
