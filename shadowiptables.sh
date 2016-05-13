@@ -34,18 +34,6 @@ update(){
   echo "127.0.0.1/24" >> $chnroute_file
 }
 
-if [[ -r $chnroute_file ]]; then
-  current=`date +%s`
-  last_modified=`stat -c "%Y" $chnroute_file`
-  if [[ $(($current-$last_modified)) -gt 604800 ]]; then
-    if ping -q -c 1 -W 1 ftp.apnic.net >/dev/null; then
-      update
-    fi
-  fi
-else
-  update
-fi
-
 start_rule(){
 	sudo iptables -t nat -C OUTPUT -p tcp -j SHADOWTABLES >& /dev/null \
 		|| sudo iptables -t nat -A OUTPUT -p tcp -j SHADOWTABLES
@@ -57,6 +45,18 @@ stop_rule(){
 }
 
 add_tables(){
+
+	if [[ -r $chnroute_file ]]; then
+	  current=`date +%s`
+	  last_modified=`stat -c "%Y" $chnroute_file`
+	  if [[ $(($current-$last_modified)) -gt 604800 ]]; then
+	    if ping -q -c 1 -W 1 ftp.apnic.net >/dev/null; then
+	      update
+	    fi
+	  fi
+	else
+	  update
+	fi
 
 	sudo iptables -t nat -N SHADOWTABLES >& /dev/null
 
