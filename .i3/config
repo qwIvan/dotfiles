@@ -207,9 +207,9 @@ client.focused_inactive #393939 #393939 #888888 #292d2e
 client.unfocused #2d2d2d #2d2d2d #999999 #292d2e
 client.urgent #2f343a #900000 #ffffff #900000
 
-exec --no-startup-id "~/bin/shadowtables" 
+exec --no-startup-id "shadowtables" 
 exec_always --no-startup-id "pgrep chrome || google-chrome-stable" #--proxy-server=http://localhost:8118"
-exec_always --no-startup-id "feh --bg-scale ~/wallpaper ; wget https://unsplash.it/1920/1080/?random -O ~/wallpaper~ && mv ~/wallpaper~ ~/wallpaper" 
+exec_always --no-startup-id "switch-wallpaper" 
 #exec_always --no-startup-id "xcompmgr -cf" 
 exec_always --no-startup-id "compton --shadow-exclude 'class_g = \"Sogou-qimpanel\"' --shadow-exclude 'class_g = \"Wine\"'"
 exec_always --no-startup-id "fcitx" 
@@ -219,7 +219,7 @@ exec --no-startup-id "sudo pdnsd -c ~/pdnsd_etc.conf"
 exec --no-startup-id "sudo chinadns-1.3.2/src/chinadns -c chnroute.txt -s 127.0.1.1:1212,127.0.0.1:1144 -p 5355 -m" 
 exec_always --no-startup-id "ss-redir -c ~/ss_config.json" 
 exec_always --no-startup-id "setxkbmap -option ctrl:swapcaps -option altwin:swap_lalt_lwin" 
-exec_always --no-startup-id "~/adbyby/adbyby" 
+exec_always --no-startup-id "adbyby" 
 exec_always --no-startup-id "sudo ntpd -gq && sudo hwclock -w" 
 focus_follows_mouse no
 
