@@ -207,9 +207,9 @@ client.focused_inactive #393939 #393939 #888888 #292d2e
 client.unfocused #2d2d2d #2d2d2d #999999 #292d2e
 client.urgent #2f343a #900000 #ffffff #900000
 
-exec --no-startup-id "shadowtables" 
+exec --no-startup-id "~/bin/shadowtables" 
 exec_always --no-startup-id "pgrep chrome || google-chrome-stable" #--proxy-server=http://localhost:8118"
-exec_always --no-startup-id "switch-wallpaper" 
+exec_always --no-startup-id "~/bin/switch-wallpaper" 
 #exec_always --no-startup-id "xcompmgr -cf" 
 exec_always --no-startup-id "compton --shadow-exclude 'class_g = \"Sogou-qimpanel\"' --shadow-exclude 'class_g = \"Wine\"'"
 exec_always --no-startup-id "fcitx" 
