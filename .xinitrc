@@ -1,7 +1,7 @@
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
-TUXJDK=~/jdk-8u5-tuxjdk-b08
+TUXJDK=/opt/tuxjdk
 export STUDIO_JDK=$TUXJDK
 export WEBIDE_JDK=$TUXJDK
 export IDEA_JDK=$TUXJDK
