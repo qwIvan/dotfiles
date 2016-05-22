@@ -27,9 +27,9 @@ UseExtraTriggerKeyOnlyWhenUseItToInactivate=False
 # Super+Right Ctrl
 # Disabled
 # Custom
-SwitchKey=ALT_L_SHIFT
+SwitchKey=Custom
 # 自定义切换键
-#CustomSwitchKey=
+CustomSwitchKey=CTRL_ALT_RALT
 # 激活输入法
 #ActivateKey=
 # 取消激活输入法
@@ -54,7 +54,7 @@ SwitchKey=ALT_L_SHIFT
 # 输入间隔
 #TimeInterval=250
 # 切换虚拟键盘
-#VKSwitchKey=CTRL_ALT_B
+VKSwitchKey=
 # 切换联想模式
 #RemindSwitchKey=
 # 切换全角
