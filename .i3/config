@@ -160,6 +160,7 @@ bindsym $mod+Control+e exec "i3-nagbar -t warning -m 'You pressed the exit short
 
 bindsym Print exec scrot 'screenshot/%Y-%m-%d-%H%M%S_$wx$h_scrot.png'
 bindsym --release Shift+Print exec scrot -s 'screenshot/%Y-%m-%d-%H%M%S_$wx$h_scrot.png'
+bindsym Mod1+Sys_Req exec scrot -u 'screenshot/%Y-%m-%d-%H%M%S_$wx$h_scrot.png'
 
 # jesize window (you can also use the mouse for that)
 mode "resize" {

@@ -24,7 +24,7 @@ alias t3="tree -L 3"
 alias t4="tree -L 4"
 alias t5="tree -L 5"
 alias x=extract
-alias ls="ls -rahtc --color=auto"
+alias ls="ls -rhtc --color=auto"
 alias l="ls -Flrahtc --color=auto"
 alias -g A1="| awk \"{print \\\$1}\""
 alias -g A2="| awk \"{print \\\$2}\""
