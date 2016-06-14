@@ -1,2 +1,8 @@
-~/.fehbg
-wget https://unsplash.it/1920/1080/?random -O ~/wallpaper~ && mv ~/wallpaper~ ~/wallpaper
+#!/bin/sh
+WIGHT=$1
+HEIGHT=$2
+PAPER_DIR=~/wallpapers
+DOWN_PAPER=~/wallpaper~
+RANDOM_URL=https://unsplash.it/$WIGHT/$HEIGHT/?random
+feh  --bg-scale $DOWN_PAPER --no-xinerama && mv $DOWN_PAPER $PAPER_DIR/$(md5sum $DOWN_PAPER | awk '{print $1}')-"$WIGHT"x"$HEIGHT" || feh --bg-scale --randomize $PAPER_DIR/*-"$WIGHT"x"$HEIGHT" --no-xinerama
+wget $RANDOM_URL -O $DOWN_PAPER

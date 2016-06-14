@@ -37,6 +37,7 @@ alias -g X="| xargs"
 alias -g XI="| xargs -i"
 alias -g PP="\`clippaste\`"
 alias -g V="--version"
+#alias -g SL="| tr ' ' '\n'"
 unalias ping
 alias axel="axel -a"
 tcb() {
@@ -60,7 +61,7 @@ bindkey "^N" history-substring-search-down
 #bindkey "^E" autosuggest-accept
 #bindkey "^F" autosuggest-accept
 bindkey "^[f" forward-word
-bindkey "\`" vi-cmd-mode
+#bindkey "\`" vi-cmd-mode
 eval $(thefuck --alias)
 
 #bindkey "^M" autosuggest-execute
