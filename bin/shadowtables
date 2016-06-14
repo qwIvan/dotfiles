@@ -31,7 +31,7 @@ ignore_ips=(
 	23.88.239.57
 	103.217.253.73
 )
-local_port=$1
+local_port=1080
 
 update(){
   curl 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > $chnroute_file
