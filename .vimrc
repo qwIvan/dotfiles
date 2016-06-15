@@ -1,3 +1,20 @@
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'pangloss/vim-javascript'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'lukaszkorecki/coffeetags'
+Plugin 'rdnetto/ycm-generator'
+
+call vundle#end()
+filetype plugin indent on
+
+
+
 " All system-wide defaults are set in $VIMRUNTIME/archlinux.vim (usually just
 " /usr/share/vim/vimfiles/archlinux.vim) and sourced by the call to :runtime
 " you can find below.  If you wish to change any of those settings, you should
@@ -18,3 +35,10 @@ runtime! archlinux.vim
 :syntax on
 set mouse=a
 set number
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+autocmd VimEnter * nested :TagbarOpen
+map <Leader> <Plug>(easymotion-prefix)
+map <C-n> :NERDTreeToggle<CR>
+nmap <F8> :TagbarToggle<CR>
