@@ -9,6 +9,9 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'lukaszkorecki/coffeetags'
 Plugin 'rdnetto/ycm-generator'
+Plugin 'raimondi/delimitmate'
+Plugin 'honza/vim-snippets'
+Plugin 'tpope/vim-sensible'
 
 call vundle#end()
 filetype plugin indent on
@@ -42,3 +45,15 @@ autocmd VimEnter * nested :TagbarOpen
 map <Leader> <Plug>(easymotion-prefix)
 map <C-n> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
+
+" Configure Ultisnip and YouCompleteMe
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+
+" Configure YouCompleteMe
+let g:ycm_key_list_select_completion = ['<C-j>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-k>', '<Up>']
+
+" make YCM compatible with UltiSnips (using supertab)
+let g:SuperTabDefaultCompletionType = '<C-n>'
