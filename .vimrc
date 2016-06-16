@@ -1,20 +1,37 @@
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+call plug#begin('~/.vim/plugged')
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'pangloss/vim-javascript'
-Plugin 'easymotion/vim-easymotion'
-Plugin 'lukaszkorecki/coffeetags'
-Plugin 'rdnetto/ycm-generator'
-Plugin 'raimondi/delimitmate'
-Plugin 'honza/vim-snippets'
-Plugin 'tpope/vim-sensible'
+Plug 'VundleVim/Vundle.vim'
+Plug 'kchmck/vim-coffee-script'
+Plug 'pangloss/vim-javascript'
+Plug 'easymotion/vim-easymotion'
+Plug 'lukaszkorecki/coffeetags'
+Plug 'rdnetto/ycm-generator'
+Plug 'raimondi/delimitmate'
+Plug 'honza/vim-snippets'
+Plug 'tpope/vim-sensible'
+Plug 'mileszs/ack.vim'
+Plug 'mattn/emmet-vim'
+"Plug 'scrooloose/nerdcommenter'
+"Plug 'majutsushi/tagbar'
+"Plug 'nathanaelkane/vim-indent-guides'
+"Plug 'xolox/vim-colorscheme-switcher'
+"Plug 'xolox/vim-misc'
+"Plug 'mbbill/desertex'
+Plug 'flazz/vim-colorschemes'
+"Plug 'tpope/vim-repeat'
 
-call vundle#end()
-filetype plugin indent on
+if has('nvim')
+	Plug 'majutsushi/tagbar'
+	Plug 'scrooloose/nerdtree'
+	Plug 'valloric/youcompleteme'
+	Plug 'scrooloose/syntastic'
+	Plug 'tpope/vim-surround'
+	Plug 'sirver/ultisnips'
+	Plug 'kien/ctrlp.vim'
+	Plug 'scrooloose/nerdcommenter'
+endif
+
+call plug#end()
 
 
 
@@ -38,10 +55,14 @@ runtime! archlinux.vim
 :syntax on
 set mouse=a
 set number
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-autocmd VimEnter * nested :TagbarOpen
+set tabstop=4
+set shiftwidth=4
+set ignorecase
+set smartcase
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+autocmd BufEnter * nested :call tagbar#autoopen(0)
 map <Leader> <Plug>(easymotion-prefix)
 map <C-n> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
@@ -57,3 +78,5 @@ let g:ycm_key_list_previous_completion = ['<C-k>', '<Up>']
 
 " make YCM compatible with UltiSnips (using supertab)
 let g:SuperTabDefaultCompletionType = '<C-n>'
+
+colorscheme colorsbox-stnight
