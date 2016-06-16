@@ -20,16 +20,17 @@ Plug 'mattn/emmet-vim'
 Plug 'flazz/vim-colorschemes'
 "Plug 'tpope/vim-repeat'
 
-if has('nvim')
-	Plug 'majutsushi/tagbar'
-	Plug 'scrooloose/nerdtree'
-	Plug 'valloric/youcompleteme'
-	Plug 'scrooloose/syntastic'
-	Plug 'tpope/vim-surround'
-	Plug 'sirver/ultisnips'
-	Plug 'kien/ctrlp.vim'
-	Plug 'scrooloose/nerdcommenter'
-endif
+set rtp^=/usr/share/vim/vimfiles/
+"if has('nvim')
+	"Plug 'majutsushi/tagbar'
+	"Plug 'scrooloose/nerdtree'
+	"Plug 'valloric/youcompleteme'
+	"Plug 'scrooloose/syntastic'
+	"Plug 'tpope/vim-surround'
+	"Plug 'sirver/ultisnips'
+	"Plug 'kien/ctrlp.vim'
+	"Plug 'scrooloose/nerdcommenter'
+"endif
 
 call plug#end()
 
@@ -61,7 +62,8 @@ set ignorecase
 set smartcase
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 autocmd BufEnter * nested :call tagbar#autoopen(0)
 map <Leader> <Plug>(easymotion-prefix)
 map <C-n> :NERDTreeToggle<CR>
