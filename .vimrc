@@ -1,5 +1,4 @@
 call plug#begin('~/.vim/plugged')
-
 Plug 'VundleVim/Vundle.vim'
 Plug 'kchmck/vim-coffee-script'
 Plug 'pangloss/vim-javascript'
@@ -19,19 +18,31 @@ Plug 'mattn/emmet-vim'
 "Plug 'mbbill/desertex'
 Plug 'flazz/vim-colorschemes'
 "Plug 'tpope/vim-repeat'
+"Plug 'valloric/youcompleteme'
+Plug 'syngan/vim-vimlint'
+Plug 'ynkdir/vim-vimlparser'
+"Plug 'ervandew/supertab'
+"Plug 'sirver/ultisnips'
+"Plug 'marijnh/tern_for_vim'
+"Plug 'https://github.com/othree/tern_for_vim_coffee.git'
+Plug 'qwIvan/tern_for_vim'
+"Plug 'tpope/vim-fugitive'
+"Plug 'bling/vim-airline'
+Plug 'airblade/vim-gitgutter'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'scrooloose/nerdtree'
+"Plug 'jistr/vim-nerdtree-tabs'
 
 set rtp^=/usr/share/vim/vimfiles/
 "if has('nvim')
-	"Plug 'majutsushi/tagbar'
-	"Plug 'scrooloose/nerdtree'
-	"Plug 'valloric/youcompleteme'
-	"Plug 'scrooloose/syntastic'
-	"Plug 'tpope/vim-surround'
-	"Plug 'sirver/ultisnips'
-	"Plug 'kien/ctrlp.vim'
-	"Plug 'scrooloose/nerdcommenter'
+        "Plug 'majutsushi/tagbar'
+        "Plug 'scrooloose/nerdtree'
+        "Plug 'scrooloose/syntastic'
+        "Plug 'tpope/vim-surround'
+        "Plug 'sirver/ultisnips'
+        "Plug 'kien/ctrlp.vim'
+        "Plug 'scrooloose/nerdcommenter'
 "endif
-
 call plug#end()
 
 
@@ -56,29 +67,44 @@ runtime! archlinux.vim
 :syntax on
 set mouse=a
 set number
-set tabstop=4
-set shiftwidth=4
 set ignorecase
 set smartcase
+set shiftwidth=4
+set expandtab
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 autocmd BufEnter * nested :call tagbar#autoopen(0)
 map <Leader> <Plug>(easymotion-prefix)
 map <C-n> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
 
-" Configure Ultisnip and YouCompleteMe
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+"" Configure Ultisnip and YouCompleteMe
+"let g:UltiSnipsExpandTrigger="<tab>"
+"let g:UltiSnipsJumpForwardTrigger="<tab>"
+"let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
-" Configure YouCompleteMe
-let g:ycm_key_list_select_completion = ['<C-j>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-k>', '<Up>']
+"" Configure YouCompleteMe
+"let g:ycm_key_list_select_completion = ['<C-j>', '<Down>']
+"let g:ycm_key_list_previous_completion = ['<C-k>', '<Up>']
 
-" make YCM compatible with UltiSnips (using supertab)
-let g:SuperTabDefaultCompletionType = '<C-n>'
+"" make YCM compatible with UltiSnips (using supertab)
+"let g:SuperTabDefaultCompletionType = '<C-n>'
 
 colorscheme colorsbox-stnight
+let g:UltiSnipsExpandTrigger="<C-j>"
+
+let g:ycm_semantic_triggers =  {
+    \   'coffee': ['.'],
+    \ }
+
+":setlocal omnifunc=tern#Complete
+":call tern#Enable()
+":runtime after/ftplugin/javascript_tern.vim
+":set ft=html.javascript_tern
+":set ft=html.javascript
+
+"AirlineTheme jellybeans
+":let g:airline_theme='jellybeans'
+:let g:airline_theme='hybrid'
