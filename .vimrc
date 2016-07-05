@@ -9,7 +9,7 @@ Plug 'raimondi/delimitmate'
 Plug 'honza/vim-snippets'
 Plug 'tpope/vim-sensible'
 Plug 'mileszs/ack.vim'
-Plug 'mattn/emmet-vim'
+"Plug 'mattn/emmet-vim'
 "Plug 'scrooloose/nerdcommenter'
 "Plug 'majutsushi/tagbar'
 "Plug 'nathanaelkane/vim-indent-guides'
@@ -65,12 +65,15 @@ runtime! archlinux.vim
 
 :filetype plugin on
 :syntax on
+"set nocompatible
 set mouse=a
 set number
 set ignorecase
 set smartcase
-set shiftwidth=4
+set shiftwidth=2
 set expandtab
+set cursorline
+set cursorcolumn
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif

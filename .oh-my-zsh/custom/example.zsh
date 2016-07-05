@@ -40,6 +40,7 @@ alias -g V="--version"
 #alias -g SL="| tr ' ' '\n'"
 unalias ping
 alias axel="axel -a"
+alias vim=nvim
 tcb() {
 	tldr $1
 	cheat $1
@@ -70,3 +71,5 @@ ZSH_AUTOSUGGEST_STRATEGY=match_prev_cmd
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+#alias cd='echo 禁止使用cd'
