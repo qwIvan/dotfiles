@@ -361,6 +361,7 @@ xfsprogs
 xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-server
+xorg-xbacklight
 xorg-xdpyinfo
 xorg-xev
 xorg-xinit
