@@ -1,4 +1,5 @@
 abs
+ack
 acpi
 acpid
 adb-sync-git
@@ -28,8 +29,10 @@ bash-completion
 bind-tools
 binutils
 bison
+btsync
 bzip2
 cantarell-fonts
+cargo
 ccat
 colordiff
 compton
@@ -44,6 +47,7 @@ dhcpcd
 dialog
 diffutils
 dmenu
+docker
 dosbox
 dosfstools
 drive
@@ -54,6 +58,7 @@ eclipse-java
 efibootmgr
 enlightenment
 enlightenment16
+eslint
 extundelete
 fakeroot
 fbida
@@ -112,6 +117,7 @@ hostapd
 htop
 hub
 i3-gaps-git
+i3-vim-syntax-git
 i3blocks
 i3lock
 i3status
@@ -150,6 +156,7 @@ lib32-simplescreenrecorder
 lib32-v4l-utils
 lib32-zlib
 libsixel-git
+libtinfo
 libtool
 libva-intel-driver
 libvncserver
@@ -179,6 +186,7 @@ mesa-demos
 mlocate
 moka-icon-theme-git
 mongodb
+mono
 mplayer
 mtpfs
 mtr
@@ -209,7 +217,6 @@ patch
 pciutils
 pcmciautils
 pdnsd
-pep8
 perl
 perl-anyevent-i3
 perl-json-xs
@@ -217,6 +224,7 @@ php
 pkg-config
 pkgfile
 playerctl
+playonlinux
 pm-utils
 poppler-glib
 pptpclient
@@ -227,9 +235,13 @@ pulseaudio
 pulseaudio-alsa
 pygtk
 pygtksourceview2
+python-ansicolors
+python-neovim
 python-pip
+python-pycodestyle
 python-pyflakes
 python-pylint
+python2-neovim
 python2-pip
 python2-pylint
 python2-twisted
@@ -245,14 +257,19 @@ rsync
 rtorrent
 ruby
 ruby-docs
+rust
 rxvt-unicode
 s-nail
 samba
+sbt
+scala
+scrapy
 screen
 scrot
 sed
 shadow
 shadowvpn
+shellcheck
 shutter
 simple-mtpfs
 simplescreenrecorder
@@ -262,6 +279,7 @@ smplayer-themes
 smtube
 socat
 speedtest-cli
+sqlint
 statnot
 sublime-text-dev-zh-cn
 subversion
@@ -276,10 +294,12 @@ tcsh
 terminology
 tex-gyre-fonts
 texinfo
+the_silver_searcher
 thefuck
 tigervnc
 tk
 tmux
+tor
 toxic
 traceroute
 tree
@@ -292,6 +312,7 @@ tuxjdk
 tuxjdk-doc
 tuxjdk-src
 twine
+typescript
 unclutter
 unrar
 urxvt-perls
@@ -300,15 +321,13 @@ util-linux
 vi
 vifm
 vim
+vim-airline
+vim-airline-themes
 vim-ctrlp
-vim-jedi
 vim-nerdcommenter
-vim-nerdtree
-vim-supertab
 vim-surround
 vim-syntastic
 vim-tagbar
-vim-tern
 vim-ultisnips
 vim-youcompleteme-git
 virtualbox
@@ -354,6 +373,7 @@ xsel
 xterm
 yaourt
 zenity
+zeronet
 zsh
 zsh-completions
 zsh-syntax-highlighting
