@@ -32,6 +32,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'scrooloose/nerdtree'
 "Plug 'jistr/vim-nerdtree-tabs'
+Plug 'ekalinin/dockerfile.vim'
 
 set rtp^=/usr/share/vim/vimfiles/
 "if has('nvim')

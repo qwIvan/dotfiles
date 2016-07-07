@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #自动翻墙脚本，配合shadowsocks-libev的ss-redir使用。需要ipset
 #TODO 整合ss-redir命令和chinadns命令
