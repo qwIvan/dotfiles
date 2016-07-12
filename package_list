@@ -48,6 +48,7 @@ dialog
 diffutils
 dmenu
 docker
+docker-compose
 dosbox
 dosfstools
 drive
@@ -79,6 +80,7 @@ file
 filesystem
 findutils
 firefox
+firejail
 fish
 flake8
 flex
@@ -112,6 +114,7 @@ gtk-theme-arc-git
 gtksourceview2
 gzip
 haveged
+hexedit
 highlight
 hostapd
 htop
@@ -176,6 +179,7 @@ man-pages
 man-pages-zh_cn
 mariadb
 markdown
+mbox-git
 mc
 mdadm
 mediainfo
@@ -195,6 +199,7 @@ nano
 neovim
 net-tools
 netctl
+nethogs
 netpbm
 nfs-utils
 nginx-google_filter
@@ -318,6 +323,7 @@ unrar
 urxvt-perls
 usbutils
 util-linux
+vagrant
 vi
 vifm
 vim
