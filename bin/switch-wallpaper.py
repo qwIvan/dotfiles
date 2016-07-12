@@ -1,10 +1,20 @@
 #!/bin/env python3
 from argparse import ArgumentParser
 from PIL import Image
-from os import system, remove as move
+from os import system, rename as move
 from os.path import expanduser, join
 from hashlib import md5
 from urllib.request import urlretrieve
+
+
+def get_size_by_width(width):
+    width = width - width % 3 + 3
+    return width, width/3*2
+
+
+def get_size_by_height(height):
+    height += height % 2
+    return height*1.5, height
 
 
 def attempt_size():
@@ -12,22 +22,15 @@ def attempt_size():
         args_w = int(args.resolution.split('x')[0])
         args_h = int(args.resolution.split('x')[1])
         if args_h*1.5 > args_w:
-            width = args_h*1.5
-            height = args_h
+            return get_size_by_height(args_h)
         else:
-            width = args_w - args_w % 3 + 3
-            height = width/3*2
+            return get_size_by_width(args_w)
     elif args.width:
-        width = args.width - args.width % 3 + 3
-        height = width/3*2
+        return get_size_by_width(args.width)
     elif args.height:
-        width = args.height*1.5
-        height = args.height
+        return get_size_by_height(args.height)
     else:
-        width = DEFAULT_WIDTH
-        height = DEFAULT_HEIGHT
-    return width, height
-
+        return DEFAULT_WIDTH, DEFAULT_HEIGHT
 
 DEFAULT_WIDTH = 3286 - 3286 % 3 + 3
 DEFAULT_HEIGHT = DEFAULT_WIDTH/3*2
@@ -49,6 +52,5 @@ try:
         md5 = md5(open(DOWN_PAPER, 'rb').read()).hexdigest()
         move(DOWN_PAPER, join(PAPER_DIR, '%s-%dx%d' % (md5, IMAGE_WIDTH, IMAGE_HEIGHT)))
 except:
-    print('t')
     system('feh --bg-fill --randomize --no-xinerama ' + join(PAPER_DIR, '*-%dx%d' % (WIDTH, HEIGHT)))
 urlretrieve(RANDOM_URL, DOWN_PAPER)
