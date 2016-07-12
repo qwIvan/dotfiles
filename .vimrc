@@ -33,6 +33,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'scrooloose/nerdtree'
 "Plug 'jistr/vim-nerdtree-tabs'
 Plug 'ekalinin/dockerfile.vim'
+Plug 'klen/python-mode'
 
 set rtp^=/usr/share/vim/vimfiles/
 "if has('nvim')
@@ -79,7 +80,7 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-autocmd BufEnter * nested :call tagbar#autoopen(0)
+autocmd FileType * nested :call tagbar#autoopen(0)
 map <Leader> <Plug>(easymotion-prefix)
 map <C-n> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
