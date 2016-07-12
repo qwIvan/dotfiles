@@ -37,7 +37,7 @@ alias -g X="| xargs"
 alias -g XI="| xargs -i"
 alias -g PP="\`clippaste\`"
 alias -g V="--version"
-#alias -g SL="| tr ' ' '\n'"
+alias -g SL="| tr ' ' '\n'"
 unalias ping
 alias axel="axel -a"
 alias vim=nvim

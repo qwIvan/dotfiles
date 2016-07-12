@@ -10,5 +10,5 @@ DOWN_PAPER=~/wallpaper~
 RANDOM_URL="https://unsplash.it/$WIGHT/$HEIGHT/?random"
 IMAGE_WIGHT=$(convert $DOWN_PAPER -print '%w' /dev/null)
 IMAGE_HEIGHT=$(convert $DOWN_PAPER -print '%h' /dev/null)
-feh  --bg-scale $DOWN_PAPER --no-xinerama && mv $DOWN_PAPER $PAPER_DIR/$(md5sum $DOWN_PAPER | awk '{print $1}')-"$IMAGE_WIGHT"x"$IMAGE_HEIGHT" || feh --bg-scale --randomize $PAPER_DIR/*-"$WIGHT"x"$HEIGHT" --no-xinerama
+feh  --bg-fill $DOWN_PAPER --no-xinerama && mv $DOWN_PAPER $PAPER_DIR/$(md5sum $DOWN_PAPER | awk '{print $1}')-"$IMAGE_WIGHT"x"$IMAGE_HEIGHT" || feh --bg-fill --randomize $PAPER_DIR/*-"$WIGHT"x"$HEIGHT" --no-xinerama
 wget "$RANDOM_URL" -O $DOWN_PAPER
