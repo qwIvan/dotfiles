@@ -1,11 +1,11 @@
 #!/bin/env python3
 from argparse import ArgumentParser
 from PIL import Image
-from os import system
+from os import system, remove as move
 from os.path import expanduser, join
 from hashlib import md5
-from shutil import move
 from urllib.request import urlretrieve
+
 
 def attempt_size():
     if args.resolution:
@@ -49,5 +49,6 @@ try:
         md5 = md5(open(DOWN_PAPER, 'rb').read()).hexdigest()
         move(DOWN_PAPER, join(PAPER_DIR, '%s-%dx%d' % (md5, IMAGE_WIDTH, IMAGE_HEIGHT)))
 except:
+    print('t')
     system('feh --bg-fill --randomize --no-xinerama ' + join(PAPER_DIR, '*-%dx%d' % (WIDTH, HEIGHT)))
 urlretrieve(RANDOM_URL, DOWN_PAPER)
