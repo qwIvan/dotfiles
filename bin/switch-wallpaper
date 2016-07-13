@@ -1,9 +1,9 @@
 #!/bin/env python3
+from hashlib import md5
 from argparse import ArgumentParser
 from PIL import Image
 from os import system, rename as move
 from os.path import expanduser, join
-from hashlib import md5
 from urllib.request import urlretrieve
 
 
@@ -32,6 +32,26 @@ def attempt_size():
     else:
         return DEFAULT_WIDTH, DEFAULT_HEIGHT
 
+
+def md5sum(path):
+    return md5(open(path, 'rb').read()).hexdigest()
+
+
+def cat(path):
+    with open(path) as f:
+        return f.read()
+
+
+def output(path, content, append=False):
+    with open(path, 'w' if not append else 'a') as f:
+        f.write(content)
+
+
+def imgsize(path):
+    with Image.open(path) as im:
+        return im.size
+
+
 DEFAULT_WIDTH = 3286 - 3286 % 3 + 3
 DEFAULT_HEIGHT = DEFAULT_WIDTH/3*2
 parser = ArgumentParser('Switching wallpapaer randomly.')
@@ -41,16 +61,22 @@ resolution_group.add_argument('-W', '--width', help='width of screen', metavar='
 resolution_group.add_argument('-H', '--height', help='height of screen', metavar='width', type=int)
 args = parser.parse_args()
 DOWN_PAPER = expanduser('~/wallpaper~')
+DOWN_PAPER_MD5 = expanduser('~/wallpaper_md5')
 PAPER_DIR = expanduser('~/wallpapers')
 WIDTH, HEIGHT = attempt_size()
 RANDOM_URL = 'https://unsplash.it/%d/%d/?random' % (WIDTH, HEIGHT)
 try:
-    with Image.open(DOWN_PAPER) as im:
-        IMAGE_WIDTH, IMAGE_HEIGHT = im.size
+    if cat(DOWN_PAPER_MD5) != md5sum(DOWN_PAPER):
+        raise
     code = system('feh --bg-fill --no-xinerama ' + DOWN_PAPER)
-    if code == 0:
-        md5 = md5(open(DOWN_PAPER, 'rb').read()).hexdigest()
-        move(DOWN_PAPER, join(PAPER_DIR, '%s-%dx%d' % (md5, IMAGE_WIDTH, IMAGE_HEIGHT)))
+    if code != 0:
+        raise
 except:
     system('feh --bg-fill --randomize --no-xinerama ' + join(PAPER_DIR, '*-%dx%d' % (WIDTH, HEIGHT)))
+else:
+    try:
+        move(DOWN_PAPER, join(PAPER_DIR, '%s-%dx%d' % ((md5sum(DOWN_PAPER),) + imgsize(DOWN_PAPER))))
+    except:
+        pass
 urlretrieve(RANDOM_URL, DOWN_PAPER)
+output(DOWN_PAPER_MD5, md5sum(DOWN_PAPER))
