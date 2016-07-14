@@ -118,6 +118,7 @@ hexedit
 highlight
 hostapd
 htop
+httpie
 hub
 i3-gaps-git
 i3-vim-syntax-git
@@ -241,6 +242,8 @@ pulseaudio-alsa
 pygtk
 pygtksourceview2
 python-ansicolors
+python-django
+python-flask
 python-neovim
 python-pip
 python-pycodestyle

@@ -33,7 +33,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'scrooloose/nerdtree'
 "Plug 'jistr/vim-nerdtree-tabs'
 Plug 'ekalinin/dockerfile.vim'
-"Plug 'klen/python-mode'
+Plug 'klen/python-mode'
 
 set rtp^=/usr/share/vim/vimfiles/
 "if has('nvim')
