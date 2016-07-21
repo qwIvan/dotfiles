@@ -4,14 +4,14 @@ Plug 'kchmck/vim-coffee-script'
 Plug 'pangloss/vim-javascript'
 Plug 'easymotion/vim-easymotion'
 Plug 'lukaszkorecki/coffeetags'
-Plug 'rdnetto/ycm-generator'
+Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 Plug 'raimondi/delimitmate'
 Plug 'honza/vim-snippets'
 Plug 'tpope/vim-sensible'
 Plug 'mileszs/ack.vim'
 "Plug 'mattn/emmet-vim'
 "Plug 'scrooloose/nerdcommenter'
-"Plug 'majutsushi/tagbar'
+
 "Plug 'nathanaelkane/vim-indent-guides'
 "Plug 'xolox/vim-colorscheme-switcher'
 "Plug 'xolox/vim-misc'
@@ -31,17 +31,21 @@ Plug 'qwIvan/tern_for_vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'klen/python-mode'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'ekalinin/dockerfile.vim'
+Plug 'mattn/emmet-vim'
+
+"Plug 'majutsushi/tagbar'
+autocmd FileType * nested :call tagbar#autoopen(0)
+nmap <F8> :TagbarToggle<CR>
 
 Plug 'scrooloose/nerdtree'
+map <C-n> :NERDTreeToggle<CR>
 "autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-map <C-n> :NERDTreeToggle<CR>
 "Plug 'jistr/vim-nerdtree-tabs'
 
-Plug 'ekalinin/dockerfile.vim'
-Plug 'mattn/emmet-vim'
 
 set rtp^=/usr/share/vim/vimfiles/
 "if has('nvim')
@@ -85,9 +89,7 @@ set expandtab
 set cursorline
 set cursorcolumn
 autocmd StdinReadPre * let s:std_in=1
-autocmd FileType * nested :call tagbar#autoopen(0)
 map <Leader> <Plug>(easymotion-prefix)
-nmap <F8> :TagbarToggle<CR>
 
 "" Configure Ultisnip and YouCompleteMe
 "let g:UltiSnipsExpandTrigger="<tab>"

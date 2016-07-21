@@ -137,7 +137,6 @@ iotop
 iproute2
 ipset
 iputils
-ipython
 iw
 j4-make-config-git
 jfsutils
@@ -200,6 +199,7 @@ mtpfs
 mtr
 mutt
 mycli
+mysql-python
 nano
 neovim
 net-tools
@@ -237,6 +237,7 @@ playerctl
 playonlinux
 pm-utils
 poppler-glib
+postgresql
 pptpclient
 privoxy
 procps-ng
@@ -255,13 +256,14 @@ python-neovim
 python-numpy
 python-parsel
 python-pip
-python-ptpython
+python-psycopg2
 python-pycodestyle
 python-pyflakes
 python-pyftpdlib
 python-pylint
 python-pyte
 python-termcolor
+python-tox
 python-twisted
 python-w3lib
 python2-cssutils
@@ -291,6 +293,7 @@ sbt
 scala
 scrapy
 screen
+screenfetch
 scrot
 sed
 shadow
@@ -383,7 +386,6 @@ xclip
 xcompmgr
 xdg-user-dirs
 xf86-input-synaptics
-xf86-video-intel
 xfburn
 xfsprogs
 xorg-fonts-100dpi
