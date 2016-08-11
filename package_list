@@ -31,9 +31,11 @@ binutils
 bison
 btsync
 bzip2
+cabal-install
 cantarell-fonts
 cargo
 ccat
+chinadns
 colordiff
 compton
 conky
@@ -75,6 +77,8 @@ fcitx-qt4
 fcitx-qt5
 fcitx-sogoupinyin
 feh
+festival
+festival-english
 ffmpegthumbnailer
 file
 filesystem
@@ -92,8 +96,10 @@ gawk
 gcc-libs
 genymotion
 gettext
+ghc
 ghostscript
 gimp
+gimp-help-zh_cn
 git
 gitter
 glibc
@@ -194,6 +200,7 @@ mlocate
 moka-icon-theme-git
 mongodb
 mono
+mosquitto-hg
 mplayer
 mtpfs
 mtr
@@ -230,6 +237,8 @@ pdnsd
 perl
 perl-anyevent-i3
 perl-json-xs
+pgcli
+phantomjs
 php
 pkg-config
 pkgfile
@@ -239,7 +248,6 @@ pm-utils
 poppler-glib
 postgresql
 pptpclient
-privoxy
 procps-ng
 psmisc
 pulseaudio
@@ -279,6 +287,7 @@ qtox
 ranger
 rdesktop
 recordmydesktop
+redis
 reiserfsprogs
 remmina
 rsync
@@ -310,6 +319,7 @@ socat
 speedtest-cli
 sqlint
 statnot
+strace
 sublime-text-dev-zh-cn
 subversion
 sudo
@@ -322,6 +332,9 @@ tcpdump
 tcpflow
 tcsh
 terminology
+tesseract
+tesseract-data-chi_sim
+tesseract-data-eng
 tex-gyre-fonts
 texinfo
 the_silver_searcher
