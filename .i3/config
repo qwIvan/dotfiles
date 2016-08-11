@@ -146,6 +146,7 @@ assign [class="terminology"] $workspace2
 assign [class="jetbrains-webstorm"] $workspace3
 assign [class="jetbrains-studio"] $workspace3
 assign [class="jetbrains-idea"] $workspace3
+assign [class="jetbrains-pycharm"] $workspace3
 assign [class="Atom"] $workspace3
 assign [class="Et"] $workspace4
 assign [class="Wps"] $workspace4
@@ -243,7 +244,7 @@ client.urgent #2f343a #900000 #ffffff #900000
 
 focus_follows_mouse no
 
-for_window [class="terminology"] border pixel 0
+for_window [class="terminology"] border normal 0
 for_window [class="google-chrome"] border none
 
 exec_always --no-startup-id "~/bin/auto-start" 
@@ -252,3 +253,4 @@ exec_always --no-startup-id "~/bin/auto-start"
 #gaps outer 0
 #gaps inner 20
 workspace $workspace2 gaps inner 20
+
