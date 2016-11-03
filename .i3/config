@@ -142,7 +142,7 @@ bindsym $mod+Control+n move workspace to output right
 
 assign [class="google-chrome"] $workspace1
 #assign [class="URxvt"] $workspace2
-assign [class="terminology"] $workspace2
+#assign [class="terminology"] $workspace2
 assign [class="jetbrains-webstorm"] $workspace3
 assign [class="jetbrains-studio"] $workspace3
 assign [class="jetbrains-idea"] $workspace3

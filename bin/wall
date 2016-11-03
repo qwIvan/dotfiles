@@ -12,5 +12,8 @@ sudo ipset create chnroute hash:net -exist
 sudo cat $chnroute_file | sudo xargs -I ip ipset add chnroute ip -exist
 sudo cat ~/.iptables-rules | sudo iptables-restore
 curl 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > $chnroute_file.bak
+if [[ ! -s $chnroute_file.bak ]]; then
+  exit 12345
+fi
 echo "127.0.0.1/24" >> $chnroute_file.bak
 cp -f $chnroute_file.bak $chnroute_file

@@ -26,6 +26,10 @@ alias t5="tree -L 5"
 alias x=extract
 alias ls="ls -rhtc --color=auto"
 alias l="ls -Flrahtc --color=auto"
+alias axel="axel -a"
+alias v=nvim
+alias pacql="pacman -Ql"
+alias plunt="sudo netstat -plunt"
 alias -g A1="| awk \"{print \\\$1}\""
 alias -g A2="| awk \"{print \\\$2}\""
 alias -g A3="| awk \"{print \\\$3}\""
@@ -38,9 +42,8 @@ alias -g XI="| xargs -i"
 alias -g PP="\`clippaste\`"
 alias -g V="--version"
 alias -g SL="| tr ' ' '\n'"
+alias -g G="| grep -iP"
 unalias ping
-alias axel="axel -a"
-alias vim=nvim
 tcb() {
 	tldr $1
 	cheat $1

@@ -35,7 +35,7 @@ Plug 'ekalinin/dockerfile.vim'
 Plug 'mattn/emmet-vim'
 
 "Plug 'majutsushi/tagbar'
-autocmd FileType * nested :call tagbar#autoopen(0)
+"autocmd FileType * nested :call tagbar#autoopen(0)
 nmap <F8> :TagbarToggle<CR>
 
 Plug 'scrooloose/nerdtree'
