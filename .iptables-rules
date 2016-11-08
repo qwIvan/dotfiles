@@ -7,7 +7,7 @@
 :PRIVOXY - [0:0]
 :SHADOWTABLES - [0:0]
 -A PREROUTING -p tcp -j SHADOWTABLES
--A PREROUTING -p udp -j REDIRECT --to-ports 53
+-A PREROUTING -p udp -m udp --dport 53 -j REDIRECT --to-ports 53
 -A OUTPUT -p tcp -j PRIVOXY
 -A OUTPUT -p tcp -j SHADOWTABLES
 -A PRIVOXY -p tcp -m tcp --dport 80 -m owner --uid-owner 0 -j RETURN

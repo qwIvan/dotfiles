@@ -51,7 +51,7 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git adb history mvn npm pip web-search extract d gradle meteor systemadmin colored-man-pages history-substring-search sprunge httpie urltools common-aliases themes gem github singlechar battery colorize screen archlinux rsync gulp fasd safe-paste vi-mode tmux alias-tips python sbt coffee compleat dircycle dirpersist docker encode64 pep8 pylint rails redis-cli ruby rvm scala sublime sudo supervisor systemd vagrant virtualenv cabal)# per-directory-history zsh-autosuggestions)
+plugins=(git adb history mvn npm pip web-search extract d gradle meteor systemadmin colored-man-pages history-substring-search sprunge httpie urltools common-aliases themes gem github singlechar battery colorize screen archlinux rsync gulp fasd safe-paste vi-mode tmux alias-tips python sbt coffee compleat dircycle dirpersist docker encode64 pep8 pylint rails redis-cli ruby rvm scala sublime sudo supervisor systemd vagrant virtualenv cabal docker-compose django bower nmap gnu-utils fancy-ctrl-z postgres zsh-navigation-tools)# per-directory-history zsh-autosuggestions)
 
 # User configuration
 
