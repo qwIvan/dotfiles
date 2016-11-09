@@ -31,6 +31,7 @@ bind-tools
 binutils
 bison
 btsync
+busybox
 bzip2
 cabal-install
 cantarell-fonts
@@ -56,6 +57,8 @@ dosbox
 dosfstools
 downgrade
 drive
+dropbox
+dropbox-cli
 dunst
 dvd+rw-tools
 e2fsprogs
@@ -342,6 +345,7 @@ socat
 speedtest-cli
 sqlint
 srandrd
+sshfs
 statnot
 strace
 sublime-text-dev-zh-cn
@@ -408,6 +412,7 @@ w3m
 weechat
 wget
 which
+whois
 wine-mono
 wine-qqintl
 wine-staging
