@@ -1,8 +1,9 @@
+[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
 # If you come from bash you might have to change your $PATH.
-ZSH=/usr/share/oh-my-zsh/
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+export ZSH=/usr/share/oh-my-zsh/
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -88,4 +89,75 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
 fi
 
 source $ZSH/oh-my-zsh.sh
+source ~/alias-tips/alias-tips.plugin.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+i() curl ip.cn/$1
+alias tree="tree -C"
+transfer() {
+    # write to output to tmpfile because of progress bar
+    tmpfile=$( mktemp -t transferXXX )
+    curl --progress-bar --upload-file $1 https://transfer.sh/$(basename $1) >> $tmpfile;
+    cat $tmpfile;
+    rm -f $tmpfile;
+}
+alias tpp="tree --prune -P"
+alias c=ccat
+export CHEATCOLORS=true
+alias rsync-compare="rsync -ani -vv"
+rsync-compare-into() rsync -aHxi -vv --progress --compare-dest=$2 $1 $3
+alias t1="tree -L 1"
+alias t2="tree -L 2"
+alias t3="tree -L 3"
+alias t4="tree -L 4"
+alias t5="tree -L 5"
+alias x=extract
+alias ls="ls -rhtc --color=auto"
+alias l="ls -Flrahtc --color=auto"
+alias axel="axel -a"
+alias e=nvim
+alias pacql="pacman -Ql"
+alias plunt="sudo netstat -plunt"
+alias -g A1="| awk \"{print \\\$1}\""
+alias -g A2="| awk \"{print \\\$2}\""
+alias -g A3="| awk \"{print \\\$3}\""
+alias -g A4="| awk \"{print \\\$4}\""
+alias -g A5="| awk \"{print \\\$5}\""
+alias -g L="| less -R"
+alias -g E="--help"
+alias -g X="| xargs"
+alias -g XI="| xargs -i"
+alias -g PP="\`clippaste\`"
+alias -g V="--version"
+alias -g SL="| tr ' ' '\n'"
+alias -g G="| grep -iP"
+unalias ping
+tcb() {
+  tldr $1
+  cheat $1
+  bro $1
+}
+fiy() {
+  fanyi $1
+  ici $1
+  yd $1
+  trans $1
+}
+export PATH=$PATH:~/bin
+export PATH=$PATH:/usr/bin/core_perl
+export PATH=$PATH:/home/ivan/.gem/ruby/2.3.0/bin
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH=$PATH:/usr/bin/vendor_perl/
+export VISUAL="vim"
+bindkey "^P" history-substring-search-up
+bindkey "^N" history-substring-search-down
+bindkey "^F" autosuggest-accept
+bindkey "^[f" forward-word
+#bindkey '`' vi-cmd-mode
+eval $(thefuck --alias)
+
+bindkey "^M" autosuggest-execute
+ZSH_AUTOSUGGEST_STRATEGY=match_prev_cmd
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
