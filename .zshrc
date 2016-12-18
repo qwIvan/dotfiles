@@ -91,7 +91,7 @@ fi
 source $ZSH/oh-my-zsh.sh
 source ~/alias-tips/alias-tips.plugin.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+#source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 i() curl ip.cn/$1
 alias tree="tree -C"
 transfer() {
@@ -151,13 +151,16 @@ export PATH=$PATH:/usr/bin/vendor_perl/
 export VISUAL="vim"
 bindkey "^P" history-substring-search-up
 bindkey "^N" history-substring-search-down
-bindkey "^F" autosuggest-accept
+#bindkey "^F" autosuggest-accept
+#bindkey "^M" autosuggest-execute
 bindkey "^[f" forward-word
 #bindkey '`' vi-cmd-mode
 eval $(thefuck --alias)
 
-bindkey "^M" autosuggest-execute
 ZSH_AUTOSUGGEST_STRATEGY=match_prev_cmd
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export DEBFULLNAME="Ivan Wu"
+export DEBEMAIL="wuyifan@deepin.com"
