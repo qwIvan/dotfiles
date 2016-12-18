@@ -33,6 +33,7 @@ bison
 btsync
 busybox
 bzip2
+bzr
 cabal-install
 cantarell-fonts
 cargo
@@ -45,8 +46,12 @@ coreutils
 create_ap
 cryptsetup
 curlftpfs
+debhelper
+debian-archive-keyring
 deepinwine-qq
 device-mapper
+devscripts
+dh-make
 dhclient
 dhcpcd
 dialog
@@ -66,6 +71,7 @@ e2fsprogs
 eclipse-java
 efibootmgr
 elasticsearch
+enet
 enlightenment
 enlightenment16
 eslint
@@ -135,11 +141,13 @@ htop
 httpie
 httpry
 hub
+hyper
 i3-gaps-git
 i3-vim-syntax-git
 i3blocks
 i3lock
 i3status
+i7z
 ifplugd
 iftop
 imagemagick
@@ -220,6 +228,7 @@ mtpfs
 mtr
 mutt
 mycli
+mygui
 mysql-python
 nano
 nautilus
@@ -238,6 +247,7 @@ ntfs-3g
 ntp
 numix-icon-theme-git
 numix-themes
+ogre
 oh-my-zsh-git
 openal
 opencv
@@ -251,6 +261,7 @@ pacman
 pandoc
 pantheon-terminal
 patch
+pbuilder-ubuntu
 pciutils
 pcmciautils
 pdnsd
@@ -274,6 +285,7 @@ postgresql
 postgresql-old-upgrade
 powerdns
 pptpclient
+privoxy
 procps-ng
 psmisc
 pulseaudio
@@ -360,6 +372,7 @@ smplayer-skins
 smplayer-themes
 smtube
 socat
+soci
 speedtest-cli
 sqlint
 srandrd
@@ -406,6 +419,7 @@ tuxjdk-doc
 tuxjdk-src
 twine
 typescript
+ubuntu-keyring
 unclutter
 unrar
 urxvt-perls
