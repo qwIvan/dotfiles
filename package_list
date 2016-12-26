@@ -46,6 +46,7 @@ coreutils
 create_ap
 cryptsetup
 curlftpfs
+d-feet
 debhelper
 debian-archive-keyring
 deepin-account-faces
@@ -70,6 +71,7 @@ deepin-menu
 deepin-movie
 deepin-music
 deepin-notifications
+deepin-qt5integration
 deepin-screenshot
 deepin-session-ui
 deepin-shortcut-viewer
@@ -187,6 +189,7 @@ iotop
 iproute2
 ipset
 iputils
+ipython
 iw
 j4-make-config-git
 jfsutils
@@ -195,6 +198,7 @@ jq
 kdbusaddons
 kdeclarative
 ki18n
+kodi
 krita
 kxmlgui
 less
@@ -296,6 +300,7 @@ pbuilder-ubuntu
 pciutils
 pcmciautils
 pdnsd
+pelican
 percol
 perl
 perl-anyevent-i3
@@ -322,6 +327,7 @@ procps-ng
 psmisc
 pulseaudio
 pulseaudio-alsa
+pup-git
 pygtk
 pygtksourceview2
 python-ansicolors
@@ -348,6 +354,7 @@ python-pycodestyle
 python-pyflakes
 python-pyftpdlib
 python-pygame
+python-pygments
 python-pylint
 python-pyte
 python-termcolor
@@ -373,7 +380,6 @@ pywebkitgtk
 qt5-graphicaleffects
 qt5-quickcontrols
 qt5-tools
-qt5dxcb-plugin
 qtox
 quicksynergy
 ranger
@@ -503,6 +509,7 @@ wpa_supplicant
 wps-office
 wqy-microhei
 wqy-zenhei
+wscat
 xclip
 xcompmgr
 xdg-user-dirs
