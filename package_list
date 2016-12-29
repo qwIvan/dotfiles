@@ -11,6 +11,7 @@ alsa-utils
 android-platform
 android-sdk
 android-sdk-build-tools
+android-studio
 android-tools
 android-udev
 apache-ant
@@ -38,7 +39,9 @@ cabal-install
 cantarell-fonts
 cargo
 ccat
+ccze
 chinadns
+cmake
 colordiff
 compton
 conky
@@ -176,8 +179,6 @@ hyper
 i3-gaps-git
 i3-vim-syntax-git
 i3blocks
-i3lock
-i3status
 i7z
 ifplugd
 iftop
@@ -193,6 +194,7 @@ ipython
 iw
 j4-make-config-git
 jfsutils
+jhead
 jnettop
 jq
 kdbusaddons
@@ -233,7 +235,6 @@ lm_sensors
 logrotate
 lsof
 lvm2
-lxappearance
 m4
 make
 man-db
@@ -260,6 +261,7 @@ mosquitto-hg
 mplayer
 mtpfs
 mtr
+multitail
 mutt
 mycli
 mygui
@@ -295,6 +297,7 @@ pacaur
 pacman
 pandoc
 pantheon-terminal
+parallel
 patch
 pbuilder-ubuntu
 pciutils
@@ -364,12 +367,14 @@ python-w3lib
 python2-cssutils
 python2-deepin-ui
 python2-deepin-utils
+python2-docopt
 python2-neovim
 python2-parsel
 python2-path
 python2-peewee
 python2-pip
 python2-polib
+python2-prompt_toolkit
 python2-protobuf
 python2-pygame
 python2-pylint
@@ -517,6 +522,7 @@ xdotool
 xf86-input-synaptics
 xf86-video-intel
 xfburn
+xfce4-session
 xfsprogs
 xmind
 xonsh
@@ -535,6 +541,7 @@ xorg-xwininfo
 xsel
 xterm
 yaourt
+ydcv-rs-git
 zenity
 zeronet
 zsh
