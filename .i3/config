@@ -147,6 +147,7 @@ assign [class="jetbrains-webstorm"] $workspace3
 assign [class="jetbrains-studio"] $workspace3
 assign [class="jetbrains-idea"] $workspace3
 assign [class="jetbrains-pycharm"] $workspace3
+assign [class="jetbrains-clion"] $workspace3
 assign [class="Atom"] $workspace3
 assign [class="Et"] $workspace4
 assign [class="Wps"] $workspace4

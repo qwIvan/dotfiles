@@ -8,6 +8,7 @@ adobe-source-han-sans-otc-fonts
 aircrack-ng
 aliedit
 alsa-utils
+amule
 android-platform
 android-sdk
 android-sdk-build-tools
@@ -41,6 +42,11 @@ cargo
 ccat
 ccze
 chinadns
+clion
+clion-cmake
+clion-gdb
+clion-jre
+clion-lldb
 cmake
 colordiff
 compton
@@ -99,7 +105,6 @@ downgrade
 drive
 dropbox
 dropbox-cli
-dunst
 dvd+rw-tools
 e2fsprogs
 eclipse-java
@@ -254,6 +259,7 @@ mercurial
 mesa-demos
 metacity
 mitmproxy
+mldonkey
 mlocate
 moka-icon-theme-git
 mongodb
@@ -273,6 +279,7 @@ nautilus-pushbullet
 neovim
 net-tools
 netctl
+netease-cloud-music
 nethogs
 netpbm
 nfs-utils
@@ -523,7 +530,7 @@ xdotool
 xf86-input-synaptics
 xf86-video-intel
 xfburn
-xfce4-session
+xfce4-notifyd
 xfsprogs
 xmind
 xonsh
