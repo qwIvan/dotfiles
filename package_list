@@ -171,6 +171,7 @@ groff
 grub
 gtk-theme-arc-git
 gtksourceview2
+gvim
 gzip
 haveged
 hexedit
@@ -276,7 +277,6 @@ mysql-python
 nano
 nautilus
 nautilus-pushbullet
-neovim
 net-tools
 netctl
 netease-cloud-music
@@ -353,7 +353,6 @@ python-flask-sqlalchemy
 python-gevent
 python-html2text
 python-lxml
-python-neovim
 python-numpy
 python-parsel
 python-passlib
@@ -376,7 +375,6 @@ python2-cssutils
 python2-deepin-ui
 python2-deepin-utils
 python2-docopt
-python2-neovim
 python2-parsel
 python2-path
 python2-peewee
@@ -485,7 +483,6 @@ util-linux
 vagrant
 vi
 vifm
-vim
 vim-airline
 vim-airline-themes
 vim-ctrlp

@@ -115,7 +115,7 @@ alias x=extract
 alias ls="ls -rhtc --color=auto"
 alias l="ls -Flrahtc --color=auto"
 alias axel="axel -a"
-alias e=nvim
+alias e=vim
 alias pacql="pacman -Ql"
 alias plunt="sudo netstat -plunt"
 alias -g A1="| awk \"{print \\\$1}\""
@@ -124,7 +124,6 @@ alias -g A3="| awk \"{print \\\$3}\""
 alias -g A4="| awk \"{print \\\$4}\""
 alias -g A5="| awk \"{print \\\$5}\""
 alias -g L="| less -R"
-alias -g E="--help"
 alias -g X="| xargs"
 alias -g XI="| xargs -i"
 alias -g PP="\`clippaste\`"
