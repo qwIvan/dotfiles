@@ -149,6 +149,7 @@ export PATH=$PATH:/home/ivan/.gem/ruby/2.3.0/bin
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=$PATH:/usr/bin/vendor_perl/
 export VISUAL="vim"
+export EDITOR="vim"
 bindkey "^P" history-substring-search-up
 bindkey "^N" history-substring-search-down
 #bindkey "^F" autosuggest-accept
