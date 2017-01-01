@@ -192,6 +192,8 @@ bindsym $mod+F11 exec playerctl previous
 bindsym $mod+F10 exec playerctl stop
 bindsym XF86TouchpadToggle exec synclient -l | grep "TouchpadOff .*=.*0" && synclient TouchpadOff=1 || synclient TouchpadOff=0
 bindsym $mod+Escape exec synclient -l | grep "TouchpadOff .*=.*0" && synclient TouchpadOff=1 || synclient TouchpadOff=0
+bindsym $mod+Control+m move scratchpad
+bindsym $mod+m scratchpad show
 
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
 bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks

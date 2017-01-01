@@ -30,7 +30,6 @@ baobab
 bash
 bash-completion
 bind-tools
-binutils
 bison
 btsync
 busybox
@@ -122,9 +121,9 @@ fbida
 fbterm
 fbv
 fcitx
-fcitx-cloudpinyin
 fcitx-configtool
 fcitx-fbterm
+fcitx-googlepinyin
 fcitx-gtk2
 fcitx-gtk3
 fcitx-qt4
@@ -147,7 +146,7 @@ freerdp
 freetype2
 fuse-zip
 gawk
-gcc-multilib
+gcc-libs
 gdb
 genymotion
 gettext
@@ -182,7 +181,7 @@ httpie
 httpry
 hub
 hyper
-i3-gaps-git
+i3-gaps-next-git
 i3-vim-syntax-git
 i3blocks
 i7z
@@ -320,6 +319,7 @@ pgcli
 phantomjs
 php
 php-fpm
+pinyin-completion
 pkg-config
 pkgfile
 pktstat
@@ -487,6 +487,7 @@ vim-airline
 vim-airline-themes
 vim-ctrlp
 vim-nerdcommenter
+vim-plug-git
 vim-surround
 vim-syntastic
 vim-tagbar
@@ -530,6 +531,7 @@ xfburn
 xfce4-notifyd
 xfsprogs
 xmind
+xmlto
 xonsh
 xorg-fonts-100dpi
 xorg-fonts-75dpi

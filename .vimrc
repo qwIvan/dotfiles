@@ -46,17 +46,15 @@ map <C-n> :NERDTreeToggle<CR>
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 "Plug 'jistr/vim-nerdtree-tabs'
 
+Plug 'iamcco/markdown-preview.vim'
+let g:mkdp_path_to_chrome = "google-chrome-stable"
+" 设置 chrome 浏览器的路径（或是启动 chrome（或其他现代浏览器）的命令）
+let g:mkdp_auto_start = 1
+" 设置为 1 可以在打开 markdown 文件的时候自动打开浏览器预览，只在打开 markdown 文件的时候打开一次
+let g:mkdp_auto_open = 1
+" 设置为 1 在编辑 markdown 的时候检查预览窗口是否已经打开，否则自动打开预览窗口
 
-set rtp^=/usr/share/vim/vimfiles/
-"if has('nvim')
-        "Plug 'majutsushi/tagbar'
-        "Plug 'scrooloose/nerdtree'
-        "Plug 'scrooloose/syntastic'
-        "Plug 'tpope/vim-surround'
-        "Plug 'sirver/ultisnips'
-        "Plug 'kien/ctrlp.vim'
-        "Plug 'scrooloose/nerdcommenter'
-"endif
+"set rtp^=/usr/share/vim/vimfiles/
 call plug#end()
 
 
@@ -81,7 +79,7 @@ runtime! archlinux.vim
 :syntax on
 "set nocompatible
 set mouse=a
-set number
+set relativenumber
 set ignorecase
 set smartcase
 set shiftwidth=2

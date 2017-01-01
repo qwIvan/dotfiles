@@ -91,6 +91,7 @@ fi
 source $ZSH/oh-my-zsh.sh
 source ~/alias-tips/alias-tips.plugin.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/pinyin-completion/shell/pinyin-comp.zsh
 #source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 i() curl ip.cn/$1
 alias tree="tree -C"
