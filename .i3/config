@@ -148,6 +148,7 @@ assign [class="jetbrains-studio"] $workspace3
 assign [class="jetbrains-idea"] $workspace3
 assign [class="jetbrains-pycharm"] $workspace3
 assign [class="jetbrains-clion"] $workspace3
+assign [class="jetbrains-gogland"] $workspace3
 assign [class="Atom"] $workspace3
 assign [class="Et"] $workspace4
 assign [class="Wps"] $workspace4
@@ -182,7 +183,7 @@ bindsym $mod+F5 exec xbacklight -inc 5
 bindsym Shift+$mod+F5 exec xbacklight -inc 10
 bindsym $mod+F4 exec xbacklight -dec 5
 bindsym Shift+$mod+F4 exec xbacklight -dec 10
-bindsym XF86AudioPlay exec playerctl play
+bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
