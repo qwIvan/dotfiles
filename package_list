@@ -161,6 +161,7 @@ gnome-web-photo
 gnu-netcat
 go
 go-mtpfs-git
+gogland
 google-chrome
 gpart
 gparted
@@ -399,6 +400,7 @@ recordmydesktop
 redis
 reiserfsprogs
 remmina
+ripgrep
 rsync
 rtorrent
 ruby
@@ -498,6 +500,7 @@ vim-plug-git
 vim-python-mode-git
 vim-sensible
 vim-surround
+vim-syntastic
 vim-tagbar
 vim-ultisnips
 vim-youcompleteme-git
@@ -537,6 +540,7 @@ xf86-input-synaptics
 xf86-video-intel
 xfburn
 xfce4-notifyd
+xfce4-power-manager
 xfsprogs
 xmind
 xmlto
