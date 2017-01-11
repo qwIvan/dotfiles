@@ -161,7 +161,6 @@ gnome-web-photo
 gnu-netcat
 go
 go-mtpfs-git
-gocode-git
 gogland
 google-chrome
 gotags-git
@@ -496,7 +495,6 @@ vim-ctrlp
 vim-delimitmate
 vim-easymotion
 vim-gitgutter-git
-vim-go
 vim-javascript-git
 vim-nerdcommenter
 vim-nerdtree-git

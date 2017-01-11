@@ -29,7 +29,7 @@ UseExtraTriggerKeyOnlyWhenUseItToInactivate=False
 # Custom
 SwitchKey=Custom
 # 自定义切换键
-CustomSwitchKey=CTRL_ALT_RALT
+CustomSwitchKey=CTRL_SUPER_LCTRL
 # 激活输入法
 #ActivateKey=
 # 取消激活输入法

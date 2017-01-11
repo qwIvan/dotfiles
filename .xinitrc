@@ -7,4 +7,5 @@ export WEBIDE_JDK=$TUXJDK
 export IDEA_JDK=$TUXJDK
 export RUBYMINE_JDK=$TUXJDK
 export PYCHARM_JDK=$TUXJDK
+export GOPATH=~/go
 exec i3
