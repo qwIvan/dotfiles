@@ -108,7 +108,7 @@ let g:ycm_semantic_triggers =  {
     \   'coffee': ['.'],
     \ }
 
-"nnoremap gd :YcmCompleter GoTo<CR>
+nnoremap gd :YcmCompleter GoTo<CR>
 
 ":setlocal omnifunc=tern#Complete
 ":call tern#Enable()
