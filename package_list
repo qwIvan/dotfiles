@@ -1,5 +1,6 @@
 abs
 ack
+aconfmgr-git
 acpi
 acpid
 adb-sync-git
@@ -58,9 +59,9 @@ curlftpfs
 d-feet
 debhelper
 debian-archive-keyring
+deepin-dock
 deepin-notifications
 device-mapper
-devscripts
 dh-make
 dhclient
 dhcpcd
@@ -86,6 +87,7 @@ enlightenment
 enlightenment16
 eslint
 ettercap-gtk
+exo
 extundelete
 fabric
 fakeroot
@@ -117,6 +119,7 @@ fontconfig
 freerdp
 freetype2
 fuse-zip
+garcon
 gawk
 gcc-libs
 gdb
@@ -128,9 +131,10 @@ git
 glibc
 gnome-terminal
 gnome-web-photo
-gnu-netcat
 go
 go-mtpfs-git
+gocode-git
+godef-git
 gogland
 google-chrome
 gotags-git
@@ -142,6 +146,7 @@ grep
 groff
 grub
 gtk-theme-arc-git
+gtk-xfce-engine
 gtksourceview2
 gvim
 gzip
@@ -170,8 +175,6 @@ ipset
 iputils
 ipython
 iw
-j4-dmenu-desktop
-j4-make-config-git
 jfsutils
 jhead
 jnettop
@@ -201,10 +204,10 @@ lib32-sdl
 lib32-simplescreenrecorder
 lib32-v4l-utils
 lib32-zlib
-libsixel-git
 libtinfo
 libtool
 libva-intel-driver
+libvdpau-va-gl
 libvncserver
 libwmf
 licenses
@@ -212,6 +215,8 @@ linux
 linux-headers
 lm_sensors
 logrotate
+lostfiles
+lshw
 lsof
 lvm2
 m4
@@ -236,7 +241,6 @@ mlocate
 moka-icon-theme-git
 mongodb
 mono
-mosquitto-hg
 mplayer
 mtpfs
 mtr
@@ -265,6 +269,7 @@ numix-themes
 ogre
 oh-my-zsh-git
 openal
+openbsd-netcat
 opencv
 openexr
 openjpeg2
@@ -354,6 +359,7 @@ python2-protobuf
 python2-pygame
 python2-pylint
 python2-scipy
+python2-setuptools
 python2-twisted
 python2-virtualenv
 pywebkitgtk
@@ -369,6 +375,7 @@ redis
 reiserfsprogs
 remmina
 ripgrep
+rofi
 rsync
 rtorrent
 ruby
@@ -408,6 +415,7 @@ sublime-text-dev-zh-cn
 subversion
 sudo
 swt
+synapse
 synergy
 sysfsutils
 sysstat
@@ -426,6 +434,8 @@ tex-gyre-fonts
 texinfo
 the_silver_searcher
 thefuck
+thunar
+thunar-volman
 tigervnc
 tk
 tmux
@@ -440,6 +450,7 @@ ttf-dejavu
 ttf-droid
 ttf-liberation
 ttf-ms-fonts
+tumbler
 tuxjdk
 tuxjdk-doc
 tuxjdk-src
@@ -508,10 +519,19 @@ xdg-user-dirs
 xdotool
 xf86-input-synaptics
 xf86-video-intel
-xfce4-notifyd
+xfce4-appfinder
+xfce4-mixer
 xfce4-panel
 xfce4-power-manager
+xfce4-session
+xfce4-settings
+xfce4-terminal
+xfce4-windowck-plugin
+xfconf
+xfdesktop
 xfsprogs
+xfwm4
+xfwm4-themes
 xmind
 xmlto
 xonsh
@@ -532,6 +552,7 @@ xterm
 yaourt
 ycm-generator-git
 ydcv-rs-git
+you-get
 zenity
 zeronet
 zsh

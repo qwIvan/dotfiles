@@ -54,6 +54,9 @@ let g:mkdp_auto_start = 1
 let g:mkdp_auto_open = 1
 " 设置为 1 在编辑 markdown 的时候检查预览窗口是否已经打开，否则自动打开预览窗口
 
+
+Plug 'peterhoeg/vim-qml'
+
 "set rtp^=/usr/share/vim/vimfiles/
 call plug#end()
 

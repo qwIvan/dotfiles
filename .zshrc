@@ -51,7 +51,7 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git adb history mvn npm pip web-search extract d gradle meteor systemadmin colored-man-pages history-substring-search sprunge httpie urltools common-aliases themes gem github singlechar battery colorize screen archlinux rsync gulp fasd safe-paste vi-mode tmux alias-tips python sbt coffee compleat dircycle dirpersist docker encode64 pep8 pylint redis-cli ruby rvm scala sublime sudo supervisor systemd vagrant virtualenv cabal docker-compose django bower nmap gnu-utils fancy-ctrl-z postgres zsh-navigation-tools)# per-directory-history zsh-autosuggestions rails)
+plugins=(git adb history mvn npm pip web-search extract d gradle meteor systemadmin colored-man-pages history-substring-search sprunge httpie urltools common-aliases themes gem github singlechar battery colorize screen archlinux rsync gulp safe-paste vi-mode tmux alias-tips python sbt coffee compleat dircycle dirpersist docker encode64 pep8 pylint redis-cli ruby rvm scala sublime sudo supervisor systemd vagrant virtualenv cabal docker-compose django bower nmap gnu-utils fancy-ctrl-z postgres zsh-navigation-tools)# per-directory-history zsh-autosuggestions rails  fasd)
 
 # User configuration
 
@@ -91,7 +91,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/alias-tips/alias-tips.plugin.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/pinyin-completion/shell/pinyin-comp.zsh
-#source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 i() curl ip.cn/$1
 alias tree="tree -C"
 transfer() {
@@ -115,9 +115,12 @@ alias x=extract
 alias ls="ls -rhtc --color=auto"
 alias l="ls -Flrahtc --color=auto"
 alias axel="axel -a"
-alias e=vim
-alias pacql="pacman -Ql"
+#alias e="fasd -f -e vim"
+alias e="vim"
+alias pacfl="pacman -Ql"
+alias pacown="pacman -Qo"
 alias plunt="sudo netstat -plunt"
+alias rm=trash
 alias -g A1="| awk \"{print \\\$1}\""
 alias -g A2="| awk \"{print \\\$2}\""
 alias -g A3="| awk \"{print \\\$3}\""
@@ -152,16 +155,17 @@ export VISUAL="vim"
 export EDITOR="vim"
 bindkey "^P" history-substring-search-up
 bindkey "^N" history-substring-search-down
-#bindkey "^F" autosuggest-accept
-#bindkey "^M" autosuggest-execute
+bindkey "^F" autosuggest-accept
+bindkey "^K" autosuggest-execute
 bindkey "^[f" forward-word
 #bindkey '`' vi-cmd-mode
-eval $(thefuck --alias)
+#eval $(thefuck --alias)  # so slow!!
 
 ZSH_AUTOSUGGEST_STRATEGY=match_prev_cmd
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval "$(fasd --init auto)"
 
-export DEBFULLNAME="Ivan Wu"
+export DEBULLNAME="Ivan Wu"
 export DEBEMAIL="wuyifan@deepin.com"
