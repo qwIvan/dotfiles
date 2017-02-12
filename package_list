@@ -4,6 +4,7 @@ aconfmgr-git
 acpi
 acpid
 adb-sync-git
+adblock2privoxy
 adobe-source-code-pro-fonts
 adobe-source-han-sans-otc-fonts
 aic94xx-firmware
@@ -41,9 +42,11 @@ busybox
 bzip2
 bzr
 cabal-install
+cabal2pkgbuild-git
 caja
 cantarell-fonts
 cargo
+cblrepo
 ccat
 ccze
 chinadns
@@ -67,6 +70,7 @@ debian-archive-keyring
 debtap
 deepin-account-faces
 deepin-api
+deepin-boot-maker
 deepin-calendar
 deepin-control-center
 deepin-desktop
@@ -92,7 +96,7 @@ dhcpcd
 dialog
 diffutils
 dmenu
-docker
+docker-bin
 docker-compose
 dockviz
 dosbox
@@ -152,6 +156,7 @@ gawk
 gcc-libs
 gdb
 gettext
+ghc
 ghostscript
 gimp
 gimp-help-zh_cn
@@ -460,6 +465,7 @@ sqlint
 srandrd
 sshfs
 sshpass
+stack
 startdde
 statnot
 strace
