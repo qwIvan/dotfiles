@@ -140,7 +140,7 @@ bindsym $mod+n focus output right
 bindsym $mod+Control+p move workspace to output left
 bindsym $mod+Control+n move workspace to output right
 
-assign [class="google-chrome"] $workspace1
+assign [class="Google-chrome"] $workspace1
 #assign [class="URxvt"] $workspace2
 #assign [class="terminology"] $workspace2
 assign [class="jetbrains-webstorm"] $workspace3
@@ -257,7 +257,8 @@ focus_follows_mouse no
 workspace_layout tabbed
 for_window [class="terminology"] border normal 0
 for_window [class="Google-chrome"] border none
-for_window [window_role="pop-up"] floating enable
+for_window [window_role="pop-up"] floating enable sticky toggle
+#for_window [class="."] floating enable
 
 exec_always --no-startup-id "~/bin/auto-start" 
 

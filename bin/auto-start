@@ -6,9 +6,9 @@ setxkbmap -option ctrl:swapcaps -option altwin:swap_lalt_lwin &
 sudo ntpd -gq && sudo hwclock -w &
 
 pgrep "^chrome$" || google-chrome-stable &
-pgrep "^compton$" || compton --shadow-exclude 'class_g = "Sogou-qimpanel"' --shadow-exclude 'class_g = "Wine"' &
+pgrep "^compton$" || compton --shadow-exclude 'class_g = "Sogou-qimpanel"' --shadow-exclude 'class_g = "Wine"' --shadow-exclude 'class_g = "netease-cloud-music"' &
 fcitx &
 ss-tunnel -c "$HOME"/ss_config.json -u -l 5566 -L 8.8.8.8:53 &
 sudo chinadns -c "$HOME"/.chnroute -s 1.2.4.8,127.0.0.1:5566 -m &
 ss-redir -c "$HOME"/ss_config.json &
-sudo ~/adbyby/adbyby &
+#sudo ~/adbyby/adbyby &

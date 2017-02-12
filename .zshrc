@@ -155,9 +155,8 @@ export VISUAL="vim"
 export EDITOR="vim"
 bindkey "^P" history-substring-search-up
 bindkey "^N" history-substring-search-down
-bindkey "^F" autosuggest-accept
+bindkey "^F" forward-word
 bindkey "^K" autosuggest-execute
-bindkey "^[f" forward-word
 #bindkey '`' vi-cmd-mode
 #eval $(thefuck --alias)  # so slow!!
 
@@ -167,5 +166,5 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(fasd --init auto)"
 
-export DEBULLNAME="Ivan Wu"
+export DEBFULLNAME="Ivan Wu"
 export DEBEMAIL="wuyifan@deepin.com"
