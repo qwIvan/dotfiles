@@ -26,6 +26,7 @@ archon
 archon-exec
 aria2-fast
 atom
+atomicparsley
 audience
 autoconf
 automake
@@ -64,6 +65,7 @@ create_ap
 cryptsetup
 cups
 curlftpfs
+cython
 d-feet
 debhelper
 debian-archive-keyring
@@ -155,6 +157,7 @@ garcon
 gawk
 gcc-libs
 gdb
+gem2arch
 gettext
 ghc
 ghostscript
@@ -214,6 +217,7 @@ jfsutils
 jhead
 jnettop
 jq
+jupyter
 kdbusaddons
 kdeclarative
 ki18n
@@ -304,6 +308,7 @@ nfs-utils
 nginx
 nmap
 nodejs-jshint
+nodejs-npm2aur
 nodejs-tldr
 noise-player
 ntfs-3g
@@ -342,6 +347,7 @@ pgcli
 phantomjs
 php
 php-fpm
+phpstorm
 pinyin-completion
 pkg-config
 pkgfile
@@ -363,21 +369,25 @@ ptpython
 pulseaudio
 pulseaudio-alsa
 pup-git
+pycharm-professional
 pygtk
 pygtksourceview2
 python-ansicolors
 python-beautifulsoup4
 python-blinker
 python-cheat
+python-coverage
 python-cryptography
 python-dbus
 python-django
+python-dnslib
 python-flask
 python-flask-peewee
 python-flask-sqlalchemy
 python-gevent
 python-html2text
 python-lxml
+python-netaddr
 python-numpy
 python-parsel
 python-passlib
@@ -392,6 +402,7 @@ python-pygame
 python-pygments
 python-pylint
 python-pyte
+python-pytest
 python-termcolor
 python-tox
 python-twisted
@@ -432,7 +443,15 @@ rofi
 rsync
 rtorrent
 ruby
+ruby-bropages
+ruby-commander-4.1.5
 ruby-docs
+ruby-domain_name
+ruby-highline-1.6.20
+ruby-json_pure-1.8.1
+ruby-mime-types-1.19
+ruby-rest-client
+ruby-smart_colored
 rust
 rxvt-unicode
 s-nail
@@ -519,6 +538,7 @@ ttf-droid
 ttf-font-awesome
 ttf-liberation
 ttf-ms-fonts
+ttf-ubuntu-font-family
 tumbler
 tuxjdk
 tuxjdk-doc
@@ -614,6 +634,7 @@ xorg-xdpyinfo
 xorg-xev
 xorg-xhost
 xorg-xinit
+xorg-xinput
 xorg-xkill
 xorg-xmodmap
 xorg-xrandr
@@ -625,6 +646,7 @@ yaourt
 ycm-generator-git
 ydcv-rs-git
 you-get
+youtube-dl
 zenity
 zeronet
 zsh

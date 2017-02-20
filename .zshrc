@@ -147,7 +147,6 @@ fiy() {
 }
 export PATH=$PATH:~/bin
 export PATH=$PATH:/usr/bin/core_perl
-export PATH=$PATH:/home/ivan/.gem/ruby/2.3.0/bin
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=$PATH:/usr/bin/vendor_perl/
 export PATH=$PATH:$GOPATH/bin
