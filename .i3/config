@@ -257,7 +257,7 @@ focus_follows_mouse no
 #workspace_layout tabbed
 for_window [class="terminology"] border normal 0
 for_window [class="Google-chrome"] border none
-for_window [window_role="pop-up"] floating enable sticky toggle
+for_window [window_role="pop-up"] floating enable
 #for_window [class="."] floating enable
 
 exec_always --no-startup-id "~/bin/auto-start" 
