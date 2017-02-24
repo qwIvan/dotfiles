@@ -33,6 +33,7 @@ Plug 'qwIvan/tern_for_vim'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ekalinin/dockerfile.vim'
 "Plug 'mattn/emmet-vim'
+Plug 'posva/vim-vue'
 
 "Plug 'majutsushi/tagbar'
 "autocmd FileType * nested :call tagbar#autoopen(0)
