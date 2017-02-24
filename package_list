@@ -28,6 +28,7 @@ aria2-fast
 atom
 atomicparsley
 audience
+aurvote
 autoconf
 automake
 autorandr-git
@@ -99,6 +100,7 @@ dhcpcd
 dialog
 diffutils
 dmenu
+dnsmasq-china-list-git
 docker-bin
 docker-compose
 dockviz
@@ -206,6 +208,8 @@ ifplugd
 iftop
 imagemagick
 imagemagick-doc
+imgur-screenshot-git
+imgurbash2
 imlib2
 inetutils
 iotop
@@ -313,6 +317,7 @@ nodejs-npm2aur
 nodejs-tldr
 noise-player
 ntfs-3g
+ntfy-git
 ntp
 numix-icon-theme-git
 numix-themes
@@ -417,6 +422,7 @@ python2-pip
 python2-polib
 python2-prompt_toolkit
 python2-protobuf
+python2-pushybullet
 python2-pygame
 python2-pylint
 python2-scipy
@@ -473,7 +479,6 @@ shellcheck
 shutter
 siege
 simple-mtpfs
-simplescreenrecorder
 smplayer
 smplayer-skins
 smplayer-themes
