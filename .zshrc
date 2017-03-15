@@ -152,6 +152,7 @@ export PATH=$PATH:/usr/bin/core_perl
 #export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=$PATH:/usr/bin/vendor_perl/
 export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:~/.node_modules/bin
 export VISUAL="vim"
 export EDITOR="vim"
 bindkey "^P" history-substring-search-up

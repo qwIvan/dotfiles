@@ -57,6 +57,7 @@ let g:mkdp_auto_open = 1
 
 
 Plug 'peterhoeg/vim-qml'
+Plug 'chiel92/vim-autoformat'
 
 "set rtp^=/usr/share/vim/vimfiles/
 call plug#end()
