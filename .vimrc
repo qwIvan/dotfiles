@@ -123,3 +123,4 @@ nnoremap gd :YcmCompleter GoTo<CR>
 "AirlineTheme jellybeans
 ":let g:airline_theme='jellybeans'
 :let g:airline_theme='hybrid'
+ca w!! w !sudo tee %
