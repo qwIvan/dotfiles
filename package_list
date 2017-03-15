@@ -31,6 +31,7 @@ audience
 aurvote
 autoconf
 automake
+autopep8
 autorandr-git
 awesome
 axel
@@ -492,6 +493,7 @@ ruby-highline-1.6.20
 ruby-json_pure-1.8.1
 ruby-mime-types-1.19
 ruby-rest-client
+ruby-sass
 ruby-smart_colored
 rust
 rxvt-unicode
@@ -688,6 +690,7 @@ xorg-xwininfo
 xsel
 xterm
 yaourt
+yapf
 ycm-generator-git
 ydcv-rs-git
 you-get
