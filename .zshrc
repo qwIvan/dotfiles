@@ -95,11 +95,11 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 i() curl ip.cn/$1
 alias tree="tree -C"
 transfer() {
-    # write to output to tmpfile because of progress bar
-    tmpfile=$( mktemp -t transferXXX )
-    curl --progress-bar --upload-file $1 https://transfer.sh/$(basename $1) >> $tmpfile;
-    cat $tmpfile;
-    rm -f $tmpfile;
+  # write to output to tmpfile because of progress bar
+  tmpfile=$( mktemp -t transferXXX )
+  curl --progress-bar --upload-file $1 https://transfer.sh/$(basename $1) >> $tmpfile;
+  cat $tmpfile;
+  rm -f $tmpfile;
 }
 alias tpp="tree --prune -P"
 alias c=ccat
@@ -153,6 +153,7 @@ export PATH=$PATH:/usr/bin/core_perl
 export PATH=$PATH:/usr/bin/vendor_perl/
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:~/.node_modules/bin
+export PATH=$PATH:/usr/lib/w3m/
 export VISUAL="vim"
 export EDITOR="vim"
 bindkey "^P" history-substring-search-up

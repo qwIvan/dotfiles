@@ -56,12 +56,18 @@ let g:mkdp_auto_open = 1
 " 设置为 1 在编辑 markdown 的时候检查预览窗口是否已经打开，否则自动打开预览窗口
 
 
-Plug 'peterhoeg/vim-qml'
+"Plug 'peterhoeg/vim-qml'
 
 Plug 'chiel92/vim-autoformat'
 noremap <F3> :Autoformat<CR>
+"au BufWrite * :Autoformat
+"let g:formatter_yapf_style = 'pep8'
+"let g:formatters_python = ['yapf', 'autopep8']
 
 "set rtp^=/usr/share/vim/vimfiles/
+"Plug 'klen/python-mode'
+let pymode_lint_checkers = ['flake8']
+let g:pymode_python = 'python3'
 call plug#end()
 
 
@@ -87,6 +93,7 @@ runtime! archlinux.vim
 "set nocompatible
 set mouse=a
 set relativenumber
+set number
 set ignorecase
 set smartcase
 set shiftwidth=2
@@ -112,8 +119,8 @@ colorscheme colorsbox-stnight
 let g:UltiSnipsExpandTrigger="<C-j>"
 
 let g:ycm_semantic_triggers =  {
-    \   'coffee': ['.'],
-    \ }
+      \   'coffee': ['.'],
+      \ }
 
 nnoremap gd :YcmCompleter GoTo<CR>
 
