@@ -124,6 +124,7 @@ emmet-vim-git
 enet
 enlightenment
 enlightenment16
+entr
 eslint
 ettercap-gtk
 exo
@@ -148,13 +149,16 @@ fcitx-sogoupinyin
 feh
 festival
 festival-english
+ffdec
 ffmpegthumbnailer
 file
 filesystem
 findutils
+firefox
 firejail
 fish
 flake8
+flashplugin
 flex
 fontconfig
 freerdp
@@ -173,6 +177,7 @@ gimp-help-zh_cn
 git
 glade
 glibc
+gnash-git
 gnome-terminal
 gnome-web-photo
 go
@@ -300,6 +305,7 @@ mercurial
 mesa-demos
 metacity
 midori-granite
+minecraft
 mitmproxy
 mldonkey
 mlocate
@@ -328,6 +334,9 @@ nmap
 nodejs-jshint
 nodejs-npm2aur
 nodejs-tldr
+nodejs-vim-debugger
+nodejs-webpack
+nodejs-webpack-dev-server
 noise-player
 ntfs-3g
 ntfy-git
@@ -378,8 +387,10 @@ pkgtools
 pktstat
 playerctl
 playonlinux
+pm2
 pngnq-s9
 pngquant
+polipo
 poppler-glib
 postgresql
 postgresql-old-upgrade
@@ -420,6 +431,7 @@ python-httptools
 python-ipdb
 python-jsbeautifier
 python-lxml
+python-magic-git
 python-multidict-git
 python-netaddr
 python-numpy
@@ -438,6 +450,7 @@ python-pygments
 python-pyte
 python-pytest
 python-sanic
+python-stormssh
 python-termcolor
 python-tox
 python-twisted
@@ -475,6 +488,7 @@ ranger
 rdesktop
 recordmydesktop
 redis
+redis-desktop-manager-bin
 redsocks-git
 reiserfsprogs
 remmina
@@ -519,6 +533,7 @@ smtube
 socat
 soci
 speedtest-cli
+spigot
 sqlint
 srandrd
 sshfs
@@ -562,6 +577,7 @@ thefuck
 thunar
 thunar-volman
 tigervnc
+tinyproxy
 tk
 tmux
 tor
