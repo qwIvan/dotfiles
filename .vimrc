@@ -68,6 +68,12 @@ noremap <F3> :Autoformat<CR>
 "Plug 'klen/python-mode'
 let pymode_lint_checkers = ['flake8']
 let g:pymode_python = 'python3'
+
+"Plug 'shougo/vinarise.vim'
+"let g:vinarise_enable_auto_detect = 1
+Plug 'fidian/hexmode'
+
+Plug 'wavded/vim-stylus'
 call plug#end()
 
 
@@ -132,5 +138,6 @@ nnoremap gd :YcmCompleter GoTo<CR>
 
 "AirlineTheme jellybeans
 ":let g:airline_theme='jellybeans'
-:let g:airline_theme='hybrid'
+let g:airline_theme='hybrid'
 ca w!! w !sudo tee %
+let g:ctrlp_custom_ignore = 'node_modules'

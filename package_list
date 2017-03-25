@@ -418,6 +418,7 @@ python-gevent
 python-html2text
 python-httptools
 python-ipdb
+python-jsbeautifier
 python-lxml
 python-multidict-git
 python-netaddr
@@ -431,11 +432,9 @@ python-psycopg2
 python-pudb
 python-pycodestyle
 python-pyexecjs
-python-pyflakes
 python-pyftpdlib
 python-pygame
 python-pygments
-python-pylint
 python-pyte
 python-pytest
 python-sanic
@@ -458,7 +457,6 @@ python2-prompt_toolkit
 python2-protobuf
 python2-pushybullet
 python2-pygame
-python2-pylint
 python2-scipy
 python2-setuptools
 python2-twisted
@@ -493,10 +491,9 @@ ruby-highline-1.6.20
 ruby-json_pure-1.8.1
 ruby-mime-types-1.19
 ruby-rest-client
-ruby-sass
 ruby-smart_colored
 rust
-rxvt-unicode
+rxvt-unicode-pixbuf
 s-nail
 samba
 sane
@@ -581,6 +578,7 @@ ttf-font-awesome
 ttf-liberation
 ttf-ms-fonts
 ttf-ubuntu-font-family
+tty2gif-git
 tumbler
 tuxjdk
 tuxjdk-doc
@@ -616,6 +614,7 @@ vim-nerdcommenter
 vim-nerdtree-git
 vim-plug-git
 vim-python-mode-git
+vim-qml-git
 vim-sensible
 vim-surround
 vim-syntastic

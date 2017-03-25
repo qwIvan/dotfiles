@@ -169,5 +169,9 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(fasd --init auto)"
 
-export DEBFULLNAME="Ivan Wu"
-export DEBEMAIL="wuyifan@deepin.com"
+# export DEBFULLNAME="Ivan Wu"
+# export DEBEMAIL="wuyifan@deepin.com"
+
+autoload -U +X bashcompinit
+bashcompinit
+source /usr/share/bash-completion/completions/storm
