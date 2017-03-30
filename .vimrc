@@ -141,3 +141,7 @@ nnoremap gd :YcmCompleter GoTo<CR>
 let g:airline_theme='hybrid'
 ca w!! w !sudo tee %
 let g:ctrlp_custom_ignore = 'node_modules'
+let g:mapleader=","
+set wildmode=longest:full,full
+:inoremap <C-v> <C-r><C-o>+
+:vnoremap <C-c> "+y
