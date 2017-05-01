@@ -20,6 +20,10 @@ transfer() {
   cat $tmpfile;
   rm -f $tmpfile;
 }
+lf() {
+  echo -n $@/
+  ls -rt $@ | tail -n 1
+}
 alias tpp="tree --prune -P"
 alias c=ccat
 export CHEATCOLORS=true
@@ -73,6 +77,9 @@ export PATH=$PATH:/usr/bin/vendor_perl/
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:~/.node_modules/bin
 export PATH=$PATH:/usr/lib/w3m/
+for p in `echo ~/.gem/ruby/*/bin`;do
+  PATH=$p:$PATH
+done
 export VISUAL="vim"
 export EDITOR="vim"
 bindkey "^P" history-substring-search-up

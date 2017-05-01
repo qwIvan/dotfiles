@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
 "Plug 'kchmck/vim-coffee-script'
 Plug 'pangloss/vim-javascript'
 "Plug 'easymotion/vim-easymotion'
+map <Leader> <Plug>(easymotion-prefix)
 Plug 'lukaszkorecki/coffeetags'
 "Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 "Plug 'raimondi/delimitmate'
@@ -11,34 +12,38 @@ Plug 'lukaszkorecki/coffeetags'
 "Plug 'mileszs/ack.vim'
 "Plug 'mattn/emmet-vim'
 "Plug 'scrooloose/nerdcommenter'
-
 "Plug 'nathanaelkane/vim-indent-guides'
 "Plug 'xolox/vim-colorscheme-switcher'
 "Plug 'xolox/vim-misc'
 "Plug 'mbbill/desertex'
 "Plug 'flazz/vim-colorschemes'
+colorscheme colorsbox-stnight
 "Plug 'tpope/vim-repeat'
 "Plug 'valloric/youcompleteme'
+let g:ycm_semantic_triggers =  {
+      \   'coffee': ['.'],
+      \ }
+nnoremap gd :YcmCompleter GoTo<CR>
 Plug 'syngan/vim-vimlint'
 Plug 'ynkdir/vim-vimlparser'
 "Plug 'ervandew/supertab'
 "Plug 'sirver/ultisnips'
+let g:UltiSnipsExpandTrigger="<C-j>"
 "Plug 'marijnh/tern_for_vim'
 "Plug 'https://github.com/othree/tern_for_vim_coffee.git'
 Plug 'qwIvan/tern_for_vim'
 "Plug 'tpope/vim-fugitive'
 "Plug 'bling/vim-airline'
+let g:airline_theme='hybrid'
 "Plug 'airblade/vim-gitgutter'
 "Plug 'klen/python-mode'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ekalinin/dockerfile.vim'
 "Plug 'mattn/emmet-vim'
 Plug 'posva/vim-vue'
-
 "Plug 'majutsushi/tagbar'
 "autocmd FileType * nested :call tagbar#autoopen(0)
 nmap <F8> :TagbarToggle<CR>
-
 "Plug 'scrooloose/nerdtree'
 map <C-n> :NERDTreeToggle<CR>
 "autocmd StdinReadPre * let s:std_in=1
@@ -46,7 +51,6 @@ map <C-n> :NERDTreeToggle<CR>
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 "Plug 'jistr/vim-nerdtree-tabs'
-
 Plug 'iamcco/markdown-preview.vim'
 let g:mkdp_path_to_chrome = "google-chrome-stable"
 " 设置 chrome 浏览器的路径（或是启动 chrome（或其他现代浏览器）的命令）
@@ -54,26 +58,21 @@ let g:mkdp_auto_start = 1
 " 设置为 1 可以在打开 markdown 文件的时候自动打开浏览器预览，只在打开 markdown 文件的时候打开一次
 let g:mkdp_auto_open = 1
 " 设置为 1 在编辑 markdown 的时候检查预览窗口是否已经打开，否则自动打开预览窗口
-
-
 "Plug 'peterhoeg/vim-qml'
-
 Plug 'chiel92/vim-autoformat'
 noremap <F3> :Autoformat<CR>
 "au BufWrite * :Autoformat
 "let g:formatter_yapf_style = 'pep8'
 "let g:formatters_python = ['yapf', 'autopep8']
-
 "set rtp^=/usr/share/vim/vimfiles/
 "Plug 'klen/python-mode'
 let pymode_lint_checkers = ['flake8']
 let g:pymode_python = 'python3'
-
 "Plug 'shougo/vinarise.vim'
 "let g:vinarise_enable_auto_detect = 1
 Plug 'fidian/hexmode'
-
 Plug 'wavded/vim-stylus'
+let g:ctrlp_custom_ignore = 'node_modules'
 call plug#end()
 
 
@@ -98,16 +97,11 @@ runtime! archlinux.vim
 :syntax on
 "set nocompatible
 set mouse=a
-set relativenumber
-set number
-set ignorecase
-set smartcase
 set shiftwidth=2
 set expandtab
 set cursorline
 set cursorcolumn
 autocmd StdinReadPre * let s:std_in=1
-map <Leader> <Plug>(easymotion-prefix)
 
 "" Configure Ultisnip and YouCompleteMe
 "let g:UltiSnipsExpandTrigger="<tab>"
@@ -121,14 +115,7 @@ map <Leader> <Plug>(easymotion-prefix)
 "" make YCM compatible with UltiSnips (using supertab)
 "let g:SuperTabDefaultCompletionType = '<C-n>'
 
-colorscheme colorsbox-stnight
-let g:UltiSnipsExpandTrigger="<C-j>"
 
-let g:ycm_semantic_triggers =  {
-      \   'coffee': ['.'],
-      \ }
-
-nnoremap gd :YcmCompleter GoTo<CR>
 
 ":setlocal omnifunc=tern#Complete
 ":call tern#Enable()
@@ -138,10 +125,15 @@ nnoremap gd :YcmCompleter GoTo<CR>
 
 "AirlineTheme jellybeans
 ":let g:airline_theme='jellybeans'
-let g:airline_theme='hybrid'
 ca w!! w !sudo tee %
-let g:ctrlp_custom_ignore = 'node_modules'
 let g:mapleader=","
 set wildmode=longest:full,full
-:inoremap <C-v> <C-r><C-o>+
-:vnoremap <C-c> "+y
+":inoremap <C-v> <C-r><C-o>+
+":vnoremap <C-c> "+y
+"set clipboard=unnamed
+source ~/.base.vimrc
+"set clipboard=unnamedplus,unnamed
+"set ignorecase
+"set number
+"set relativenumber
+"set smartcase

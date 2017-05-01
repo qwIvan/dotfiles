@@ -162,8 +162,8 @@ bindsym $mod+Control+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Control+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
-bindsym Print exec scrot 'screenshot/%Y-%m-%d-%H%M%S_$wx$h_scrot.png' -e '~/bin/b file $f'
-bindsym --release Shift+Print exec scrot -s 'screenshot/%Y-%m-%d-%H%M%S_$wx$h_scrot.png' -e '~/bin/b file $f'
+bindsym Print exec scrot 'screenshot/%Y-%m-%d-%H%M%S_$wx$h_scrot.png' -e 'xclip -sel clip -t image/png $f && ~/bin/b file $f'
+bindsym --release Shift+Print exec scrot -s 'screenshot/%Y-%m-%d-%H%M%S_$wx$h_scrot.png' -e 'xclip -sel clip -t image/png $f && ~/bin/b file $f'
 bindsym Mod1+Sys_Req exec scrot -u 'screenshot/%Y-%m-%d-%H%M%S_$wx$h_scrot.png' -e '~/bin/b file $f'
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% && pkill -RTMIN+10 i3blocks
 bindsym Shift+XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +10% && pkill -RTMIN+10 i3blocks
