@@ -1,3 +1,4 @@
+3to2
 abs
 ack
 aconfmgr-git
@@ -13,6 +14,7 @@ aliedit
 alsa-utils
 amule
 android-apktool
+android-sdk
 android-sdk-build-tools
 android-studio
 android-tools
@@ -122,8 +124,10 @@ fcitx-gtk2
 fcitx-gtk3
 fcitx-qt4
 fcitx-qt5
+fcitx-rime
 fcitx-skin-material
 fcitx-sogoupinyin
+fcitx-sunpinyin
 feh
 festival
 festival-english
@@ -131,6 +135,7 @@ ffdec
 ffmpegthumbnailer
 file
 filesystem
+filezilla
 findutils
 firefox
 firejail
@@ -158,11 +163,13 @@ glibc
 gnash-git
 gnome-terminal
 gnome-web-photo
+gnu-netcat
 go
 go-mtpfs-git
 gocode-git
 godef-git
 gogland
+gogland-jre
 google-chrome
 gotags-git
 gpart
@@ -178,6 +185,7 @@ gtk-xfce-engine
 gtkdialog
 gtksourceview2
 gunicorn
+gunicorn-python2
 gvim
 gzip
 hashcat
@@ -204,6 +212,7 @@ imgurbash2
 imlib2
 inetutils
 intel-opencl-runtime
+intellij-idea-ultimate-edition
 iotop
 iproute2
 ipset
@@ -308,9 +317,9 @@ nodejs-jshint
 nodejs-npm2aur
 nodejs-tldr
 nodejs-vim-debugger
-nodejs-webpack
-nodejs-webpack-dev-server
+nodejs-vue-cli
 noise-player
+noto-fonts-cjk
 ntfs-3g
 ntfy-git
 ntp
@@ -318,14 +327,13 @@ numix-gtk-theme
 numix-icon-theme-git
 nutstore
 nvchecker
-ogre
 oh-my-zsh-git
 openal
-openbsd-netcat
 opencv
 openexr
 openjpeg2
 openssh
+openssl-static
 openvpn
 os-prober
 p7zip
@@ -341,6 +349,7 @@ pciutils
 pcloud
 pcmciautils
 pdnsd
+peek
 pelican
 percol
 perl
@@ -352,6 +361,7 @@ phantomjs
 php
 php-fpm
 phpstorm
+phpstorm-jre
 pinyin-completion
 pkg-config
 pkgfile
@@ -386,6 +396,7 @@ python-ansicolors
 python-async_timeout
 python-beautifulsoup4
 python-blinker
+python-bottleneck
 python-cchardet
 python-chardet
 python-cheat
@@ -394,6 +405,7 @@ python-cryptography
 python-dbus
 python-django
 python-dnslib
+python-docker
 python-flask
 python-flask-peewee
 python-flask-sqlalchemy
@@ -401,12 +413,17 @@ python-gevent
 python-html2text
 python-httptools
 python-ipdb
+python-jieba
 python-jsbeautifier
 python-lxml
 python-magic-git
+python-matplotlib
 python-multidict-git
 python-netaddr
+python-numexpr
 python-numpy
+python-pandas
+python-pandas-datareader
 python-parsel
 python-passlib
 python-pillow
@@ -418,14 +435,17 @@ python-pycodestyle
 python-pyexecjs
 python-pyftpdlib
 python-pygame
+python-pygeoip
 python-pygments
 python-pyte
 python-sanic
+python-scikit-learn
 python-stormssh
 python-termcolor
 python-tox
 python-twisted
 python-ujson
+python-urwidtrees
 python-w3lib
 python-websockets
 python-yarl
@@ -502,7 +522,6 @@ smplayer-skins
 smplayer-themes
 smtube
 socat
-soci
 speedtest-cli
 spigot
 sqlint
@@ -554,6 +573,7 @@ ttf-droid
 ttf-font-awesome
 ttf-liberation
 ttf-ms-fonts
+ttf-roboto
 ttf-ubuntu-font-family
 tty2gif-git
 tumbler
@@ -567,6 +587,7 @@ udis86
 unbound
 unclutter
 unrar
+upeditor
 urxvt-perls
 usbutils
 util-linux
@@ -600,7 +621,6 @@ vim-ultisnips
 vim-youcompleteme-git
 virtualbox
 virtualbox-guest-iso
-virtualbox-guest-utils
 vlc
 vulkan-icd-loader
 w3m
@@ -612,10 +632,8 @@ which
 whois
 wifiphisher
 wine-mono
-wine-qqintl
 wine-staging
 wine_gecko
-wineqq-longene
 winetricks
 wireshark-common
 wireshark-gtk
@@ -646,7 +664,6 @@ xfdesktop
 xfsprogs
 xfwm4
 xfwm4-themes
-xmind
 xmlto
 xonsh
 xorg-fonts-100dpi

@@ -21,8 +21,8 @@ transfer() {
   rm -f $tmpfile;
 }
 lf() {
-  echo -n $@/
-  ls -rt $@ | tail -n 1
+  test -z $@ || echo -n $@/
+  ls -t $@ | head -n 1
 }
 alias tpp="tree --prune -P"
 alias c=ccat
@@ -58,6 +58,7 @@ alias -g V="--version"
 alias -g SL="| tr ' ' '\n'"
 alias -g G="| grep -iP"
 unalias ping
+unalias gm
 tcb() {
   tldr $1
   cheat $1
