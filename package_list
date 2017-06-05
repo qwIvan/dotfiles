@@ -41,6 +41,7 @@ baka-mplayer
 baobab
 bash
 bash-completion
+bashmount
 bind-tools
 bison
 boost
@@ -288,16 +289,17 @@ moka-icon-theme-git
 mongodb
 mono
 mplayer
-mtpfs
 mtr
 multitail
 mutt
 mycli
 mygui
+mypy
 mysql-python
 nano
 nautilus
 nautilus-pushbullet
+neovim
 net-tools
 netctl
 netease-cloud-music
@@ -437,6 +439,7 @@ python-pyftpdlib
 python-pygame
 python-pygeoip
 python-pygments
+python-pylint
 python-pyte
 python-sanic
 python-scikit-learn
@@ -578,7 +581,9 @@ tuxjdk-src
 twine
 typescript
 ubuntu-keyring
+udevil
 udis86
+udiskie
 unbound
 unclutter
 unrar
@@ -610,7 +615,6 @@ vim-python-mode-git
 vim-qml-git
 vim-sensible
 vim-surround
-vim-syntastic
 vim-tagbar
 vim-ultisnips
 vim-youcompleteme-git
