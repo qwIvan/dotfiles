@@ -73,6 +73,8 @@ let g:pymode_python = 'python3'
 Plug 'fidian/hexmode'
 Plug 'wavded/vim-stylus'
 let g:ctrlp_custom_ignore = 'node_modules'
+Plug 'w0rp/ale'
+Plug 'metakirby5/codi.vim'
 call plug#end()
 
 
