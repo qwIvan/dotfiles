@@ -299,6 +299,7 @@ mysql-python
 nano
 nautilus
 nautilus-pushbullet
+ncurses5-compat-libs
 neovim
 net-tools
 netctl
@@ -490,6 +491,7 @@ ruby-highline-1.6.20
 ruby-json_pure-1.8.1
 ruby-mime-types-1.19
 ruby-rest-client
+ruby-sass
 ruby-smart_colored
 rust
 rxvt-unicode-pixbuf
@@ -600,6 +602,7 @@ vifm
 vim-ack
 vim-airline
 vim-airline-themes
+vim-ale
 vim-coffeescript-git
 vim-colorschemes
 vim-ctrlp
@@ -608,6 +611,7 @@ vim-easymotion
 vim-gitgutter-git
 vim-go
 vim-javascript-git
+vim-multiple-cursors-git
 vim-nerdcommenter
 vim-nerdtree-git
 vim-plug-git
