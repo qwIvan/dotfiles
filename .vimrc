@@ -75,6 +75,9 @@ Plug 'wavded/vim-stylus'
 let g:ctrlp_custom_ignore = 'node_modules'
 "Plug 'w0rp/ale'
 Plug 'metakirby5/codi.vim'
+Plug 'Shougo/unite.vim'
+Plug 'devjoe/vim-codequery'
+Plug 'rking/ag.vim'
 call plug#end()
 
 
