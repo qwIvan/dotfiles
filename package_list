@@ -65,12 +65,14 @@ clion-gdb
 clion-jre
 clion-lldb
 cmake
+codequery
 colordiff
 compton
 conky
 coreutils
 create_ap
 cryptsetup
+cscope
 cups
 curlftpfs
 d-feet
@@ -301,6 +303,7 @@ nautilus
 nautilus-pushbullet
 ncurses5-compat-libs
 neovim
+nerd-fonts-complete
 net-tools
 netctl
 netease-cloud-music
@@ -607,6 +610,7 @@ vim-coffeescript-git
 vim-colorschemes
 vim-ctrlp
 vim-delimitmate
+vim-devicons
 vim-easymotion
 vim-gitgutter-git
 vim-go
