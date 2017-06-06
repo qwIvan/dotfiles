@@ -45,7 +45,7 @@ Plug 'posva/vim-vue'
 "autocmd FileType * nested :call tagbar#autoopen(0)
 nmap <F8> :TagbarToggle<CR>
 "Plug 'scrooloose/nerdtree'
-map <C-n> :NERDTreeToggle<CR>
+map <F6> :NERDTreeToggle<CR>
 "autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
@@ -73,7 +73,7 @@ let g:pymode_python = 'python3'
 Plug 'fidian/hexmode'
 Plug 'wavded/vim-stylus'
 let g:ctrlp_custom_ignore = 'node_modules'
-Plug 'w0rp/ale'
+"Plug 'w0rp/ale'
 Plug 'metakirby5/codi.vim'
 call plug#end()
 
