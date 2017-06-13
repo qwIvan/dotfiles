@@ -36,7 +36,9 @@ bindsym $mod+x kill
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+d exec --no-startup-id synapse
+bindsym $mod+D exec "rofi -show combi -combi-modi run,drun"
+bindsym $mod+O exec exo-open --launch TerminalEmulator --working-directory `fasd -ldR | rofi -dmenu`
+bindsym $mod+I exec fasd -lfR | rofi -dmenu | xargs -r terminology -e vim
 
 # change focus
 #bindsym $mod+j focus left

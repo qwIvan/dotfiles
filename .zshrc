@@ -29,11 +29,6 @@ alias c=ccat
 export CHEATCOLORS=true
 alias rsync-compare="rsync -ani -vv"
 rsync-compare-into() rsync -aHxi -vv --progress --compare-dest=$2 $1 $3
-alias t1="tree -L 1"
-alias t2="tree -L 2"
-alias t3="tree -L 3"
-alias t4="tree -L 4"
-alias t5="tree -L 5"
 alias x=extract
 alias ls="ls -rhtc --color=auto"
 alias l="ls -Flrahtc --color=auto"
