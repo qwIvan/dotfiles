@@ -46,6 +46,7 @@ Plug 'posva/vim-vue'
 nmap <F8> :TagbarToggle<CR>
 "Plug 'scrooloose/nerdtree'
 map <F6> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
 "autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
@@ -72,12 +73,14 @@ let g:pymode_python = 'python3'
 "let g:vinarise_enable_auto_detect = 1
 Plug 'fidian/hexmode'
 Plug 'wavded/vim-stylus'
-let g:ctrlp_custom_ignore = 'node_modules'
+let g:ctrlp_custom_ignore = 'node_modules\|\.git/\|\.ropeproject\|.\.swp'
+let g:ctrlp_show_hidden = 1
 "Plug 'w0rp/ale'
 Plug 'metakirby5/codi.vim'
 Plug 'Shougo/unite.vim'
 Plug 'devjoe/vim-codequery'
 Plug 'rking/ag.vim'
+Plug 'ap/vim-css-color'
 call plug#end()
 
 

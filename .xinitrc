@@ -8,4 +8,5 @@ export IDEA_JDK=$TUXJDK
 export RUBYMINE_JDK=$TUXJDK
 export PYCHARM_JDK=$TUXJDK
 export GOPATH=~/go
+export PATH=$TUXJDK/bin:$PATH
 exec i3

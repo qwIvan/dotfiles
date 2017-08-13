@@ -40,6 +40,7 @@ alias pacown="pacman -Qo"
 alias plunt="sudo netstat -plunt"
 alias pain="pacaur -S --noedit"
 alias rm=trash
+alias sumi="awk '{s+=\$1} END {print s}'"
 alias -g A1="| awk \"{print \\\$1}\""
 alias -g A2="| awk \"{print \\\$2}\""
 alias -g A3="| awk \"{print \\\$3}\""
