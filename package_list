@@ -1,5 +1,4 @@
 3to2
-abs
 ack
 aconfmgr-git
 acpi
@@ -30,6 +29,7 @@ arandr
 arch-install-scripts
 archlinuxcn-keyring
 aria2-fast
+atom
 atomicparsley
 aurvote
 autoconf
@@ -58,7 +58,6 @@ bzr
 cabal-install
 cabal2pkgbuild-git
 cantarell-fonts
-cargo
 cblrepo
 ccat
 ccze
@@ -114,6 +113,7 @@ emmet-vim-git
 enet
 enlightenment
 enlightenment16
+enscript
 entr
 eslint
 etcher
@@ -244,6 +244,7 @@ jnettop
 jq
 jupyter
 kdbusaddons
+kde-cli-tools
 kdeclarative
 ki18n
 kodi
@@ -329,6 +330,7 @@ neovim
 nerd-fonts-complete
 net-tools
 netctl
+netctl-gui
 netdata
 netease-cloud-music
 nethogs
@@ -342,7 +344,6 @@ nodejs-psdinfo
 nodejs-tldr
 nodejs-vim-debugger
 nodejs-vue-cli
-noise-player
 noto-fonts-cjk
 ntfs-3g
 ntfy-git
@@ -370,6 +371,7 @@ pacaur
 pacman
 pandoc
 pantheon-calculator
+pantheon-music
 pantheon-terminal
 parallel
 patch
@@ -410,6 +412,7 @@ postgresql
 postgresql-old-upgrade
 powerdns
 pptpclient
+pptpd
 privoxy
 privoxy-adfilter
 procps-ng
@@ -459,6 +462,7 @@ python-multidict-git
 python-netaddr
 python-numexpr
 python-numpy
+python-openpyxl
 python-pandas
 python-pandas-datareader
 python-parsel
@@ -476,7 +480,9 @@ python-pygeoip
 python-pygments
 python-pylint
 python-pyte
+python-pytesseract-git
 python-qrcode
+python-readability-lxml
 python-sanic
 python-scikit-learn
 python-socketio
@@ -490,6 +496,7 @@ python-urwidtrees
 python-w3lib
 python-websockets
 python2-docopt
+python2-jpype1
 python2-matplotlib
 python2-pip
 python2-prompt_toolkit
@@ -515,6 +522,7 @@ redsocks-git
 reiserfsprogs
 remmina
 repo
+rfkill
 ripgrep
 ristretto
 rofi
@@ -522,9 +530,11 @@ rslsync
 rsync
 rtorrent
 ruby
+ruby-commander
 ruby-commander-4.1.5
 ruby-docs
 ruby-domain_name
+ruby-highline
 ruby-highline-1.6.20
 ruby-json_pure-1.8.1
 ruby-mime-types-1.19
@@ -549,6 +559,7 @@ shadowsocksr-libev
 shadowvpn
 shellcheck
 shotwell
+shub-bin
 shutter
 siege
 simple-mtpfs
@@ -769,6 +780,7 @@ xsel
 xterm
 yaourt
 yapf
+yarn
 ycm-generator-git
 ydcv-rs-git
 you-get
