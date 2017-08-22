@@ -81,6 +81,7 @@ Plug 'Shougo/unite.vim'
 Plug 'devjoe/vim-codequery'
 Plug 'rking/ag.vim'
 Plug 'ap/vim-css-color'
+Plug 'chrisbra/csv.vim'
 call plug#end()
 
 
