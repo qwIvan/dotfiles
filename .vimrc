@@ -1,3 +1,4 @@
+let g:mapleader=","
 call plug#begin('~/.vim/plugged')
 "Plug 'VundleVim/Vundle.vim'
 "Plug 'kchmck/vim-coffee-script'
@@ -135,7 +136,6 @@ autocmd StdinReadPre * let s:std_in=1
 "AirlineTheme jellybeans
 ":let g:airline_theme='jellybeans'
 ca w!! w !sudo tee %
-let g:mapleader=","
 set wildmode=longest:full,full
 ":inoremap <C-v> <C-r><C-o>+
 ":vnoremap <C-c> "+y

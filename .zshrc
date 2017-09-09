@@ -101,3 +101,4 @@ export FZF_DEFAULT_OPTS="--exact"
 for z in `ls /usr/share/zsh/plugins/*/*.zsh`;do
   source $z
 done
+#source /etc/profile.d/android-ndk.sh

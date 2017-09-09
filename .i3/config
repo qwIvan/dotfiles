@@ -263,6 +263,8 @@ for_window [class="terminology"] border normal 0
 for_window [class="Google-chrome"] border none
 for_window [window_role="pop-up"] floating enable
 #for_window [class="."] floating enable
+for_window [class="TelegramDesktop"] border none
+
 
 exec_always --no-startup-id "~/bin/auto-start" 
 
