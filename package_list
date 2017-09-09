@@ -29,6 +29,7 @@ arandr
 arch-install-scripts
 archlinuxcn-keyring
 aria2-fast
+arm
 atom
 atomicparsley
 aurvote
@@ -250,6 +251,7 @@ ki18n
 kodi
 krita
 kxmlgui
+lantern
 less
 lib32-alsa-lib
 lib32-giflib
@@ -286,6 +288,7 @@ lsdesktopf
 lshw
 lsof
 lvm2
+lxappearance
 m4
 magnet2torrent-git
 maim
@@ -301,6 +304,8 @@ mdadm
 mediainfo
 meld
 mencoder
+menda-themes-dark-git
+menda-themes-git
 mercurial
 mesa-demos
 metacity
@@ -448,6 +453,7 @@ python-flask-peewee
 python-flask-sqlalchemy
 python-gensim
 python-gevent
+python-google-api-python-client
 python-html2text
 python-httplib2
 python-httptools
@@ -483,6 +489,8 @@ python-pyte
 python-pytesseract-git
 python-qrcode
 python-readability-lxml
+python-redis
+python-rpyc
 python-sanic
 python-scikit-learn
 python-socketio
@@ -495,7 +503,9 @@ python-ujson
 python-urwidtrees
 python-w3lib
 python-websockets
+python-xlib
 python2-docopt
+python2-google-api-python-client
 python2-jpype1
 python2-matplotlib
 python2-pip
@@ -504,6 +514,7 @@ python2-pushybullet
 python2-requests
 python2-setuptools
 python2-twisted
+python2-xlib
 pywebkitgtk
 qemu
 qt5-graphicaleffects
@@ -511,6 +522,7 @@ qt5-quickcontrols
 qt5-tools
 qtav
 qtcreator
+qtile
 qtox
 quicksynergy
 ranger
@@ -572,6 +584,7 @@ spectacle
 speedtest-cli
 spigot
 sqlint
+sqlmap
 srandrd
 sshfs
 sshpass
@@ -594,6 +607,7 @@ tcl
 tcpdump
 tcpflow
 tcsh
+telegram-desktop
 terminology
 termite
 tesseract
@@ -614,6 +628,7 @@ tinyproxy
 tk
 tmux
 tor
+torsocks
 toxic
 traceroute
 transmission-gtk
@@ -645,6 +660,7 @@ ufw
 unbound
 unclutter
 unrar
+unzip-natspec
 upeditor
 urxvt-perls
 usbutils
@@ -654,6 +670,7 @@ uwsgi-plugin-python
 vagrant
 vdfuse
 vi
+vidalia
 vifm
 vim-ack
 vim-airline
