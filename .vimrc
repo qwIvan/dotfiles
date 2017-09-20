@@ -5,7 +5,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'pangloss/vim-javascript'
 "Plug 'easymotion/vim-easymotion'
 map <Leader> <Plug>(easymotion-prefix)
-Plug 'lukaszkorecki/coffeetags'
+"Plug 'lukaszkorecki/coffeetags'
 "Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 "Plug 'raimondi/delimitmate'
 "Plug 'honza/vim-snippets'
@@ -21,9 +21,9 @@ Plug 'lukaszkorecki/coffeetags'
 colorscheme colorsbox-stnight
 "Plug 'tpope/vim-repeat'
 "Plug 'valloric/youcompleteme'
-let g:ycm_semantic_triggers =  {
-      \   'coffee': ['.'],
-      \ }
+"let g:ycm_semantic_triggers =  {
+      "\   'coffee': ['.'],
+      "\ }
 nnoremap gd :YcmCompleter GoTo<CR>
 Plug 'syngan/vim-vimlint'
 Plug 'ynkdir/vim-vimlparser'
