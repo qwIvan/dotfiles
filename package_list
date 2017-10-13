@@ -60,7 +60,7 @@ clion-gdb
 clion-lldb
 cmake
 codequery
-coffee-script
+coffeescript
 colordiff
 compton
 conky
@@ -76,6 +76,7 @@ debhelper
 debian-archive-keyring
 debtap
 deepin-boot-maker
+deepin-gtk-theme
 deepin-screenshot
 device-mapper
 devtools
@@ -146,11 +147,13 @@ freerdp
 freetype2
 fuse-zip
 fzf
+gala-git
 garcon
 gawk
 gcc-libs
 gdb
 gem2arch
+genymotion
 gettext
 ghostscript
 gimp
@@ -191,6 +194,7 @@ gvim
 gzip
 haveged
 hddtemp
+hexchat
 hexedit
 highlight
 home-assistant
@@ -199,6 +203,8 @@ htop
 httpie
 httpry
 hub
+i2p-bin
+i2pd
 i3-gaps-next-git
 i3-vim-syntax-git
 i3blocks
@@ -223,7 +229,9 @@ ipython
 ipython2
 iw
 jadx
+java-service-wrapper
 jd-gui-bin
+jdk8-openjdk
 jdownloader2
 jfsutils
 jhead
@@ -330,6 +338,7 @@ netpbm
 nfs-utils
 nginx
 nmap
+nodejs-http-server
 nodejs-jshint
 nodejs-npm2aur
 nodejs-psdinfo
@@ -470,6 +479,7 @@ python-pygame
 python-pygeoip
 python-pygments
 python-pylint
+python-pysocks
 python-pyte
 python-pytesseract-git
 python-qrcode
@@ -504,7 +514,9 @@ pywebkitgtk
 qemu
 qt5-graphicaleffects
 qt5-quickcontrols
+qt5-styleplugins
 qt5-tools
+qt5ct
 qtav
 qtile
 qtox
@@ -596,6 +608,7 @@ tesseract-data-chi_sim
 tesseract-data-eng
 tex-gyre-fonts
 texinfo
+tftp-hpa
 the_silver_searcher
 thefuck
 thunar
@@ -677,6 +690,7 @@ vim-tagbar
 vim-ultisnips
 vim-youcompleteme-git
 virtualbox
+virtualbox-ext-oracle
 virtualbox-guest-iso
 vlc
 vulkan-icd-loader
@@ -699,6 +713,7 @@ wireshark-gtk
 wireshark-gtk2
 wkhtmltopdf
 wmctrl
+woeusb-git
 wpa_actiond
 wpa_supplicant
 wps-office
