@@ -111,6 +111,7 @@ set shiftwidth=2
 set expandtab
 set cursorline
 set cursorcolumn
+set autoread
 autocmd StdinReadPre * let s:std_in=1
 
 "" Configure Ultisnip and YouCompleteMe

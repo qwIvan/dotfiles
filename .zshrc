@@ -21,8 +21,10 @@ transfer() {
   rm -f $tmpfile;
 }
 lf() {
+  echo -n "'"
   test -z $@ || echo -n $@/
-  ls -t $@ | head -n 1
+  ls -t $@ | head -n 1 | tr -d '\n'
+  echo "'"
 }
 alias tpp="tree --prune -P"
 alias c=ccat
