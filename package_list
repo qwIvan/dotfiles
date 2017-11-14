@@ -12,6 +12,10 @@ aircrack-ng
 aliedit
 alsa-utils
 amule
+android-apktool
+android-platform
+android-sdk
+android-sdk-build-tools-23.0.1
 android-studio
 android-tools
 android-udev
@@ -24,7 +28,6 @@ arch-install-scripts
 archlinuxcn-keyring
 aria2-fast
 arm
-atom
 atomicparsley
 aurvote
 autoconf
@@ -40,6 +43,7 @@ baobab
 bash
 bash-completion
 bashmount
+binaryninja-demo
 bind-tools
 bison
 boost
@@ -95,6 +99,7 @@ dosbox
 dosfstools
 downgrade
 drive
+droidcam
 dsniff
 dtkwidget
 dvd+rw-tools
@@ -152,7 +157,6 @@ garcon
 gawk
 gcc-libs
 gdb
-gem2arch
 genymotion
 gettext
 ghostscript
@@ -198,6 +202,7 @@ hexchat
 hexedit
 highlight
 home-assistant
+hopper
 hostapd
 htop
 httpie
@@ -221,6 +226,7 @@ imlib2
 inetutils
 insync-thunar
 intel-opencl-runtime
+intellij-idea-ultimate-edition
 iotop
 iproute2
 ipset
@@ -265,7 +271,6 @@ lib32-v4l-utils
 lib32-vulkan-icd-loader
 lib32-zlib
 libgphoto2
-libtinfo
 libtool
 libva-intel-driver
 libvdpau-va-gl
@@ -278,6 +283,7 @@ linux-headers
 lm_sensors
 logrotate
 lostfiles
+lrzip
 lsdesktopf
 lshw
 lsof
@@ -439,6 +445,7 @@ python-dbus
 python-django
 python-dnslib
 python-docker
+python-ecdsa
 python-eventlet
 python-flask
 python-flask-login
@@ -456,7 +463,6 @@ python-jieba
 python-js2py
 python-jsbeautifier
 python-lxml
-python-magic-git
 python-matplotlib
 python-multidict-git
 python-netaddr
@@ -472,8 +478,8 @@ python-pip
 python-polib
 python-psycopg2
 python-pudb
+python-pushbullet.py
 python-pycodestyle
-python-pyexecjs
 python-pyftpdlib
 python-pygame
 python-pygeoip
@@ -500,6 +506,7 @@ python-w3lib
 python-websockets
 python-xlib
 python2-docopt
+python2-future
 python2-google-api-python-client
 python2-jpype1
 python2-matplotlib
@@ -507,6 +514,7 @@ python2-pip
 python2-prompt_toolkit
 python2-pushybullet
 python2-requests
+python2-scipy
 python2-setuptools
 python2-twisted
 python2-xlib
@@ -520,6 +528,7 @@ qt5ct
 qtav
 qtile
 qtox
+qtqr
 quicksynergy
 ranger
 rdesktop
@@ -530,7 +539,6 @@ redsocks-git
 reiserfsprogs
 remmina
 repo
-rfkill
 ripgrep
 ristretto
 rofi
@@ -538,17 +546,7 @@ rslsync
 rsync
 rtorrent
 ruby
-ruby-commander
-ruby-commander-4.1.5
-ruby-docs
-ruby-domain_name
-ruby-highline
-ruby-highline-1.6.20
-ruby-json_pure-1.8.1
-ruby-mime-types-1.19
-ruby-rest-client
-ruby-sass
-ruby-smart_colored
+ruby-bundler
 rxvt-unicode-pixbuf
 s-nail
 samba
@@ -562,13 +560,14 @@ scrot
 sed
 shadow
 shadowsocks
-shadowsocksr-libev
+shadowsocks-libev
 shadowvpn
 shotwell
 shub-bin
 shutter
 siege
 simple-mtpfs
+smali
 smplayer
 smplayer-skins
 smplayer-themes
@@ -587,6 +586,7 @@ st
 statnot
 strace
 sublime-text-dev-zh-cn
+sublime-text-imfix
 subversion
 sudo
 swt
@@ -608,6 +608,19 @@ tesseract-data-chi_sim
 tesseract-data-eng
 tex-gyre-fonts
 texinfo
+texlive-bibtexextra
+texlive-core
+texlive-fontsextra
+texlive-formatsextra
+texlive-games
+texlive-humanities
+texlive-latexextra
+texlive-music
+texlive-pictures
+texlive-pstricks
+texlive-publishers
+texlive-science
+texmaker
 tftp-hpa
 the_silver_searcher
 thefuck
@@ -660,6 +673,7 @@ usbutils
 util-linux
 uwsgi
 uwsgi-plugin-python
+v4l2loopback-dkms
 vagrant
 vdfuse
 vi
@@ -692,6 +706,7 @@ vim-youcompleteme-git
 virtualbox
 virtualbox-ext-oracle
 virtualbox-guest-iso
+visual-studio-code
 vlc
 vulkan-icd-loader
 w3m
