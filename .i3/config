@@ -102,13 +102,14 @@ set $workspace1 "1. Browser"
 set $workspace2 "2. Terminal"
 set $workspace3 "3. Code"
 set $workspace4 "4. Doc"
+set $workspace5 "5. Chat"
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
 bindsym $mod+2 workspace $workspace2
 bindsym $mod+3 workspace $workspace3
 bindsym $mod+4 workspace $workspace4
-bindsym $mod+5 workspace 5
+bindsym $mod+5 workspace $workspace5
 bindsym $mod+6 workspace 6
 bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
@@ -156,6 +157,9 @@ assign [class="Atom"] $workspace3
 assign [class="Et"] $workspace4
 assign [class="Wps"] $workspace4
 assign [class="Wpp"] $workspace4
+assign [class="TelegramDesktop"] $workspace5
+
+
 
 # reload the configuration file
 bindsym $mod+Control+c reload
@@ -257,6 +261,7 @@ client.unfocused #2d2d2d #2d2d2d #999999 #292d2e
 client.urgent #2f343a #900000 #ffffff #900000
 
 focus_follows_mouse no
+focus_on_window_activation focus
 
 #workspace_layout tabbed
 for_window [class="terminology"] border normal 0
