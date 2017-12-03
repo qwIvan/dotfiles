@@ -36,6 +36,7 @@ autopep8
 autorandr-git
 awesome
 axel
+b43-fwcutter
 babel-cli
 baidupcs-git
 baka-mplayer
@@ -43,7 +44,8 @@ baobab
 bash
 bash-completion
 bashmount
-binaryninja-demo
+bcc-tools-git
+bin86
 bind-tools
 bison
 boost
@@ -59,6 +61,7 @@ ccat
 ccze
 charles
 chinadns
+clion
 clion-cmake
 clion-gdb
 clion-lldb
@@ -120,6 +123,7 @@ extundelete
 fabric
 fakeroot
 fasd
+fastjar
 fbida
 fbrokendesktop
 fbv
@@ -174,6 +178,7 @@ go
 go-mtpfs-git
 gocode-git
 godef-git
+google-breakpad-git
 google-chrome
 gotags-git
 gpart
@@ -195,6 +200,7 @@ gunicorn-python2
 gvfs-mtp
 gvfs-smb
 gvim
+gyp
 gzip
 haveged
 hddtemp
@@ -202,7 +208,6 @@ hexchat
 hexedit
 highlight
 home-assistant
-hopper
 hostapd
 htop
 httpie
@@ -228,6 +233,8 @@ insync-thunar
 intel-opencl-runtime
 intellij-idea-ultimate-edition
 iotop
+iperf
+iperf3
 iproute2
 ipset
 iputils
@@ -343,6 +350,7 @@ nethogs
 netpbm
 nfs-utils
 nginx
+nload
 nmap
 nodejs-http-server
 nodejs-jshint
@@ -361,6 +369,7 @@ nutstore
 nvchecker
 oh-my-zsh-git
 openal
+openalpr
 openblas-lapack-git
 opencv
 openexr
@@ -375,7 +384,9 @@ otf-fira-mono
 otf-fira-sans
 p7zip
 pacaur
+pacgraph
 pacman
+pacvis-git
 pantheon-calculator
 pantheon-music
 pantheon-terminal
@@ -415,6 +426,7 @@ poppler-glib
 postgresql
 postgresql-old-upgrade
 powerdns
+powertop
 pptpclient
 pptpd
 privoxy
@@ -433,6 +445,7 @@ pyinstaller
 pyload-git
 python-aiodns
 python-ansicolors
+python-bcc-git
 python-beautifulsoup4
 python-blinker
 python-bottleneck
@@ -493,6 +506,7 @@ python-readability-lxml
 python-redis
 python-rpyc
 python-sanic
+python-scikit-image
 python-scikit-learn
 python-socketio
 python-stormssh
@@ -514,6 +528,7 @@ python2-pip
 python2-prompt_toolkit
 python2-pushybullet
 python2-requests
+python2-scikit-image
 python2-scipy
 python2-setuptools
 python2-twisted
@@ -561,8 +576,8 @@ sed
 shadow
 shadowsocks
 shadowsocks-libev
-shadowvpn
-shotwell
+shadowvpn-git
+sharutils
 shub-bin
 shutter
 siege
@@ -593,6 +608,7 @@ swt
 syncthing
 synergy
 sysfsutils
+syslog-ng
 sysstat
 systemd-sysvcompat
 tar
@@ -601,6 +617,7 @@ tcpdump
 tcpflow
 tcsh
 telegram-desktop
+tensorflow
 terminology
 termite
 tesseract
@@ -608,18 +625,6 @@ tesseract-data-chi_sim
 tesseract-data-eng
 tex-gyre-fonts
 texinfo
-texlive-bibtexextra
-texlive-core
-texlive-fontsextra
-texlive-formatsextra
-texlive-games
-texlive-humanities
-texlive-latexextra
-texlive-music
-texlive-pictures
-texlive-pstricks
-texlive-publishers
-texlive-science
 texmaker
 tftp-hpa
 the_silver_searcher
@@ -662,7 +667,9 @@ ubuntu-keyring
 udevil
 udis86
 udiskie
+udp2raw-tunnel
 ufw
+ulogd
 unbound
 unclutter
 unrar
@@ -673,6 +680,7 @@ usbutils
 util-linux
 uwsgi
 uwsgi-plugin-python
+v2ray
 v4l2loopback-dkms
 vagrant
 vdfuse
