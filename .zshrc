@@ -1,7 +1,8 @@
 export ZSH=/usr/share/oh-my-zsh/
 ZSH_THEME="jonathan"
 DISABLE_AUTO_UPDATE="true"
-plugins=(fasd git adb history mvn npm pip web-search extract d gradle meteor systemadmin colored-man-pages history-substring-search sprunge httpie urltools common-aliases themes gem github singlechar battery colorize screen archlinux rsync gulp safe-paste vi-mode tmux alias-tips python sbt coffee compleat dircycle dirpersist docker encode64 pep8 pylint redis-cli ruby rvm scala sublime sudo supervisor systemd vagrant virtualenv cabal docker-compose django bower nmap gnu-utils fancy-ctrl-z postgres zsh-navigation-tools)# per-directory-history rails)
+plugins=(fasd git adb history mvn npm pip web-search extract d gradle meteor systemadmin colored-man-pages history-substring-search sprunge httpie urltools common-aliases themes gem github singlechar battery colorize screen archlinux rsync gulp safe-paste vi-mode tmux alias-tips python sbt coffee compleat dircycle dirpersist docker encode64 pep8 pylint redis-cli ruby rvm scala sublime sudo supervisor systemd vagrant virtualenv cabal docker-compose django bower nmap gnu-utils fancy-ctrl-z postgres zsh-navigation-tools)
+# per-directory-history rails)
 
 ZSH_CACHE_DIR=$HOME/.oh-my-zsh-cache
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
@@ -11,6 +12,9 @@ fi
 source /usr/share/pinyin-completion/shell/pinyin-comp.zsh
 source $ZSH/oh-my-zsh.sh
 source ~/alias-tips/alias-tips.plugin.zsh
+for z in `ls /usr/share/zsh/plugins/*/*.zsh`;do
+  source $z
+done
 i() curl ip.cn/$1
 alias tree="tree -C"
 transfer() {
@@ -43,6 +47,9 @@ alias plunt="sudo netstat -plunt"
 alias pain="pacaur -S --noedit"
 alias rm=trash
 alias sumi="awk '{s+=\$1} END {print s}'"
+alias ips="sudo iptables -t"
+alias ipsm="sudo iptables -t mangle -L -n --line-numbers"
+alias ipsn="sudo iptables -t nat -L -n --line-numbers"
 alias -g A1="| awk \"{print \\\$1}\""
 alias -g A2="| awk \"{print \\\$2}\""
 alias -g A3="| awk \"{print \\\$3}\""
@@ -98,9 +105,6 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 
 autoload -U +X bashcompinit
 bashcompinit
-source /usr/share/bash-completion/completions/storm
+#source /usr/share/bash-completion/completions/storm
 export FZF_DEFAULT_OPTS="--exact"
-for z in `ls /usr/share/zsh/plugins/*/*.zsh`;do
-  source $z
-done
 #source /etc/profile.d/android-ndk.sh
