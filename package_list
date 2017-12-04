@@ -72,11 +72,13 @@ colordiff
 compton
 conky
 coreutils
+cpio
 create_ap
 cryptsetup
 cscope
 cups
 curlftpfs
+cutegram
 cydia-impactor
 d-feet
 debhelper
@@ -121,6 +123,7 @@ ettercap-gtk
 exo
 extundelete
 fabric
+fakechroot
 fakeroot
 fasd
 fastjar
@@ -220,6 +223,7 @@ i3-vim-syntax-git
 i3blocks
 i7z
 icu55
+iease-music
 ifplugd
 iftop
 imagemagick
