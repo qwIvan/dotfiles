@@ -67,9 +67,12 @@ noremap <F3> :Autoformat<CR>
 "let g:formatter_yapf_style = 'pep8'
 "let g:formatters_python = ['yapf', 'autopep8']
 "set rtp^=/usr/share/vim/vimfiles/
+
 "Plug 'klen/python-mode'
 let pymode_lint_checkers = ['flake8']
 let g:pymode_python = 'python3'
+let g:pymode_rope_regenerate_on_write = 0
+
 "Plug 'shougo/vinarise.vim'
 "let g:vinarise_enable_auto_detect = 1
 Plug 'fidian/hexmode'
