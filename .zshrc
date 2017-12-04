@@ -17,6 +17,7 @@ for z in `ls /usr/share/zsh/plugins/*/*.zsh`;do
 done
 i() curl ip.cn/$1
 alias sudo='sudo '
+alias _='sudo '
 alias tree="tree -C"
 transfer() {
   # write to output to tmpfile because of progress bar
