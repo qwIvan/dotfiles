@@ -85,6 +85,7 @@ export PATH=$PATH:/usr/bin/vendor_perl/
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:~/.node_modules/bin
 export PATH=$PATH:/usr/lib/w3m/
+export PATH=$PATH:/usr/share/bcc/tools/
 for p in `echo ~/.gem/ruby/*/bin`;do
   PATH=$p:$PATH
 done
