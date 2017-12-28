@@ -78,7 +78,6 @@ cryptsetup
 cscope
 cups
 curlftpfs
-cutegram
 cydia-impactor
 d-feet
 debhelper
@@ -86,25 +85,29 @@ debian-archive-keyring
 debtap
 deepin-boot-maker
 deepin-gtk-theme
+deepin-qq-im
 deepin-screenshot
+deepin-wechat
 device-mapper
 devtools
 dex2jar
 dh-make
 dhclient
+dhcp
 dhcpcd
 dialog
 diffutils
+discount
 dmenu
 dnsmasq-china-list-git
 docker
 docker-compose
 dockviz
+dos2unix
 dosbox
 dosfstools
 downgrade
 drive
-droidcam
 dsniff
 dtkwidget
 dvd+rw-tools
@@ -140,6 +143,7 @@ fcitx-qt5
 fcitx-skin-material
 fcitx-sogoupinyin
 fcitx-sunpinyin
+fcrackzip
 feh
 ffdec
 ffmpegthumbnailer
@@ -159,13 +163,13 @@ freerdp
 freetype2
 fuse-zip
 fzf
-gala-git
 garcon
 gawk
 gcc-libs
 gdb
 genymotion
 gettext
+ghc
 ghostscript
 gimp
 gimp-help-zh_cn
@@ -199,7 +203,6 @@ gtk-xfce-engine
 gtkdialog
 gtksourceview2
 gunicorn
-gunicorn-python2
 gvfs-mtp
 gvfs-smb
 gvim
@@ -241,6 +244,7 @@ iperf
 iperf3
 iproute2
 ipset
+iptstate
 iputils
 ipython
 ipython2
@@ -253,6 +257,7 @@ jdownloader2
 jfsutils
 jhead
 jnettop
+john
 jq
 jupyter
 kdbusaddons
@@ -308,7 +313,6 @@ man-db
 man-pages
 man-pages-zh_cn
 mariadb
-markdown
 maven
 mbox-git
 mdadm
@@ -320,7 +324,6 @@ menda-themes-git
 mercurial
 mesa-demos
 metacity
-midori-granite
 minecraft
 mitmproxy
 mlocate
@@ -356,6 +359,7 @@ nfs-utils
 nginx
 nload
 nmap
+nodejs-hexo-cli
 nodejs-http-server
 nodejs-jshint
 nodejs-npm2aur
@@ -391,9 +395,6 @@ pacaur
 pacgraph
 pacman
 pacvis-git
-pantheon-calculator
-pantheon-music
-pantheon-terminal
 parallel
 patch
 pbuilder-ubuntu
@@ -505,6 +506,7 @@ python-pylint
 python-pysocks
 python-pyte
 python-pytesseract-git
+python-pytest
 python-qrcode
 python-readability-lxml
 python-redis
@@ -526,6 +528,7 @@ python-xlib
 python2-docopt
 python2-future
 python2-google-api-python-client
+python2-gunicorn
 python2-jpype1
 python2-matplotlib
 python2-pip
@@ -550,6 +553,7 @@ qtox
 qtqr
 quicksynergy
 ranger
+rarcrack
 rdesktop
 recordmydesktop
 redis
@@ -718,7 +722,7 @@ vim-youcompleteme-git
 virtualbox
 virtualbox-ext-oracle
 virtualbox-guest-iso
-visual-studio-code
+visual-studio-code-bin
 vlc
 vulkan-icd-loader
 w3m
@@ -751,6 +755,7 @@ wxgtk2
 xclip
 xcompmgr
 xdg-user-dirs
+xdot
 xdotool
 xf86-input-synaptics
 xf86-video-intel
