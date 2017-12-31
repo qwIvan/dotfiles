@@ -15,7 +15,6 @@ amule
 android-apktool
 android-platform
 android-sdk
-android-sdk-build-tools-23.0.1
 android-studio
 android-tools
 android-udev
@@ -78,7 +77,6 @@ cryptsetup
 cscope
 cups
 curlftpfs
-cydia-impactor
 d-feet
 debhelper
 debian-archive-keyring
@@ -113,6 +111,7 @@ dtkwidget
 dvd+rw-tools
 e2fsprogs
 efibootmgr
+efl-docs
 elasticsearch
 emmet-vim-git
 enet
@@ -121,7 +120,6 @@ enlightenment16
 enscript
 entr
 eslint
-etcher
 ettercap-gtk
 exo
 extundelete
@@ -178,12 +176,12 @@ glade
 glibc
 gnash-git
 gnome-multi-writer
-gnome-terminal
+gnome-panel
+gnome-power-manager
 gnome-web-photo
 gnu-netcat
 go
 go-mtpfs-git
-gocode-git
 godef-git
 google-breakpad-git
 google-chrome
@@ -193,6 +191,7 @@ gparted
 gptfdisk
 gradle
 graphicsmagick
+greenclip
 grep
 grive
 groff
@@ -203,11 +202,11 @@ gtk-xfce-engine
 gtkdialog
 gtksourceview2
 gunicorn
-gvfs-mtp
-gvfs-smb
 gvim
 gyp
 gzip
+haskell-base-prelude
+haskell-parsec
 haveged
 hddtemp
 hexchat
@@ -222,11 +221,12 @@ hub
 i2p-bin
 i2pd
 i3-gaps-next-git
+i3-gnome
 i3-vim-syntax-git
 i3blocks
 i7z
-icu55
-iease-music
+ibus
+ibus-libpinyin
 ifplugd
 iftop
 imagemagick
@@ -257,7 +257,6 @@ jdownloader2
 jfsutils
 jhead
 jnettop
-john
 jq
 jupyter
 kdbusaddons
@@ -334,15 +333,14 @@ mousepad
 mplayer
 mtr
 multitail
-munin
 mutt
 mycli
-mygui
 mypy
 mysql-python
 n2n-git
 nali
 nano
+nautilus
 nautilus-pushbullet
 ncurses5-compat-libs
 neovim
@@ -554,6 +552,7 @@ qtqr
 quicksynergy
 ranger
 rarcrack
+rclone
 rdesktop
 recordmydesktop
 redis
@@ -651,6 +650,7 @@ tor
 torsocks
 toxic
 traceroute
+tracker
 transmission-gtk
 transmission-qt
 trash-cli
@@ -689,7 +689,6 @@ util-linux
 uwsgi
 uwsgi-plugin-python
 v2ray
-v4l2loopback-dkms
 vagrant
 vdfuse
 vi
@@ -718,6 +717,7 @@ vim-sensible
 vim-surround
 vim-tagbar
 vim-ultisnips
+vim-vital-git
 vim-youcompleteme-git
 virtualbox
 virtualbox-ext-oracle
@@ -800,7 +800,7 @@ xfce4-whiskermenu-plugin
 xfce4-windowck-plugin
 xfce4-xkb-plugin
 xfconf
-xfdesktop
+xfdesktop-devel
 xfsprogs
 xfwm4
 xfwm4-themes
