@@ -141,6 +141,10 @@ fcitx-qt5
 fcitx-skin-material
 fcitx-sogoupinyin
 fcitx-sunpinyin
+fcitx5-chinese-addons-git
+fcitx5-git
+fcitx5-gtk-git
+fcitx5-qt-git
 fcrackzip
 feh
 ffdec
@@ -182,6 +186,7 @@ gnome-web-photo
 gnu-netcat
 go
 go-mtpfs-git
+gocode-git
 godef-git
 google-breakpad-git
 google-chrome
@@ -607,6 +612,7 @@ sslstrip
 st
 statnot
 strace
+stress-ng
 sublime-text-dev-zh-cn
 sublime-text-imfix
 subversion
@@ -614,6 +620,7 @@ sudo
 swt
 syncthing
 synergy
+sysbench
 sysfsutils
 syslog-ng
 sysstat
