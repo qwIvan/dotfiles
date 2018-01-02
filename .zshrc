@@ -35,7 +35,7 @@ lf() {
 alias less="less -RFXeK"
 unalias c
 c() {
-  unbuffer ccat $@ | less
+  unbuffer ccat --bg=dark $@ | less
 }
 alias tpp="tree --prune -P"
 export CHEATCOLORS=true
