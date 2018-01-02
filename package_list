@@ -14,7 +14,6 @@ alsa-utils
 amule
 android-apktool
 android-platform
-android-sdk
 android-studio
 android-tools
 android-udev
@@ -173,7 +172,6 @@ gdb
 genymotion
 gettext
 ghc
-ghostscript
 gimp
 gimp-help-zh_cn
 git
@@ -334,7 +332,6 @@ mitmproxy
 mlocate
 moka-icon-theme-git
 mongodb
-mono
 mousepad
 mplayer
 mtr
@@ -381,9 +378,7 @@ nutstore
 nvchecker
 oh-my-zsh-git
 openal
-openalpr
 openblas-lapack-git
-opencv
 openexr
 openjpeg2
 openssh
