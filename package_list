@@ -55,6 +55,7 @@ byobu
 bypy-git
 bzip2
 bzr
+cabal-install
 cantarell-fonts
 ccat
 ccze
@@ -610,6 +611,7 @@ sshfs
 sshpass
 sslstrip
 st
+stack
 statnot
 strace
 stress-ng
@@ -734,7 +736,6 @@ vlc
 vulkan-icd-loader
 w3m
 wd719x-firmware
-webkit2gtk
 webstorm
 weechat
 wget

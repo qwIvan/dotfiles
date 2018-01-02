@@ -15,4 +15,4 @@ sudo pdnsd -c "$HOME"/pdnsd_etc.conf &
 sudo chinadns -c "$HOME"/.chnroute -s 127.0.1.1:1212,127.0.0.1:1144 -p 5355 -m &
 ss-redir -c "$HOME"/ss_config.json &
 #sudo ~/adbyby/adbyby &
-greenclip daemon &
+pgrep -f "^greenclip daemon$" || greenclip daemon &

@@ -4,6 +4,7 @@ RUN echo -e '[archlinuxcn]\nServer = http://mirrors.163.com/archlinux-cn/$arch' 
 RUN pacman-key --init
 #RUN pacman -Sy --noconfirm grep gettext archlinuxcn-keyring
 ADD .zshrc /root/
+ADD .base.vimrc /root/
 ADD .vimrc /root/
 ADD package_list .
 RUN pacman -Sy --noconfirm grep gettext archlinuxcn-keyring && \

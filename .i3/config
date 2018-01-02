@@ -278,5 +278,5 @@ exec_always --no-startup-id "~/bin/auto-start"
 
 #gaps outer 0
 #gaps inner 20
-workspace $workspace2 gaps inner 20
+workspace $workspace2 gaps inner 10
 
