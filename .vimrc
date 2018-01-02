@@ -141,8 +141,8 @@ autocmd StdinReadPre * let s:std_in=1
 ":let g:airline_theme='jellybeans'
 ca w!! w !sudo tee %
 set wildmode=longest:full,full
-":inoremap <C-v> <C-r><C-o>+
-":vnoremap <C-c> "+y
+:"inoremap <C-v> <C-r><C-o>+
+:"vnoremap <C-c> "+y
 "set clipboard=unnamed
 source ~/.base.vimrc
 "set clipboard=unnamedplus,unnamed
@@ -152,3 +152,4 @@ source ~/.base.vimrc
 "set smartcase
 "set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 set fileencodings=utf-8,gbk
+nnoremap <C-c> <Esc>:qa<CR>
