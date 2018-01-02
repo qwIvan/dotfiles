@@ -32,8 +32,12 @@ lf() {
   ls -t $@ | head -n 1 | tr -d '\n'
   echo "'"
 }
+alias less="less -RFXeK"
+unalias c
+c() {
+  unbuffer ccat $@ | less
+}
 alias tpp="tree --prune -P"
-alias c=ccat
 export CHEATCOLORS=true
 alias rsync-compare="rsync -ani -vv"
 rsync-compare-into() rsync -aHxi -vv --progress --compare-dest=$2 $1 $3
