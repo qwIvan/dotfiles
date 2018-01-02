@@ -7,7 +7,7 @@ ADD package_list .
 RUN pacman -Sy --noconfirm grep gettext archlinuxcn-keyring && \
       bash -c "comm -23 <(comm -12 <(sort package_list) <(pacman -Slq | sort)) <(pactree -sru xproto | sort) | pacman -S --needed --noconfirm -" && \
 #RUN bash -c "comm -23 <(comm -12 <(sort package_list) <(pacman -Slq | sort)) <(pactree -sru xproto | sort) | pacman -S --needed --noconfirm -" && \
-      rm -rf /var/cache/pacman/pkg/*
+      rm -rf /var/cache/pacman/pkg/* package_list
 #RUN bash -c "pip install -r <(cut -d = -f 1 pip_package_list) --user"
 ADD .zshrc /root/
 ADD .base.vimrc /root/
