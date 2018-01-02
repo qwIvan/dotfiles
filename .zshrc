@@ -95,19 +95,17 @@ bindkey "^P" history-substring-search-up
 bindkey "^N" history-substring-search-down
 bindkey "^F" forward-word
 bindkey "^K" autosuggest-execute
+bindkey "^T" fasd-complete
 #bindkey '`' vi-cmd-mode
 #eval $(thefuck --alias)  # so slow!!
 
 ZSH_AUTOSUGGEST_STRATEGY=match_prev_cmd
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# export DEBFULLNAME="Ivan Wu"
-# export DEBEMAIL="wuyifan@deepin.com"
+#[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+#export FZF_DEFAULT_OPTS="--exact"
 
 autoload -U +X bashcompinit
 bashcompinit
 #source /usr/share/bash-completion/completions/storm
-export FZF_DEFAULT_OPTS="--exact"
 #source /etc/profile.d/android-ndk.sh
