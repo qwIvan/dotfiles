@@ -34,12 +34,19 @@ lf() {
 }
 alias less="less -RFXeK"
 unalias c
+le() {
+  unbuffer $@ | less
+}
 c() {
   if [[ -t 1 ]]; then
-    unbuffer ccat --bg=dark $@ | less
+    le ccat --bg=dark $@
   else
     cat $@
   fi
+}
+unalias pareps
+pareps() {
+  le pacaur -Ss $@
 }
 alias tpp="tree --prune -P"
 export CHEATCOLORS=true
