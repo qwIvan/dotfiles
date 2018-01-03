@@ -32,7 +32,7 @@ lf() {
   ls -t $@ | head -n 1 | tr -d '\n'
   echo "'"
 }
-alias less="less -RFXeK"
+export LESS="-RFXeKi"
 unalias c
 le() {
   unbuffer $@ | less

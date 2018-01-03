@@ -433,6 +433,7 @@ poppler-glib
 postgresql
 postgresql-old-upgrade
 powerdns
+powerpill
 powertop
 pptpclient
 pptpd

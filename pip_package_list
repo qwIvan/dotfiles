@@ -144,6 +144,7 @@ matplotlib==2.1.1
 mccabe==0.6.1
 meetup-api==0.1.1
 meld==3.18.0
+MemoizeDB==2017.3.30.23.38.49
 mistune==0.8.1
 mitmproxy==2.0.2
 mock==2.0.0
@@ -199,7 +200,9 @@ pkginfo==1.4.1
 pluggy==0.6.0
 plumbum==1.6.3
 ply==3.10
+pm2ml==2017.11.27.0.21.37
 polib==1.0.8
+Powerpill==2017.11.27.0.36.18
 prompt-toolkit==1.0.15
 psd-tools==1.4
 psutil==5.4.1
@@ -269,6 +272,7 @@ queuelib==1.4.2
 ranger==1.8.1
 readability-lxml==0.6.1
 redis==2.10.6
+Reflector==2017.11.26.21.59.10
 regex==2017.7.28
 requests==2.18.4
 requests-file==1.4.2
@@ -346,6 +350,8 @@ wtf-peewee==0.2.6
 WTForms==2.1
 wxpy==0.3.9.8
 xcffib==0.5.1
+XCGF==2017.3.10.23.45.54
+XCPF==2017.12.31.4.49.20
 xdot==0.7
 xonsh==0.6.0
 xtea==0.4.1
