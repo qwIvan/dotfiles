@@ -16,6 +16,7 @@ async-timeout==2.0.0
 attrs==17.4.0
 Automat==0.6.0
 autopep8==1.3.3
+Babel==2.5.1
 backports.csv==1.0.5
 bcc===0.5.0-82ef5a0d
 bcrypt==3.1.4
@@ -55,6 +56,7 @@ curtsies==0.2.11
 cycler==0.10.0
 Cython==0.27.3
 dateparser==0.6.0
+debtcollector==1.19.0
 decorator==4.1.2
 dill==0.2.6
 Django==1.11.2
@@ -171,6 +173,7 @@ oauth2client==4.1.2
 oauthlib==2.0.3
 olefile==0.44
 openpyxl==2.4.9
+oslo.i18n==3.19.0
 packaging==16.8
 PacVis==0.2.0
 pandas==0.21.0
@@ -272,6 +275,7 @@ requests-file==1.4.2
 requests-ftp==0.3.1
 requests-oauthlib==0.8.0
 requests-toolbelt==0.8.0
+rfc3986==1.1.0
 rpyc==3.4.0
 rsa==3.4.2
 ruamel.yaml==0.15.35
@@ -294,6 +298,7 @@ speedtest-cli==1.0.7
 SQLAlchemy==1.1.15
 sqlparse==0.2.0
 statscounter==0.0.10
+stevedore==1.28.0
 stormssh==0.6.9
 syntax-sugar==0.2.2
 syslogng==1.0

@@ -73,6 +73,7 @@ conky
 coreutils
 cpio
 create_ap
+crudini
 cryptsetup
 cscope
 cups
@@ -241,6 +242,7 @@ imgur.sh
 imgurbash2
 imlib2
 inetutils
+ini-git
 insync-thunar
 intel-opencl-runtime
 intellij-idea-ultimate-edition
