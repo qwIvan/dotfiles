@@ -44,10 +44,7 @@ c() {
     cat $@
   fi
 }
-unalias pareps
-pareps() {
-  le pacaur -Ss $@
-}
+alias pareps="le pacaur -Ss"
 alias tpp="tree --prune -P"
 export CHEATCOLORS=true
 alias rsync-compare="rsync -ani -vv"
