@@ -311,6 +311,7 @@ lshw
 lsof
 lvm2
 lxappearance
+lynx
 m4
 magnet2torrent-git
 maim
@@ -335,6 +336,7 @@ mitmproxy
 mlocate
 moka-icon-theme-git
 mongodb
+most
 mousepad
 mplayer
 mtr
@@ -407,6 +409,7 @@ pdnsd
 peek
 pelican
 percol
+perf-tools
 perl
 perl-anyevent-i3
 perl-file-mimeinfo
@@ -659,6 +662,7 @@ torsocks
 toxic
 traceroute
 tracker
+translate-shell
 transmission-gtk
 transmission-qt
 trash-cli
