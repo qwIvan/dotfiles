@@ -38,7 +38,7 @@ bindsym $mod+x kill
 bindsym $mod+D exec "rofi -show combi -combi-modi drun,run"
 bindsym $mod+T exec "rofi -show window"
 bindsym $mod+O exec fasd -ldR | rofi -dmenu -p open: | xargs -r exo-open --launch TerminalEmulator --working-directory
-bindsym $mod+I exec fasd -lfR | rofi -dmenu -p edit: | xargs -ir terminology -e "vim {}"
+bindsym $mod+I exec fasd -lfR | rofi -dmenu -p edit: | xargs -r -i terminology -e "vim {}"
 bindsym $mod+c exec rofi -modi "clipboard:greenclip print" -show clipboard
 
 # change focus
