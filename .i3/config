@@ -38,7 +38,8 @@ bindsym $mod+x kill
 bindsym $mod+D exec "rofi -show combi -combi-modi drun,run"
 bindsym $mod+T exec "rofi -show window"
 bindsym $mod+O exec fasd -ldR | rofi -dmenu -p open: | xargs -r exo-open --launch TerminalEmulator --working-directory
-bindsym $mod+I exec fasd -lfR | rofi -dmenu -p edit: | xargs -r terminology -e vim
+bindsym $mod+I exec fasd -lfR | rofi -dmenu -p edit: | xargs -ir terminology -e "vim {}"
+bindsym $mod+c exec rofi -modi "clipboard:greenclip print" -show clipboard
 
 # change focus
 #bindsym $mod+j focus left
@@ -205,7 +206,6 @@ bindsym $mod+Escape exec synclient -l | grep "TouchpadOff .*=.*0" && synclient T
 bindsym $mod+Control+m move scratchpad
 bindsym $mod+m scratchpad show
 bindsym $mod+F1 exec systemctl suspend
-bindsym $mod+c exec rofi -modi "clipboard:greenclip print" -show clipboard
 
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
 bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
