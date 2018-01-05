@@ -32,6 +32,7 @@ autoconf
 automake
 autopep8
 autorandr-git
+avidemux-qt
 awesome
 axel
 b43-fwcutter
@@ -174,6 +175,7 @@ gdb
 genymotion
 gettext
 ghc
+gifsicle-lossy
 gimp
 gimp-help-zh_cn
 git
@@ -343,6 +345,7 @@ mtr
 multitail
 mutt
 mycli
+mypaint
 mypy
 mysql-python
 n2n-git
@@ -571,6 +574,7 @@ remmina
 repo
 ripgrep
 ristretto
+rlwrap
 rofi
 rslsync
 rsync
@@ -593,6 +597,7 @@ shadowsocks
 shadowsocks-libev
 shadowvpn-git
 sharutils
+shotwell
 shub-bin
 shutter
 siege

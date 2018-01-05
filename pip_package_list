@@ -18,7 +18,7 @@ Automat==0.6.0
 autopep8==1.3.3
 Babel==2.5.1
 backports.csv==1.0.5
-bcc===0.5.0-82ef5a0d
+bcc===0.5.0-484e5253
 bcrypt==3.1.4
 beautifulsoup4==4.6.0
 bleach==2.0.0
@@ -55,6 +55,7 @@ cssutils==1.0.2
 curtsies==0.2.11
 cycler==0.10.0
 Cython==0.27.3
+dae==0.1
 dateparser==0.6.0
 debtcollector==1.19.0
 decorator==4.1.2
@@ -135,6 +136,7 @@ keyring==10.5.1
 keyrings.alt==2.3
 keyutils==0.5
 lazy-object-proxy==1.3.1
+lensfun==0.3.2
 libextract==0.0.12
 louis==3.4.0
 lxml==4.1.1
@@ -311,7 +313,7 @@ termcolor==1.1.0
 terminado==0.8.1
 terminaltables==3.1.0
 testpath==0.3
-texttable==1.1.1
+texttable==1.2.1
 thefuck==3.25
 tldextract==2.1.0
 tornado==4.5.2
@@ -341,7 +343,7 @@ watson-developer-cloud==0.26.1
 wcwidth==0.1.7
 webcolors==1.7
 webencodings==0.5.1
-websocket-client==0.45.0
+websocket-client==0.46.0
 websockets==4.0.1
 Werkzeug==0.13
 widgetsnbextension==2.0.0
@@ -359,5 +361,5 @@ yapf==0.20.0
 yarg==0.1.9
 yarl==0.16.0
 you-get==0.4.1011
-youtube-dl==2017.12.23
+youtube-dl==2017.12.31
 zope.interface==4.4.3
