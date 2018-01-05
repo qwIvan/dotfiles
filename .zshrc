@@ -44,6 +44,9 @@ c() {
     cat $@
   fi
 }
+aur() {
+  chrome https://aur.archlinux.org/packages/$1
+}
 alias pareps="le pacaur -Ss"
 alias tpp="tree --prune -P"
 export CHEATCOLORS=true

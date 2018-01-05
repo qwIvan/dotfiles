@@ -86,6 +86,7 @@ Plug 'devjoe/vim-codequery'
 Plug 'rking/ag.vim'
 Plug 'ap/vim-css-color'
 Plug 'chrisbra/csv.vim'
+Plug 'WolfgangMehner/awk-support'
 call plug#end()
 
 
