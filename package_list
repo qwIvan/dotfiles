@@ -248,6 +248,7 @@ ini-git
 insync-thunar
 intel-opencl-runtime
 intellij-idea-ultimate-edition
+interrobang-git
 iotop
 iperf
 iperf3
@@ -672,6 +673,7 @@ transmission-gtk
 transmission-qt
 trash-cli
 tree
+trizen
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -759,6 +761,7 @@ winetricks
 wireshark-common
 wireshark-gtk
 wireshark-gtk2
+wireshark-qt
 wkhtmltopdf
 wmctrl
 woeusb-git
