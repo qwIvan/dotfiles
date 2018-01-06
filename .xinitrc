@@ -9,4 +9,5 @@ export RUBYMINE_JDK=$TUXJDK
 export PYCHARM_JDK=$TUXJDK
 export GOPATH=~/go
 export PATH=$TUXJDK/bin:$PATH
+QT_QPA_PLATFORMTHEME=gtk2
 exec i3
