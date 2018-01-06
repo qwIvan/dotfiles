@@ -7,6 +7,8 @@ adb-sync-git
 adblock2privoxy
 adobe-source-code-pro-fonts
 adobe-source-han-sans-otc-fonts
+adwaita-qt4
+adwaita-qt5
 aic94xx-firmware
 aircrack-ng
 aliedit
@@ -50,6 +52,9 @@ bison
 boost
 bower
 bpython
+breeze
+breeze-gtk
+breeze-kde4
 busybox
 byobu
 bypy-git
@@ -206,6 +211,7 @@ groff
 grub
 grunt-cli
 gtk-theme-arc-git
+gtk-theme-switch2
 gtk-xfce-engine
 gtkdialog
 gtksourceview2
@@ -760,7 +766,6 @@ wine_gecko
 winetricks
 wireshark-common
 wireshark-gtk
-wireshark-gtk2
 wireshark-qt
 wkhtmltopdf
 wmctrl
