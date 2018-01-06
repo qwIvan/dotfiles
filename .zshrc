@@ -15,18 +15,18 @@ source ~/alias-tips/alias-tips.plugin.zsh
 for z in `ls /usr/share/zsh/plugins/*/*.zsh`;do
   source $z
 done
-i() curl ip.cn/$1
+i () curl ip.cn/$1
 alias sudo='sudo '
 alias _='sudo '
 alias tree="tree -C"
-transfer() {
+transfer () {
   # write to output to tmpfile because of progress bar
   tmpfile=$( mktemp -t transferXXX )
   curl --progress-bar --upload-file $1 https://transfer.sh/$(basename $1) >> $tmpfile;
   cat $tmpfile;
   rm -f $tmpfile;
 }
-lf() {
+lf () {
   echo -n "'"
   test -z $@ || echo -n $@/
   ls -t $@ | head -n 1 | tr -d '\n'
@@ -34,18 +34,18 @@ lf() {
 }
 export LESS="-RFXeKi"
 unalias c
-le() {
+le () {
   unbuffer $@ | less
 }
-c() {
+c () {
   if [[ -t 1 ]]; then
     le ccat --bg=dark $@
   else
     cat $@
   fi
 }
-aur() {
-  chrome https://aur.archlinux.org/packages/$1
+pkg () {
+	pacman -Si $1 2> /dev/null | head -n 1 | grep -Po '(?<=:\s).*' | xargs -i google-chrome-stable https://www.archlinux.org/packages/{}/x86_64/$1/ | xargs test || google-chrome-stable https://aur.archlinux.org/packages/$1 > /dev/null
 }
 alias pareps="le pacaur -Ss"
 alias tpp="tree --prune -P"
@@ -67,6 +67,7 @@ alias sumi="awk '{s+=\$1} END {print s}'"
 alias ips="sudo iptables -t"
 alias ipsm="sudo iptables -t mangle -L -n --line-numbers"
 alias ipsn="sudo iptables -t nat -L -n --line-numbers"
+alias chrome=google-chrome-stable
 alias -g A1="| awk \"{print \\\$1}\""
 alias -g A2="| awk \"{print \\\$2}\""
 alias -g A3="| awk \"{print \\\$3}\""
@@ -81,12 +82,12 @@ alias -g SL="| tr ' ' '\n'"
 alias -g G="| grep -iP"
 unalias ping
 unalias gm
-tcb() {
+tcb () {
   tldr $1
   cheat $1
   bro $1
 }
-fiy() {
+fiy () {
   fanyi $1
   ici $1
   yd $1
