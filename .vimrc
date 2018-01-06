@@ -153,5 +153,5 @@ source ~/.base.vimrc
 "set smartcase
 "set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 set fileencodings=utf-8,gbk
-noremap <C-c><C-c> <Esc>:qa<CR>
-noremap <C-c><CR> <Esc>:xa<CR>
+noremap <C-c> <Esc>:qa<CR>
+noremap <C-c><CR> <Esc>:qa!<CR>
