@@ -5,7 +5,7 @@ RUN pacman-key --init
 ADD package_list .
 RUN pacman -Syu --noconfirm grep awk archlinuxcn-keyring && \
       bash -c "comm -23 <(comm -12 <(sort package_list) <(pacman -Slq | sort)) <(pactree -sru xproto | sort) > /tmp/tmplist && \
-      comm -23 /tmp/tmplist <(pacman -Fyl - < /tmp/tmplist | grep 'usr/share/applications/.*\.desktop$' | cut -d \  -f 1 | uniq | LANGUAGE=en_US.UTF-8 pacman -Si - | grep '^Name\|^Installed Size.*MiB$' | grep -B 1 '^Installed Size.*MiB$' | grep -v '\-\-' | tr '\n' '\t' | xargs -n 8 echo | awk '{print \$7,\$3}' | cat - <(echo 32) | sort -h | sed '1,/^32$/d' | cut -d \  -f 2 | sort) | pacman -S --needed --noconfirm -" && \
+      comm -23 /tmp/tmplist <(pacman -Fyl - < /tmp/tmplist | grep 'usr/share/applications/.*\.desktop$' | cut -d \  -f 1 | uniq | LANGUAGE=en_US.UTF-8 pacman -Si - | grep '^Name\|^Installed Size.*MiB$' | grep -B 1 '^Installed Size.*MiB$' | grep -v '\-\-' | tr '\n' '\t' | xargs -n 8 echo | awk '{print \$7,\$3}' | cat - <(echo 32) | sort -h | sed '1,/^32$/d' | cut -d \  -f 2 | sort) | sed '/^linux$\|^linux-headers$/d'| pacman -S --needed --noconfirm -" && \
       rm -rf /var/cache/pacman/pkg/* package_list /tmp/tmplist
 #RUN bash -c "pip install -r <(cut -d = -f 1 pip_package_list) --user"
 ADD .zshrc /root/
