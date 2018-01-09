@@ -1,3 +1,4 @@
+set rtp^=/usr/share/vim/vimfiles/
 let g:mapleader=","
 call plug#begin('~/.vim/plugged')
 "Plug 'VundleVim/Vundle.vim'
