@@ -499,6 +499,7 @@ python-jsbeautifier
 python-lxml
 python-matplotlib
 python-multidict-git
+python-neovim
 python-netaddr
 python-numexpr
 python-numpy
