@@ -120,6 +120,7 @@ e2fsprogs
 efibootmgr
 efl-docs
 elasticsearch
+emacs
 emmet-vim-git
 enet
 enlightenment
@@ -180,6 +181,7 @@ gdb
 genymotion
 gettext
 ghc
+ghc7.10-bin
 gifsicle-lossy
 gimp
 gimp-help-zh_cn
@@ -383,6 +385,7 @@ nodejs-psdinfo
 nodejs-tldr
 nodejs-vim-debugger
 nodejs-vue-cli
+nodejs-webpack
 noto-fonts-cjk
 ntfs-3g
 ntfy-git
