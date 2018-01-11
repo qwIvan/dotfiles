@@ -63,7 +63,7 @@ alias x=extract
 alias ls="ls -rhtc --color=auto"
 alias l="ls -Flrahtc --color=auto"
 alias axel="axel -a"
-alias e="nvim"
+alias e="vim"
 alias pacfl="pacman -Ql"
 alias pacown="pacman -Qo"
 alias plunt="sudo netstat -plunt"
@@ -114,6 +114,7 @@ for p in `echo ~/.gem/ruby/*/bin`;do
 done
 export VISUAL="vim"
 export EDITOR="vim"
+export PYTHONSTARTUP=~/.pythonstartup.py
 bindkey "^P" history-substring-search-up
 bindkey "^N" history-substring-search-down
 bindkey "^F" forward-word
