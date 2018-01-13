@@ -355,7 +355,6 @@ multitail
 mutt
 mycli
 mypaint
-mypy
 mysql-python
 n2n-git
 nali
@@ -497,7 +496,6 @@ python-httptools
 python-ipdb
 python-ipwhois
 python-jieba
-python-js2py
 python-jsbeautifier
 python-lxml
 python-matplotlib

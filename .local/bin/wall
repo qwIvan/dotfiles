@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#自动翻墙脚本，配合shadowsocks-libev的ss-redir使用。需要ipset
+#TODO 整合ss-redir命令和chinadns命令
+
+#一键编译安装脚本，shadowsocks-libev和chinadns从源码安装，避免被墙
+#github的repo链接两个项目
+#检测apt-get，yum，pacman，若不可用则从源码安装iptables和ipset
+
+chnroute_file=~/.chnroute
+sudo ipset create chnroute hash:net -exist
+sudo cat $chnroute_file | sudo xargs -I ip ipset add chnroute ip -exist
+sudo cat ~/.iptables-rules | sudo iptables-restore
+curl 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > $chnroute_file.bak
+if [[ ! -s $chnroute_file.bak ]]; then
+  exit 12345
+fi
+echo "127.0.0.1/24" >> $chnroute_file.bak
+cp -f $chnroute_file.bak $chnroute_file

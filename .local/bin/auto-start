@@ -1,0 +1,18 @@
+#!/bin/sh
+HOME=/home/ivan
+"$HOME"/bin/wall &
+"$HOME"/bin/switch-wallpaper -W 3286 &
+#setxkbmap -option ctrl:swapcaps -option altwin:swap_lalt_lwin &
+sudo ntpd -gq && sudo hwclock -w &
+
+pgrep "^chrome$" || google-chrome-stable &
+pgrep "^compton$" || compton --shadow-exclude 'class_g = "Sogou-qimpanel"' --shadow-exclude 'class_g = "Wine"' --shadow-exclude 'class_g = "netease-cloud-music"' &
+fcitx &
+#ss-tunnel -c "$HOME"/ss_config.json -u -l 5566 -L 8.8.8.8:53 -b 127.0.1.1&
+#sudo pdnsd -c "$HOME"/parent_pdnsd.conf &
+#sudo pdnsd -c "$HOME"/pdnsd.conf &
+sudo pdnsd -c "$HOME"/pdnsd_etc.conf &
+sudo chinadns -c "$HOME"/.chnroute -s 127.0.1.1:1212,127.0.0.1:1144 -p 5355 -m &
+ss-redir -c "$HOME"/ss_config.json &
+#sudo ~/adbyby/adbyby &
+pgrep -f "^greenclip daemon$" || greenclip daemon &
