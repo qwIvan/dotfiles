@@ -113,6 +113,7 @@ done
 export VISUAL="vim"
 export EDITOR="vim"
 export PYTHONSTARTUP=~/.pythonstartup.py
+export GPG_TTY=$(tty)
 bindkey "^P" history-substring-search-up
 bindkey "^N" history-substring-search-down
 bindkey "^F" forward-word

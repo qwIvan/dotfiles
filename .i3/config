@@ -273,7 +273,7 @@ for_window [window_role="pop-up"] floating enable
 for_window [class="TelegramDesktop"] border none
 
 
-exec_always --no-startup-id "~/bin/auto-start" 
+exec_always --no-startup-id "~/.local/bin/auto-start"
 
 
 #gaps outer 0
