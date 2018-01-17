@@ -55,6 +55,7 @@ bpython
 breeze
 breeze-gtk
 breeze-kde4
+browserify
 busybox
 byobu
 bypy-git
@@ -275,6 +276,7 @@ jdownloader2
 jfsutils
 jhead
 jnettop
+jpegoptim
 jq
 jupyter
 kdbusaddons
@@ -375,6 +377,7 @@ netpbm
 networkmanager
 nfs-utils
 nginx
+ngrep
 nload
 nmap
 nodejs-hexo-cli
