@@ -1,7 +1,6 @@
 #!/bin/sh
-HOME=/home/ivan
-"$HOME"/bin/wall &
-"$HOME"/bin/switch-wallpaper -W 3286 &
+wall &
+switch-wallpaper -W 3286 &
 #setxkbmap -option ctrl:swapcaps -option altwin:swap_lalt_lwin &
 sudo ntpd -gq && sudo hwclock -w &
 
