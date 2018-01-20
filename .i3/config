@@ -40,6 +40,7 @@ bindsym $mod+T exec "rofi -show window"
 bindsym $mod+O exec fasd -ldR | rofi -dmenu -p open: | xargs -r exo-open --launch TerminalEmulator --working-directory
 bindsym $mod+I exec fasd -lfR | rofi -dmenu -p edit: | xargs -r -i terminology -e "vim {}"
 bindsym $mod+c exec rofi -modi "clipboard:~/.i3/clip.bash" -show clipboard 2>&1 | grep '^0$' || xdotool key Shift+Insert
+bindsym $mod+Y exec greenclip print | head -n 1 | trans -b | xargs -0 notify-send
 
 # change focus
 #bindsym $mod+j focus left
