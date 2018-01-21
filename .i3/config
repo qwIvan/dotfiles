@@ -102,7 +102,7 @@ bindsym $mod+a focus parent
 
 set $workspace1 "1. Browser"
 set $workspace2 "2. Terminal"
-set $workspace3 "3. Code"
+set $workspace3 "3. Editor"
 set $workspace4 "4. Doc"
 set $workspace5 "5. Chat"
 
