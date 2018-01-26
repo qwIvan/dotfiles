@@ -75,7 +75,7 @@ bindsym $mod+Control+Up move up
 bindsym $mod+Control+Right move right
 
 # split in horizontal orientation
-bindsym $mod+semicolon split h 
+bindsym $mod+semicolon split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -191,10 +191,8 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym Shift+XF86MonBrightnessUp exec xbacklight -inc 1
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 bindsym Shift+XF86MonBrightnessDown exec xbacklight -dec 1
-bindsym $mod+F5 exec xbacklight -inc 10
-bindsym Shift+$mod+F5 exec xbacklight -inc 1
-bindsym $mod+F4 exec xbacklight -dec 10
-bindsym Shift+$mod+F4 exec xbacklight -dec 1
+bindsym $mod+F5 exec xbacklight -inc 1
+bindsym $mod+F4 exec xbacklight -dec 1
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
