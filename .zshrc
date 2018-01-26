@@ -63,7 +63,7 @@ alias x=extract
 alias ls="ls -rhtc --color=auto"
 alias l="ls -Flrahtc --color=auto"
 alias axel="axel -a"
-alias e="vim"
+alias e="gvim"
 alias pacfl="pacman -Ql"
 alias pacown="pacman -Qo"
 alias plunt="sudo netstat -plunt"
@@ -107,7 +107,7 @@ export PATH=$PATH:/usr/bin/vendor_perl/
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:/usr/lib/w3m/
 export PATH=$PATH:/usr/share/bcc/tools/
-for p in `echo ~/.gem/ruby/*/bin`;do
+for p in ~/.gem/ruby/*/bin;do
   PATH=$p:$PATH
 done
 export VISUAL="vim"
