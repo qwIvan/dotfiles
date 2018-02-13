@@ -16,6 +16,7 @@ alsa-utils
 amule
 android-apktool
 android-platform
+android-sdk-build-tools
 android-studio
 android-tools
 android-udev
@@ -26,7 +27,7 @@ apcupsd
 arandr
 arch-install-scripts
 archlinuxcn-keyring
-aria2-fast
+aria2
 arm
 atomicparsley
 aurvote
@@ -46,6 +47,7 @@ bash
 bash-completion
 bashmount
 bcc-tools-git
+bettercap
 bin86
 bind-tools
 bison
@@ -224,6 +226,7 @@ gunicorn
 gvim
 gyp
 gzip
+haproxy
 haskell-base-prelude
 haskell-parsec
 haveged
@@ -351,6 +354,7 @@ mitmproxy
 mlocate
 moka-icon-theme-git
 mongodb
+mosh
 most
 mousepad
 mplayer
@@ -543,6 +547,7 @@ python-socketio
 python-stormssh
 python-telegram-bot
 python-termcolor
+python-toposort
 python-tox
 python-twisted
 python-ujson
@@ -550,6 +555,7 @@ python-urwidtrees
 python-w3lib
 python-websockets
 python-xlib
+python2-bcc-git
 python2-docopt
 python2-future
 python2-google-api-python-client
