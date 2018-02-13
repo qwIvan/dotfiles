@@ -175,7 +175,7 @@ bindsym $mod+Control+e exec "i3-nagbar -t warning -m 'You pressed the exit short
 #bindsym Print exec scrot 'screenshot/%Y-%m-%d-%H%M%S_$wx$h_scrot.png' -e 'xclip -sel clip -t image/png $f && ~/bin/b file $f'
 #bindsym --release Shift+Print exec scrot -s 'screenshot/%Y-%m-%d-%H%M%S_$wx$h_scrot.png' -e 'xclip -sel clip -t image/png $f && ~/bin/b file $f'
 #bindsym Mod1+Sys_Req exec scrot -u 'screenshot/%Y-%m-%d-%H%M%S_$wx$h_scrot.png' -e 'xclip -sel clip -t image/png $f && ~/bin/b file $f'
-bindsym Print exec export f=screenshot/`date +%Y-%m-%d-%H:%M:%S`.png && deepin-screenshot -ns $f && xclip -sel clip -t image/png $f && ~/bin/b file $f
+bindsym Print exec export f=screenshot/`date +%Y-%m-%d-%H:%M:%S`.png && deepin-screenshot -ns $f && xclip -sel clip -t image/png $f && ~/.local/bin/b file $f
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +10% && pkill -RTMIN+10 i3blocks
 bindsym Shift+XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +1% && pkill -RTMIN+10 i3blocks
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -10% && pkill -RTMIN+10 i3blocks
