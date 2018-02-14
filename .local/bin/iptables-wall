@@ -5,6 +5,8 @@
 chnroute_file=~/.chnroute
 sudo ipset create chnroute hash:net -exist
 sudo cat $chnroute_file | sudo xargs -I ip ipset add chnroute ip -exist
+sudo ip route add local default dev lo table 100
+sudo ip rule add fwmark 1 lookup 100
 sudo cat ~/.iptables-rules | sudo iptables-restore
 curl 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > $chnroute_file.bak
 if [[ ! -s $chnroute_file.bak ]]; then
