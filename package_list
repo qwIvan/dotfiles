@@ -194,6 +194,7 @@ git
 glade
 glibc
 gnash-git
+gngeo-git
 gnome-multi-writer
 gnome-panel
 gnome-power-manager
@@ -572,6 +573,7 @@ python2-twisted
 python2-xlib
 pywebkitgtk
 qemu
+qmc2
 qt5-graphicaleffects
 qt5-quickcontrols
 qt5-styleplugins
@@ -612,6 +614,7 @@ scrapy
 screen
 screenfetch
 scrot
+sdlmame
 sed
 shadow
 shadowsocks
@@ -751,8 +754,8 @@ which
 whippet
 whois
 wifiphisher
+wine
 wine-mono
-wine-staging
 wine_gecko
 winetricks
 wireshark-common
