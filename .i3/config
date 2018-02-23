@@ -181,11 +181,11 @@ bindsym Shift+XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -10% && pkill -RTMIN+10 i3blocks
 bindsym Shift+XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -1% && pkill -RTMIN+10 i3blocks
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle && pkill -RTMIN+10 i3blocks
-bindsym $mod+F8 exec --no-startup-id pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo +10% && pkill -RTMIN+10 i3blocks
-bindsym Shift+$mod+F8 exec --no-startup-id pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo +1% && pkill -RTMIN+10 i3blocks
-bindsym $mod+F7 exec --no-startup-id pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo -10% && pkill -RTMIN+10 i3blocks
-bindsym Shift+$mod+F7 exec --no-startup-id pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo -1% && pkill -RTMIN+10 i3blocks
-bindsym $mod+F6 exec --no-startup-id pactl set-sink-mute alsa_output.pci-0000_00_1b.0.analog-stereo toggle && pkill -RTMIN+10 i3blocks
+bindsym $mod+F8 exec --no-startup-id pactl set-sink-volume 0 +10% && pkill -RTMIN+10 i3blocks
+bindsym Shift+$mod+F8 exec --no-startup-id pactl set-sink-volume 0 +1% && pkill -RTMIN+10 i3blocks
+bindsym $mod+F7 exec --no-startup-id pactl set-sink-volume 0 -10% && pkill -RTMIN+10 i3blocks
+bindsym Shift+$mod+F7 exec --no-startup-id pactl set-sink-volume 0 -1% && pkill -RTMIN+10 i3blocks
+bindsym $mod+F6 exec --no-startup-id pactl set-sink-mute 0 toggle && pkill -RTMIN+10 i3blocks
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym Shift+XF86MonBrightnessUp exec xbacklight -inc 1
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
