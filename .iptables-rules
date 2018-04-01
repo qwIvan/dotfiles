@@ -99,6 +99,5 @@ COMMIT
 -A SHADOWTABLES -d 103.1.153.163/32 -j RETURN
 -A SHADOWTABLES -m set --match-set chnroute dst -j RETURN
 -A SHADOWTABLES -p udp -m udp --dport 53 -j MARK --set-xmark 0x1/0xffffffff
--A SHADOWTABLES -p udp -m udp --dport 53 -j MARK --set-xmark 0x1/0xffffffff
 COMMIT
 # Completed on Tue Feb 27 23:04:06 2018
