@@ -1,4 +1,13 @@
-import os, sys
-def r(*args, **kwargs):
-    with open(*args, **kwargs) as f:
-        return f.read()
+import os
+import sys
+import json
+import requests
+import datetime
+import pickle
+import glob
+import re
+import yaml
+from sh import cat, cd, ls
+from functools import lru_cache, reduce
+from pprint import pprint
+from bs4 import BeautifulSoup
