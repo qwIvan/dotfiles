@@ -1,3 +1,4 @@
+import random
 import logging
 import os
 import sys
@@ -7,6 +8,9 @@ import datetime
 import pickle
 import glob
 import re
+import base64
+import subprocess
+import threading
 try:
     from sh import cat, cd, ls
     from functools import lru_cache, reduce
@@ -14,3 +18,6 @@ try:
 except:
     pass
 from pprint import pprint
+if 'DJANGO_SETTINGS_MODULE' in os.environ:
+    from django import setup
+    setup()
