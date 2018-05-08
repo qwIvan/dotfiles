@@ -54,6 +54,9 @@ loop () {
     sleep 1
   done
 }
+e () {
+    sudo -u `stat -c %U $1` vim $@
+}
 alias pareps="le pacaur -Ss"
 alias tpp="tree --prune -P"
 export CHEATCOLORS=true
@@ -63,7 +66,6 @@ alias x=extract
 alias ls="ls -rhtc --color=auto"
 alias l="ls -Flrahtc --color=auto"
 alias axel="axel -a"
-alias e="gvim"
 alias pacfl="pacman -Ql"
 alias pacown="pacman -Qo"
 alias plunt="sudo netstat -plunt"
@@ -107,9 +109,9 @@ export PATH=$PATH:/usr/bin/vendor_perl/
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:/usr/lib/w3m/
 export PATH=$PATH:/usr/share/bcc/tools/
-for p in ~/.gem/ruby/*/bin;do
-  PATH=$p:$PATH
-done
+#for p in ~/.gem/ruby/*/bin;do
+#  PATH=$p:$PATH
+#done
 export VISUAL="vim"
 export EDITOR="vim"
 export PYTHONSTARTUP=~/.pythonstartup.py
