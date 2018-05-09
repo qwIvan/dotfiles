@@ -58,7 +58,7 @@ e () {
     if [ -f $1 ]; then
         sudo -u $(stat -c %U $1) vim $@
     elif [ ! -w $(dirname $1) ]; then
-        sudo -u $(stat -c %U ) vim $@
+        sudo -u $(stat -c %U) vim $@
     else
         vim $@
     fi
