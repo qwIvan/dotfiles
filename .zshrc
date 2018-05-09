@@ -55,7 +55,13 @@ loop () {
   done
 }
 e () {
-    sudo -u `stat -c %U $1` vim $@
+    if [ -f $1 ]; then
+        sudo -u $(stat -c %U $1) vim $@
+    elif [ ! -w $(dirname $1) ]; then
+        sudo -u $(stat -c %U ) vim $@
+    else
+        vim $@
+    fi
 }
 alias pareps="le pacaur -Ss"
 alias tpp="tree --prune -P"
