@@ -55,7 +55,9 @@ loop () {
   done
 }
 e () {
-    if [ -f $1 ]; then
+    if [ -z $1 ]; then
+        vim
+    elif [ -f $1 ]; then
         sudo -u $(stat -c %U $1) vim $@
     elif [ ! -w $(dirname $1) ]; then
         sudo -u $(stat -c %U) vim $@
