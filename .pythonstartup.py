@@ -13,6 +13,7 @@ import subprocess
 import threading
 import itertools
 import functools
+import collections
 try:
     from sh import cat, cd, ls
     from bs4 import BeautifulSoup
