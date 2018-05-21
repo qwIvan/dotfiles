@@ -11,9 +11,10 @@ import re
 import base64
 import subprocess
 import threading
+import itertools
+import functools
 try:
     from sh import cat, cd, ls
-    from functools import lru_cache, reduce
     from bs4 import BeautifulSoup
 except:
     pass
