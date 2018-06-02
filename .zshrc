@@ -37,13 +37,13 @@ unalias c
 le () {
   unbuffer $@ | less
 }
-c () {
-  if [[ -t 1 ]]; then
-    le ccat --bg=dark $@
-  else
-    cat $@
-  fi
-}
+#c () {
+#  if [[ -t 1 ]]; then
+#    le ccat --bg=dark $@
+#  else
+#    cat $@
+#  fi
+#}
 pkg () {
 	pacman -Si $1 2> /dev/null | head -n 1 | grep -Po '(?<=:\s).*' | xargs -i google-chrome-stable https://www.archlinux.org/packages/{}/x86_64/$1/ | xargs test || google-chrome-stable https://aur.archlinux.org/packages/$1 > /dev/null
 }
@@ -65,6 +65,7 @@ e () {
         vim $@
     fi
 }
+alias c=/bin/bat
 alias pareps="le pacaur -Ss"
 alias tpp="tree --prune -P"
 export CHEATCOLORS=true
@@ -110,7 +111,7 @@ fiy () {
   yd $1
   trans $1
 }
-export PATH=$PATH:~/.local/bin
+export PATH=~/.local/bin:$PATH
 export PATH=$PATH:/usr/bin/core_perl
 #export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=$PATH:/usr/bin/vendor_perl/
