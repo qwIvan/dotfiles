@@ -16,3 +16,4 @@ docker
 lsof
 git
 autoconf
+gcc
