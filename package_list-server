@@ -17,3 +17,5 @@ lsof
 git
 autoconf
 gcc
+ipython
+ptpython
