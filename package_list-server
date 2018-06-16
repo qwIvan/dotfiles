@@ -15,7 +15,6 @@ npm
 docker
 lsof
 git
-autoconf
 gcc
 ipython
 ptpython
