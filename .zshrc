@@ -143,3 +143,5 @@ autoload -U +X bashcompinit
 bashcompinit
 #source /usr/share/bash-completion/completions/storm
 #source /etc/profile.d/android-ndk.sh
+export MAKEFLAGS="-j8"
+export XZ_DEFAULTS="--threads 0"
