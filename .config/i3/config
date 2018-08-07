@@ -25,7 +25,6 @@ floating_modifier $mod
 
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
-#bindsym $mod+Return exec terminology
 bindsym $mod+Return exec xfce4-terminal
 
 # kill focused window
@@ -39,8 +38,8 @@ bindsym $mod+x kill
 bindsym $mod+D exec "rofi -show combi -combi-modi drun,run"
 bindsym $mod+Y exec "rofi -show window"
 bindsym $mod+O exec fasd -ldR | rofi -dmenu -p open: | xargs -r exo-open --launch TerminalEmulator --working-directory
-# bindsym $mod+I exec fasd -lR | rofi -dmenu -p edit: | xargs -r gvim
-bindsym $mod+C exec rofi -modi "clipboard:~/.i3/clip.bash" -show clipboard 2>&1 | grep '^0$' || xdotool key Shift+Insert
+bindsym $mod+I exec fasd -lR | rofi -dmenu -p edit: | xargs -r gvim
+bindsym $mod+C exec rofi -modi "clipboard:clip.bash" -show clipboard 2>&1 | grep '^0$' || xdotool key Shift+Insert
 bindsym $mod+T exec greenclip print | head -n 1 | trans -b | xargs -0 notify-send
 
 # change focus
@@ -176,7 +175,8 @@ bindsym $mod+Control+e exec "i3-nagbar -t warning -m 'You pressed the exit short
 #bindsym Print exec scrot 'screenshot/%Y-%m-%d-%H%M%S_$wx$h_scrot.png' -e 'xclip -sel clip -t image/png $f && ~/bin/b file $f'
 #bindsym --release Shift+Print exec scrot -s 'screenshot/%Y-%m-%d-%H%M%S_$wx$h_scrot.png' -e 'xclip -sel clip -t image/png $f && ~/bin/b file $f'
 #bindsym Mod1+Sys_Req exec scrot -u 'screenshot/%Y-%m-%d-%H%M%S_$wx$h_scrot.png' -e 'xclip -sel clip -t image/png $f && ~/bin/b file $f'
-bindsym Print exec export f=screenshot/`date +%Y-%m-%d-%H:%M:%S`.png && deepin-screenshot -ns $f && xclip -sel clip -t image/png $f #&& pb push -f $f
+#bindsym Print exec export f=screenshot/`date +%Y-%m-%d-%H:%M:%S`.png && deepin-screenshot -ns $f && xclip -sel clip -t image/png $f && ~/.local/bin/b file $f
+bindsym Print exec flameshot gui
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +10% && pkill -RTMIN+10 i3blocks
 bindsym Shift+XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +1% && pkill -RTMIN+10 i3blocks
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -10% && pkill -RTMIN+10 i3blocks
@@ -205,7 +205,8 @@ bindsym XF86TouchpadToggle exec synclient -l | grep "TouchpadOff .*=.*0" && sync
 bindsym $mod+Escape exec synclient -l | grep "TouchpadOff .*=.*0" && synclient TouchpadOff=1 || synclient TouchpadOff=0
 bindsym $mod+Control+m move scratchpad
 bindsym $mod+m scratchpad show
-bindsym $mod+F1 exec systemctl suspend -i
+#bindsym $mod+F1 exec systemctl suspend -i
+bindsym $mod+F1 exec sudo sh -c "echo mem > /sys/power/state"
 
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
 bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
@@ -267,7 +268,6 @@ focus_on_window_activation focus
 
 #workspace_layout tabbed
 for_window [class="terminology"] border normal 0
-for_window [class="Termite"] border normal 0
 for_window [class="Xfce4-terminal"] border normal 0
 for_window [class="Google-chrome"] border none
 for_window [window_role="pop-up"] floating enable
@@ -276,7 +276,6 @@ for_window [class="TelegramDesktop"] border none
 
 
 exec_always --no-startup-id "~/.local/bin/auto-start"
-#exec_always --no-startup-id "~/best.sh"
 
 
 #gaps outer 0
