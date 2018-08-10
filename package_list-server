@@ -20,3 +20,4 @@ ipython
 ptpython
 httpie
 bind-tools
+dnsmasq
