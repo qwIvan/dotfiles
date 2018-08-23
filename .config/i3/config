@@ -41,6 +41,7 @@ bindsym $mod+O exec fasd -ldR | rofi -dmenu -p open: | xargs -r exo-open --launc
 bindsym $mod+I exec fasd -lR | rofi -dmenu -p edit: | xargs -r gvim
 bindsym $mod+C exec rofi -modi "clipboard:clip.bash" -show clipboard 2>&1 | grep '^0$' || xdotool key Shift+Insert
 bindsym $mod+T exec greenclip print | head -n 1 | trans -b | xargs -0 notify-send
+bindsym $mod+G exec greenclip print | head -n 1 | xargs -i xdg-open 'https://www.google.com.hk/search?q={}'
 
 # change focus
 #bindsym $mod+j focus left
