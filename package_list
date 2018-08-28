@@ -69,6 +69,7 @@ cantarell-fonts
 catfish
 ccze
 charles
+cheat-git
 chromium-vaapi-bin
 cmake
 coffeescript
@@ -119,6 +120,7 @@ enscript
 entr
 eslint
 evemu
+evtest
 exfat-utils
 exo
 expect
@@ -301,6 +303,7 @@ mtpfs
 mtr
 multitail
 mutt
+mycli
 mysql-python
 n2n-git
 nano
@@ -528,6 +531,7 @@ strace
 sublime-text-dev-imfix
 subversion
 sudo
+supervisor
 syncthing
 sysfsutils
 syslog-ng
@@ -672,6 +676,7 @@ xorg-fonts-75dpi
 xorg-server
 xorg-twm
 xorg-xbacklight
+xorg-xev
 xorg-xinit
 xorg-xinput
 xorg-xkill
