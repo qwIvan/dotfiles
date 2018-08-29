@@ -65,6 +65,7 @@ e () {
         vim $@
     fi
 }
+alias sudo="sudo -E"
 alias c=/bin/bat
 alias pareps="le pacaur -Ss"
 alias tpp="tree --prune -P"
