@@ -24,7 +24,6 @@ lf () {
   echo "'"
 }
 export LESS="-RFXeKi"
-unalias c
 le () {
   unbuffer $@ | less
 }
