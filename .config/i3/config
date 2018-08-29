@@ -37,8 +37,8 @@ bindsym $mod+x kill
 # installed.
 bindsym $mod+D exec "rofi -show combi -combi-modi drun,run"
 bindsym $mod+Y exec "rofi -show window"
-bindsym $mod+O exec fasd -ldR | rofi -dmenu -p open: | xargs -r exo-open --launch TerminalEmulator --working-directory
-bindsym $mod+I exec fasd -lR | rofi -dmenu -p edit: | xargs -r gvim
+bindsym $mod+O exec fasd -ldR | rofi -i -dmenu -p open: | xargs -r exo-open --launch TerminalEmulator --working-directory
+bindsym $mod+I exec fasd -lR | rofi -i -dmenu -p edit: | xargs -r gvim
 bindsym $mod+C exec rofi -modi "clipboard:clip.bash" -show clipboard 2>&1 | grep '^0$' || xdotool key Shift+Insert
 bindsym $mod+T exec greenclip print | head -n 1 | trans -b | xargs -0 notify-send
 bindsym $mod+G exec greenclip print | head -n 1 | xargs -i xdg-open 'https://www.google.com.hk/search?q={}'
