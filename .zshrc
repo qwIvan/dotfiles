@@ -121,7 +121,6 @@ export PATH=$PATH:/usr/share/bcc/tools/
 #for p in ~/.gem/ruby/*/bin;do
 #  PATH=$p:$PATH
 #done
-export VISUAL="vim"
 export EDITOR="vim"
 export PYTHONSTARTUP=~/.pythonstartup.py
 export GPG_TTY=$(tty)
