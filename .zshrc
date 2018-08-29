@@ -28,13 +28,6 @@ unalias c
 le () {
   unbuffer $@ | less
 }
-#c () {
-#  if [[ -t 1 ]]; then
-#    le ccat --bg=dark $@
-#  else
-#    cat $@
-#  fi
-#}
 pkg () {
 	pacman -Si $1 2> /dev/null | head -n 1 | grep -Po '(?<=:\s).*' | xargs -i google-chrome-stable https://www.archlinux.org/packages/{}/x86_64/$1/ | xargs test || google-chrome-stable https://aur.archlinux.org/packages/$1 > /dev/null
 }
