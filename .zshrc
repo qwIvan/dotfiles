@@ -16,9 +16,8 @@ for z in `ls /usr/share/zsh/plugins/*/*.zsh`;do
   source $z
 done
 i () curl ip.cn/$1
-alias sudo='sudo '
-alias _='sudo '
 alias tree="tree -C"
+alias sudo="sudo -E "
 transfer () {
   # write to output to tmpfile because of progress bar
   tmpfile=$( mktemp -t transferXXX )
@@ -65,7 +64,6 @@ e () {
         vim $@
     fi
 }
-alias sudo="sudo -E"
 alias c=/bin/bat
 alias pareps="le pacaur -Ss"
 alias tpp="tree --prune -P"
