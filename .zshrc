@@ -16,7 +16,6 @@ for z in `ls /usr/share/zsh/plugins/*/*.zsh`;do
   source $z
 done
 i () curl ip.cn/$1
-alias tree="tree -C"
 alias sudo="sudo -E "
 lf () {
   echo -n "'"
