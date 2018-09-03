@@ -94,16 +94,6 @@ fiy () {
   yd $1
   trans $1
 }
-export PATH=~/.local/bin:$PATH
-export PATH=$PATH:/usr/bin/core_perl
-#export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-export PATH=$PATH:/usr/bin/vendor_perl/
-export PATH=$GOPATH/bin:$PATH
-export PATH=$PATH:/usr/lib/w3m/
-export PATH=$PATH:/usr/share/bcc/tools/
-#for p in ~/.gem/ruby/*/bin;do
-#  PATH=$p:$PATH
-#done
 export EDITOR="vim"
 export PYTHONSTARTUP=~/.pythonstartup.py
 export GPG_TTY=$(tty)
