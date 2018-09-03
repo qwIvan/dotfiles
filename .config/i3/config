@@ -141,10 +141,10 @@ bindsym $mod+Control+0 move container to workspace 10
 bindsym $mod+Control+comma move container to workspace prev_on_output
 bindsym $mod+Control+period move container to workspace next_on_output
 
-bindsym $mod+p focus output left
-bindsym $mod+n focus output right
-bindsym $mod+Control+p move workspace to output left
-bindsym $mod+Control+n move workspace to output right
+bindsym $mod+p focus output up
+bindsym $mod+n focus output down
+bindsym $mod+Control+p move workspace to output up
+bindsym $mod+Control+n move workspace to output down
 
 assign [class="Google-chrome"] $workspace1
 #assign [class="URxvt"] $workspace2
@@ -234,6 +234,7 @@ bindsym $mod+r mode "resize"
 bar {
   mode hide
   status_command i3blocks
+  tray_output primary
   colors {
     separator #515151
     background #2d2d2d
