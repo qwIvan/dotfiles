@@ -23,6 +23,6 @@ bind-tools
 dnsmasq
 zsh
 python2
-ag
+the_silver_searcher
 tree
 wget
