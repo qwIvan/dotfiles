@@ -33,6 +33,7 @@ asp
 at
 atom
 atomicparsley
+atop
 audacious
 aurvote
 autoconf
@@ -110,6 +111,7 @@ dosfstools
 downgrade
 dvd+rw-tools
 e2fsprogs
+easy-rsa
 ecryptfs-utils
 efibootmgr
 efl-docs
@@ -168,6 +170,7 @@ gimp
 gimp-help-zh_cn
 gist
 git
+glances
 glibc
 gnome-keyring
 go
@@ -245,6 +248,7 @@ jpegoptim
 jq
 jupyter
 less
+lib32-mpg123
 libdvdcss
 libgsf
 libmcrypt
@@ -332,6 +336,7 @@ nodejs
 nodejs-jshint
 nodejs-vue-cli
 noto-fonts-cjk
+noto-fonts-emoji
 npm
 nss-mdns
 ntfs-3g
@@ -371,6 +376,7 @@ php-fpm
 php53-mcrypt
 pidgin
 pinyin-completion
+pip-tools
 pkgconf
 pkgfile
 pkgtools
@@ -395,7 +401,9 @@ pulseaudio-bluetooth
 pulseaudio-zeroconf
 pushbullet-cli
 pycharm-professional
+pyenv
 pyflame
+pyinstaller
 pyqt5-common
 python-aiodns
 python-alembic
@@ -440,6 +448,7 @@ python-passlib
 python-pillow
 python-pip
 python-pipenv
+python-pipreqs
 python-polib
 python-psycopg2
 python-pudb
@@ -458,6 +467,7 @@ python-reportlab
 python-scikit-learn
 python-selenium
 python-sh
+python-simplejson
 python-socketio
 python-telegram-bot
 python-termcolor
@@ -465,6 +475,7 @@ python-toposort
 python-tox
 python-twisted
 python-ujson
+python-uncompyle6
 python-urwidtrees
 python-w3lib
 python-xlib
