@@ -4,6 +4,7 @@ export XMODIFIERS="@im=fcitx"
 export GOPATH=~/go
 export PATH=$GOPATH/bin:$PATH
 export PATH=~/.local/bin:$PATH
+export PATH=~/.yarn/bin:$PATH
 export PATH=$PATH:/usr/bin/core_perl
 export PATH=$PATH:/usr/bin/vendor_perl/
 export PATH=$PATH:/usr/lib/w3m/
