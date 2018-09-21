@@ -459,6 +459,7 @@ python-pycodestyle
 python-pyftpdlib
 python-pygeoip
 python-pylint
+python-pypi2pkgbuild
 python-pyqt5
 python-pysocks
 python-pyte
