@@ -17,7 +17,6 @@ android-sdk
 android-sdk-build-tools
 android-sdk-platform-tools
 android-studio
-android-studio-beta
 android-support
 android-support-repository
 android-tools
@@ -64,7 +63,6 @@ byobu
 bypy-git
 bzip2
 bzr
-cabal-install
 caddy
 cantarell-fonts
 catfish
@@ -114,7 +112,6 @@ e2fsprogs
 easy-rsa
 ecryptfs-utils
 efibootmgr
-efl-docs
 electronic-wechat
 enet
 engrampa
@@ -203,7 +200,6 @@ gvim
 gyp
 gzip
 haproxy
-haskell-base-prelude
 haveged
 hddtemp
 hexchat
@@ -226,6 +222,7 @@ imagemagick-doc
 imgur.sh
 inetutils
 intel-opencl-runtime
+intellij-idea-ultimate-edition
 inxi
 iotop
 iperf
@@ -287,6 +284,7 @@ man-db
 man-pages
 man-pages-zh_cn
 mariadb
+maven
 mdadm
 mediainfo
 meld
@@ -359,6 +357,7 @@ pacman
 pacman-contrib
 pacvis-git
 parallel
+parcel-bundler
 patch
 patchutils
 pavucontrol
@@ -376,7 +375,6 @@ pgcli
 php
 php-fpm
 php53-mcrypt
-pidgin
 pinyin-completion
 pip-tools
 pkgconf
@@ -482,21 +480,13 @@ python-uncompyle6
 python-urwidtrees
 python-w3lib
 python-xlib
-python2-django
 python2-docopt
-python2-future
-python2-google-api-python-client
-python2-gunicorn
 python2-pip
 python2-prompt_toolkit
 python2-pytest
 python2-requests
-python2-scipy
-python2-selenium
 python2-setuptools
-python2-sh
 python2-twisted
-python2-xlib
 python36
 qpdfview
 qt5-charts
@@ -540,7 +530,6 @@ sqlmap
 sshfs
 sshpass
 sslstrip
-stack
 strace
 sublime-text-dev-imfix
 subversion
@@ -573,7 +562,6 @@ the_silver_searcher
 thefuck
 thunar
 thunar-volman
-thunderbird
 tigervnc
 tinyproxy
 tk
@@ -695,6 +683,7 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xrandr
+xorg-xwininfo
 yapf
 yarn
 yelp
