@@ -41,6 +41,7 @@ autopep8
 axel
 b43-fwcutter
 babel-cli
+babel-eslint
 baidupcs-git
 baobab
 bash
@@ -374,7 +375,6 @@ perl-json-xs
 pgcli
 php
 php-fpm
-php53-mcrypt
 pinyin-completion
 pip-tools
 pkgconf
@@ -406,13 +406,11 @@ pyflame
 pyinstaller
 pyqt5-common
 python-aiodns
-python-alembic
 python-bcc-git
 python-beautifulsoup4
 python-blinker
 python-bottleneck
 python-cchardet
-python-celery
 python-cli_helpers
 python-click-completion
 python-coverage
@@ -421,12 +419,6 @@ python-dnslib
 python-docker
 python-ecdsa
 python-eventlet
-python-fakeredis
-python-flask
-python-flask-login
-python-flask-migrate
-python-flask-sqlalchemy
-python-freezegun
 python-gevent
 python-google-api-python-client
 python-html2text
@@ -463,13 +455,10 @@ python-pysocks
 python-pyte
 python-pytest
 python-qrcode
-python-redis
 python-reportlab
 python-scikit-learn
 python-selenium
 python-sh
-python-simplejson
-python-socketio
 python-telegram-bot
 python-termcolor
 python-toposort
@@ -627,6 +616,7 @@ vulkan-radeon
 w3m
 websocketd
 webstorm
+webstorm-jre
 wechat_web_devtools
 weechat
 wget
