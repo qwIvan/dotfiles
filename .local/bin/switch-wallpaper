@@ -52,7 +52,7 @@ def imgsize(path):
         return im.size
 
 
-DEFAULT_WIDTH = 3286 - 3286 % 3 + 3
+DEFAULT_WIDTH = 3780 - 3780 % 3 + 3
 DEFAULT_HEIGHT = DEFAULT_WIDTH/3*2
 parser = ArgumentParser('Switching wallpapaer randomly.')
 resolution_group = parser.add_mutually_exclusive_group()
