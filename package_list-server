@@ -28,3 +28,4 @@ tree
 wget
 nload
 youtube-dl
+python2-pip
