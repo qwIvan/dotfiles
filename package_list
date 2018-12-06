@@ -13,6 +13,7 @@ anbox-git
 anbox-image
 anbox-modules-dkms-git
 android-emulator
+android-platform
 android-sdk
 android-sdk-build-tools
 android-sdk-platform-tools
@@ -21,6 +22,7 @@ android-support
 android-support-repository
 android-tools
 android-udev
+annie
 apache
 apcupsd
 arandr
@@ -88,6 +90,7 @@ cups-pdf
 cups-pk-helper
 curlftpfs
 d-feet
+dart
 debian-archive-keyring
 deepin-gtk-theme
 deepin-screenshot
@@ -143,6 +146,7 @@ ffmpegthumbnailer
 file
 filesystem
 findutils
+firebase-tools
 firefox
 firejail
 fish
@@ -150,6 +154,7 @@ flake8
 flamegraph-git
 flameshot
 flex
+flutter
 freerdp
 freetype2
 fzf
@@ -224,6 +229,7 @@ imgur.sh
 inetutils
 intel-opencl-runtime
 intellij-idea-ultimate-edition
+intellij-idea-ultimate-edition-jre
 inxi
 iotop
 iperf
@@ -334,6 +340,7 @@ nload
 nmap
 nodejs
 nodejs-jshint
+nodejs-swagger
 nodejs-ts-node
 nodejs-vue-cli
 noto-fonts-cjk
@@ -392,6 +399,7 @@ powerdns
 powerpill
 powertop
 pptpd
+prettier
 privoxy
 procps-ng
 psmisc
