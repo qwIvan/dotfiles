@@ -5,7 +5,10 @@ Copy this file to ~/.ptpython/config.py
 """
 from __future__ import unicode_literals
 from prompt_toolkit.filters import ViInsertMode
-from prompt_toolkit.key_binding.input_processor import KeyPress
+try:
+    from prompt_toolkit.key_binding.input_processor import KeyPress
+except:
+    pass
 from prompt_toolkit.keys import Keys
 from pygments.token import Token
 

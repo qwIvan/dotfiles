@@ -5,7 +5,7 @@ switch-wallpaper -r 2560x2520 &
 #setxkbmap -option ctrl:swapcaps -option altwin:swap_lalt_lwin &
 sudo ntpd -gq && sudo hwclock -w &
 
-pgrep "^chrome$" || google-chrome-stable &
+#pgrep "^chrome$" || google-chrome-stable &
 pgrep "^compton$" || compton --shadow-exclude 'class_g = "Sogou-qimpanel"' --shadow-exclude 'class_g = "Wine"' --shadow-exclude 'class_g = "netease-cloud-music"' &
 fcitx &
 #ss-tunnel -c "$HOME"/ss_config.json -u -l 5566 -L 8.8.8.8:53 -b 127.0.1.1&
