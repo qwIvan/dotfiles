@@ -30,4 +30,7 @@ nload
 youtube-dl
 python2-pip
 python2-exiv2
-
+php
+ruby
+python-yaml
+jq
