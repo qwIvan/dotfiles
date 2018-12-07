@@ -45,6 +45,7 @@ b43-fwcutter
 babel-cli
 babel-eslint
 baidupcs-git
+baka-mplayer
 baobab
 bash
 bash-completion
@@ -462,6 +463,7 @@ python-pyqt5
 python-pysocks
 python-pyte
 python-pytest
+python-pytumblr-git
 python-qrcode
 python-reportlab
 python-scikit-learn
@@ -477,13 +479,16 @@ python-uncompyle6
 python-urwidtrees
 python-w3lib
 python-xlib
+python-xmltodict
 python2-docopt
 python2-pip
 python2-prompt_toolkit
 python2-pytest
+python2-pytumblr-git
 python2-requests
 python2-setuptools
 python2-twisted
+python2-yaml
 python36
 qpdfview
 qt5-charts
@@ -517,8 +522,10 @@ shadowsocks-libev
 sharutils
 siege
 simple-mtpfs
+slack-desktop
 smartmontools
 smem
+smplayer
 socat
 speedtest-cli
 splix
