@@ -34,3 +34,5 @@ php
 ruby
 python-yaml
 jq
+rclone
+fuse2

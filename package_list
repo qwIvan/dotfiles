@@ -73,7 +73,6 @@ catfish
 ccze
 charles
 cheat-git
-chromium-vaapi-bin
 cmake
 coffeescript
 colordiff
@@ -227,7 +226,9 @@ ifplugd
 iftop
 imagemagick-doc
 imgur.sh
+imgurbash2
 inetutils
+inotify-tools
 intel-opencl-runtime
 intellij-idea-ultimate-edition
 intellij-idea-ultimate-edition-jre
@@ -285,6 +286,7 @@ lrzip
 lshw
 lsof
 lvm2
+lxappearance
 lynx
 m4
 make
@@ -292,6 +294,7 @@ man-db
 man-pages
 man-pages-zh_cn
 mariadb
+materia-gtk-theme
 maven
 mdadm
 mediainfo
@@ -365,6 +368,7 @@ pacgraph
 pacman
 pacman-contrib
 pacvis-git
+papirus-icon-theme
 parallel
 parcel-bundler
 patch
@@ -632,6 +636,7 @@ w3m
 websocketd
 webstorm
 webstorm-jre
+wechat-devtools
 wechat_web_devtools
 weechat
 wget
