@@ -83,17 +83,7 @@ alias -g SL="| tr ' ' '\n'"
 alias -g G="| grep -iP"
 unalias ping
 unalias gm
-tcb () {
-  tldr $1
-  cheat $1
-  bro $1
-}
-fiy () {
-  fanyi $1
-  ici $1
-  yd $1
-  trans $1
-}
+
 export EDITOR="vim"
 export PYTHONSTARTUP=~/.pythonstartup.py
 export GPG_TTY=$(tty)
