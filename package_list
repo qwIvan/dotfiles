@@ -44,13 +44,12 @@ axel
 b43-fwcutter
 babel-cli
 babel-eslint
-baidupcs-git
+baidupcs-go-git
 baka-mplayer
 baobab
 bash
 bash-completion
 bat
-bcc-tools-git
 bin86
 bind-tools
 binutils
@@ -91,9 +90,11 @@ cups-pk-helper
 curlftpfs
 d-feet
 dart
+dbeaver
 debian-archive-keyring
 deepin-gtk-theme
 deepin-screenshot
+deepin-wine-wechat
 device-mapper
 devtools
 devtools-cn-git
@@ -205,6 +206,7 @@ gvfs-smb
 gvim
 gyp
 gzip
+hactool-git
 haproxy
 haveged
 hddtemp
@@ -276,6 +278,8 @@ lightdm-gtk-greeter-settings
 lilv
 linux
 linux-docs
+linux-lts
+linux-lts-headers
 linux-mainline
 linux-mainline-headers
 linux-zen
@@ -333,6 +337,7 @@ nethogs
 netpbm
 network-manager-applet
 networkmanager
+networkmanager-dispatcher-ntpd
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
@@ -380,6 +385,7 @@ pdnsd
 peek
 pelican
 percol
+perf-tools
 perl
 perl-anyevent-i3
 perl-file-mimeinfo
@@ -539,7 +545,6 @@ sshfs
 sshpass
 sslstrip
 strace
-sublime-text-dev-imfix
 subversion
 sudo
 supervisor
@@ -637,7 +642,6 @@ websocketd
 webstorm
 webstorm-jre
 wechat-devtools
-wechat_web_devtools
 weechat
 wget
 which
