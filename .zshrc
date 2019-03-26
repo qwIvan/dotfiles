@@ -18,10 +18,10 @@ done
 i () curl ip.cn/$1
 alias sudo="sudo -E "
 lf () {
-  echo -n "'"
+  # echo -n '"'
   test -z $@ || echo -n $@/
   ls -t $@ | head -n 1 | tr -d '\n'
-  echo "'"
+  # echo '"'
 }
 export LESS="-RFXeKi"
 le () {
