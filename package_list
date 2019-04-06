@@ -345,6 +345,7 @@ networkmanager-vpnc
 nfs-utils
 nginx
 ngrep
+ngrok
 nload
 nmap
 nodejs
@@ -647,8 +648,6 @@ wget
 which
 whois
 wine-staging
-wireshark-common
-wireshark-gtk
 wireshark-qt
 wkhtmltopdf
 wmctrl
