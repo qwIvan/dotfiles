@@ -77,10 +77,12 @@ alias -g A5="| awk \"{print \\\$5}\""
 alias -g L="| less -R"
 alias -g X="| xargs"
 alias -g XI="| xargs -i"
-alias -g PP="\`clippaste\`"
 alias -g V="--version"
 alias -g SL="| tr ' ' '\n'"
 alias -g G="| grep -iP"
+alias -g copy="clipcopy"
+alias -g paste="clippaste"
+
 unalias ping
 unalias gm
 
