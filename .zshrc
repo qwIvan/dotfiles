@@ -80,8 +80,6 @@ alias -g XI="| xargs -i"
 alias -g V="--version"
 alias -g SL="| tr ' ' '\n'"
 alias -g G="| grep -iP"
-alias -g copy="clipcopy"
-alias -g paste="clippaste"
 
 unalias ping
 unalias gm
