@@ -14,6 +14,7 @@ import itertools
 import functools
 import collections
 import math
+from decimal import Decimal
 try:
     from sh import cat, cd, ls
     from bs4 import BeautifulSoup
