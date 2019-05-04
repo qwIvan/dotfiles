@@ -258,10 +258,13 @@ jq
 jupyter
 less
 lib32-mpg123
+libc++
 libdvdcss
 libgsf
 libmcrypt
 libopenraw
+libreoffice-fresh
+libreoffice-fresh-zh-cn
 libsodium
 libtool
 libva-mesa-driver
@@ -490,6 +493,7 @@ python-uncompyle6
 python-urwidtrees
 python-w3lib
 python-xlib
+python-xlrd
 python-xmltodict
 python2-docopt
 python2-pip
@@ -676,11 +680,13 @@ xf86-video-intel
 xfce4-appfinder
 xfce4-artwork
 xfce4-notifyd
+xfce4-panel
 xfce4-power-manager
 xfce4-session
 xfce4-settings
 xfce4-taskmanager
 xfce4-terminal
+xfdesktop-devel
 xfsprogs
 xfwm4
 xfwm4-themes
@@ -702,6 +708,7 @@ yarn
 yelp
 you-get
 youtube-dl
+zaproxy
 zd1211-firmware
 zeronet
 zsh
