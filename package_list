@@ -50,6 +50,7 @@ baobab
 bash
 bash-completion
 bat
+bcc-tools-git
 bin86
 bind-tools
 binutils
@@ -292,6 +293,7 @@ lostfiles
 lrzip
 lshw
 lsof
+lutris
 lvm2
 lxappearance
 lynx
@@ -306,6 +308,7 @@ maven
 mdadm
 mediainfo
 meld
+memtest86-efi
 mercurial
 mesa-demos
 mesa-vdpau
@@ -314,7 +317,6 @@ mitmproxy
 mlocate
 mobile-broadband-provider-info
 modemmanager
-mongodb
 mosh
 most
 mousepad
@@ -372,6 +374,7 @@ openssh
 os-prober
 otf-fira-mono
 otf-fira-sans
+overmind-bin
 p7zip
 pacgraph
 pacman
@@ -389,7 +392,6 @@ pdnsd
 peek
 pelican
 percol
-perf-tools
 perl
 perl-anyevent-i3
 perl-file-mimeinfo
@@ -403,6 +405,7 @@ pkgconf
 pkgfile
 pkgtools
 playerctl
+playonlinux
 plowshare
 pm2
 polipo
@@ -422,6 +425,7 @@ ptpython
 ptpython2
 pulseaudio-bluetooth
 pulseaudio-zeroconf
+pup-bin
 pushbullet-cli
 pycharm-professional
 pyenv
@@ -470,6 +474,7 @@ python-pudb
 python-pushbullet.py
 python-pycodestyle
 python-pyftpdlib
+python-pygame
 python-pygeoip
 python-pylint
 python-pypi2pkgbuild
@@ -498,6 +503,7 @@ python-xmltodict
 python2-docopt
 python2-pip
 python2-prompt_toolkit
+python2-pygame
 python2-pytest
 python2-pytumblr-git
 python2-requests
@@ -520,6 +526,7 @@ ripgrep
 rlwrap
 rofi
 rofi-greenclip
+rpmextract
 rslsync
 rsync
 rtorrent
@@ -598,6 +605,7 @@ transmission-qt
 trash-cli
 tree
 trizen
+tslint
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -652,6 +660,8 @@ wget
 which
 whois
 wine-staging
+winetricks
+winetricks-zh
 wireshark-qt
 wkhtmltopdf
 wmctrl
