@@ -40,3 +40,5 @@ aria2
 mariadb
 iotop
 baidupcs-go
+gunicorn
+yarn
