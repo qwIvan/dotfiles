@@ -13,11 +13,8 @@ anbox-git
 anbox-image
 anbox-modules-dkms-git
 android-emulator
-android-platform
 android-sdk
 android-sdk-build-tools
-android-sdk-platform-tools
-android-studio
 android-support
 android-support-repository
 android-tools
@@ -95,7 +92,9 @@ dbeaver
 debian-archive-keyring
 deepin-gtk-theme
 deepin-screenshot
+deepin-wine
 deepin-wine-wechat
+deepin-wxwork
 device-mapper
 devtools
 devtools-cn-git
@@ -233,8 +232,6 @@ imgurbash2
 inetutils
 inotify-tools
 intel-opencl-runtime
-intellij-idea-ultimate-edition
-intellij-idea-ultimate-edition-jre
 inxi
 iotop
 iperf
@@ -455,7 +452,6 @@ python-jieba
 python-jsbeautifier
 python-lxml
 python-magic-ahupp
-python-neovim
 python-netaddr
 python-numexpr
 python-numpy
@@ -477,6 +473,7 @@ python-pyftpdlib
 python-pygame
 python-pygeoip
 python-pylint
+python-pynvim
 python-pypi2pkgbuild
 python-pyqt5
 python-pysocks
@@ -524,6 +521,7 @@ remmina
 repo
 ripgrep
 rlwrap
+rng-tools
 rofi
 rofi-greenclip
 rpmextract
@@ -605,7 +603,6 @@ transmission-qt
 trash-cli
 tree
 trizen
-tslint
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -696,7 +693,6 @@ xfce4-session
 xfce4-settings
 xfce4-taskmanager
 xfce4-terminal
-xfdesktop-devel
 xfsprogs
 xfwm4
 xfwm4-themes
@@ -720,6 +716,7 @@ you-get
 youtube-dl
 zaproxy
 zd1211-firmware
+zenity
 zeronet
 zsh
 zsh-autosuggestions
