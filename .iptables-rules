@@ -14,7 +14,6 @@ COMMIT
 :PRIVOXY - [0:0]
 :SHADOWTABLES - [0:0]
 -A PREROUTING -p tcp -j SHADOWTABLES
--A PREROUTING -p udp -m udp --dport 53 -j REDIRECT --to-ports 53
 -A OUTPUT -p tcp -j SHADOWTABLES
 -A PRIVOXY -p tcp -m tcp --dport 80 -m owner --uid-owner 0 -j RETURN
 -A PRIVOXY -p tcp -m tcp --dport 80 -j REDIRECT --to-ports 8118
@@ -105,7 +104,19 @@ COMMIT
 :POSTROUTING ACCEPT [680:77453]
 :SHADOWTABLES - [0:0]
 -A PREROUTING -d 127.0.0.0/8 -j RETURN
--A PREROUTING -p udp -m udp --dport 53 -j TPROXY --on-port 1080 --on-ip 0.0.0.0 --tproxy-mark 0x1/0x1
+-A PREROUTING -d 169.254.0.0/16 -j RETURN
+-A PREROUTING -d 172.16.0.0/12 -j RETURN
+-A PREROUTING -d 192.168.0.0/16 -j RETURN
+-A PREROUTING -d 224.0.0.0/4 -j RETURN
+-A PREROUTING -d 240.0.0.0/4 -j RETURN
+-A PREROUTING -d 10.0.0.0/8 -j RETURN
+-A PREROUTING -d 127.0.0.0/8 -j RETURN
+-A PREROUTING -d 169.254.0.0/16 -j RETURN
+-A PREROUTING -d 172.16.0.0/12 -j RETURN
+-A PREROUTING -d 192.168.0.0/16 -j RETURN
+-A PREROUTING -d 224.0.0.0/4 -j RETURN
+-A PREROUTING -d 240.0.0.0/4 -j RETURN
+-A PREROUTING -p udp -j TPROXY --on-port 1080 --on-ip 0.0.0.0 --tproxy-mark 0x1/0x1
 -A OUTPUT -j SHADOWTABLES
 -A SHADOWTABLES -d 0.0.0.0/8 -j RETURN
 -A SHADOWTABLES -d 127.0.0.0/8 -j RETURN
@@ -153,6 +164,6 @@ COMMIT
 -A SHADOWTABLES -d 220.246.88.65/32 -j RETURN
 -A SHADOWTABLES -d 220.246.88.197/32 -j RETURN
 -A SHADOWTABLES -m set --match-set chnroute dst -j RETURN
--A SHADOWTABLES -p udp -m udp --dport 53 -j MARK --set-xmark 0x1/0xffffffff
+-A SHADOWTABLES -p udp -j MARK --set-xmark 0x1/0xffffffff
 COMMIT
 # Completed on Tue Feb 27 23:04:06 2018
