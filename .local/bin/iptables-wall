@@ -9,7 +9,7 @@ sudo ip route add local default dev lo table 100
 sudo ip rule add fwmark 1 lookup 100
 sudo cat ~/.iptables-rules | sudo iptables-restore
 curl 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > $chnroute_file.bak
-if [[ ! -s $chnroute_file.bak ]]; then
+if [[ $? -ne 0 ]]; then
   exit 12345
 fi
 echo "127.0.0.1/24" >> $chnroute_file.bak
