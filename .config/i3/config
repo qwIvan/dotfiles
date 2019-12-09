@@ -259,6 +259,7 @@ for_window [window_role="pop-up"] floating enable
 for_window [class="terminology"] border normal 0
 for_window [class="Xfce4-terminal"] border normal 0
 for_window [class="Google-chrome"] border none
+for_window [class="Google-chrome" title="DevTools*"] floating disable
 #for_window [class="."] floating enable
 for_window [class="TelegramDesktop"] border none
 

@@ -72,7 +72,6 @@ cheat-git
 cmake
 coffeescript
 colordiff
-compton
 coreutils
 cpio
 cpupower
@@ -91,7 +90,6 @@ dbeaver
 debian-archive-keyring
 deepin-gtk-theme
 deepin-screenshot
-deepin-wine
 deepin-wine-wechat
 deepin-wxwork
 device-mapper
@@ -209,6 +207,7 @@ hactool-git
 haproxy
 haveged
 hddtemp
+headset-bin
 hexchat
 hexedit
 highlight
@@ -393,11 +392,12 @@ perl
 perl-anyevent-i3
 perl-file-mimeinfo
 perl-json-xs
-pgcli
 php
 php-fpm
+picom
 pinyin-completion
 pip-tools
+pixymon-git
 pkgconf
 pkgfile
 pkgtools
@@ -508,6 +508,7 @@ python2-setuptools
 python2-twisted
 python2-yaml
 python36
+python37
 qpdfview
 qt5-charts
 rabbitmq
