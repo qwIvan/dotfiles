@@ -109,6 +109,7 @@ docker-compose
 dos2unix
 dosfstools
 downgrade
+dpkg
 dvd+rw-tools
 e2fsprogs
 easy-rsa
@@ -138,6 +139,7 @@ fcitx-gtk3
 fcitx-qt4
 fcitx-qt5
 fcitx-sogoupinyin
+fcitx5
 fcrackzip
 feh
 ffmpegthumbnailer
@@ -259,8 +261,6 @@ libdvdcss
 libgsf
 libmcrypt
 libopenraw
-libreoffice-fresh
-libreoffice-fresh-zh-cn
 libsodium
 libtool
 libva-mesa-driver
@@ -497,6 +497,7 @@ python-w3lib
 python-xlib
 python-xlrd
 python-xmltodict
+python2-beautifulsoup4
 python2-docopt
 python2-pip
 python2-prompt_toolkit
@@ -540,6 +541,7 @@ sed
 shadow
 shadowsocks
 shadowsocks-libev
+shadowsocks-v2ray-plugin
 sharutils
 siege
 simple-mtpfs
@@ -719,6 +721,7 @@ zaproxy
 zd1211-firmware
 zenity
 zeronet
+zoom
 zsh
 zsh-autosuggestions
 zsh-completions

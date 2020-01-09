@@ -17,4 +17,5 @@ QT_QPA_PLATFORMTHEME=gtk2
 systemctl --user import-environment DISPLAY
 eval `ssh-agent -s`
 ssh-add
+xrdb -merge ~/.Xresources
 exec i3
