@@ -69,6 +69,7 @@ catfish
 ccze
 charles
 cheat-git
+clisp
 cmake
 coffeescript
 colordiff
@@ -392,11 +393,13 @@ perl
 perl-anyevent-i3
 perl-file-mimeinfo
 perl-json-xs
+photoflare
 php
 php-fpm
 picom
 pinyin-completion
 pip-tools
+pixeluvo
 pixymon-git
 pkgconf
 pkgfile
@@ -428,7 +431,6 @@ pycharm-professional
 pyenv
 pyflame
 pyinstaller
-pyqt5-common
 python-aiodns
 python-bcc-git
 python-beautifulsoup4
