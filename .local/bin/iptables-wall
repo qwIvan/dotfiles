@@ -15,5 +15,5 @@ fi
 if [[ ! -s $chnroute_file.bak ]]; then
   exit 12346
 fi
-echo "127.0.0.1/24" >> $chnroute_file.bak
+#echo "127.0.0.1/24" >> $chnroute_file.bak
 cp -f $chnroute_file.bak $chnroute_file

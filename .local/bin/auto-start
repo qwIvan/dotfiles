@@ -8,7 +8,7 @@ sudo ntpd -gq && sudo hwclock -w &
 
 #pgrep "^chrome$" || google-chrome-stable &
 pgrep "^compton$" || compton --shadow-exclude 'class_g = "Sogou-qimpanel"' --shadow-exclude 'class_g = "Wine"' --shadow-exclude 'class_g = "netease-cloud-music"' &
-fcitx &
+fcitx5 &
 #ss-tunnel -c "$HOME"/ss_config.json -u -l 5566 -L 8.8.8.8:53 -b 127.0.1.1&
 #sudo pdnsd -c "$HOME"/parent_pdnsd.conf &
 #sudo pdnsd -c "$HOME"/pdnsd.conf &

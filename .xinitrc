@@ -1,5 +1,5 @@
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
+export GTK_IM_MODULE=fcitx5
+export QT_IM_MODULE=fcitx5
 export XMODIFIERS="@im=fcitx"
 export NODE_PATH=~/.config/yarn/global/node_modules
 export GOPATH=~/go
