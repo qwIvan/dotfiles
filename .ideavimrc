@@ -1,0 +1,6 @@
+source ~/.base.vimrc
+let mapleader =" "
+set easymotion
+set surround
+set multiple-cursors
+set ReplaceWithRegister

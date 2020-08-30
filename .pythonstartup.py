@@ -22,6 +22,9 @@ try:
 except:
     pass
 from pprint import pprint
-# if 'DJANGO_SETTINGS_MODULE' in os.environ:
-#     import django
-#     django.setup()
+if 'DJANGO_SETTINGS_MODULE' in os.environ:
+    try:
+        import django
+        django.setup()
+    except Exception as e:
+        pass

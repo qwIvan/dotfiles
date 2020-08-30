@@ -67,6 +67,7 @@ alias ips="sudo iptables -t"
 alias ipsm="sudo iptables -t mangle -L -n --line-numbers"
 alias ipsn="sudo iptables -t nat -L -n --line-numbers"
 alias chrome=google-chrome-stable
+alias open=xdg-open
 alias history="fc -i -l 1"
 alias -g A1="| awk \"{print \\\$1}\""
 alias -g A2="| awk \"{print \\\$2}\""
