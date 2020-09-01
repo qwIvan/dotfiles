@@ -1,6 +1,12 @@
-source ~/.base.vimrc
 let mapleader =" "
 set easymotion
 set surround
 set multiple-cursors
 set ReplaceWithRegister
+set clipboard=unnamedplus,unnamed
+set ignorecase smartcase
+set number
+set relativenumber
+set hlsearch
+set incsearch
+nnoremap <C-N> :action GotoClass<CR>
