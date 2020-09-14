@@ -26,6 +26,7 @@ floating_modifier $mod
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Return exec xfce4-terminal
+#bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+x kill
@@ -142,10 +143,14 @@ bindsym $mod+Control+0 move container to workspace 10
 bindsym $mod+Control+comma move container to workspace prev_on_output
 bindsym $mod+Control+period move container to workspace next_on_output
 
-bindsym $mod+p focus output up
-bindsym $mod+n focus output down
-bindsym $mod+Control+p move workspace to output up
-bindsym $mod+Control+n move workspace to output down
+#bindsym $mod+p focus output up
+#bindsym $mod+n focus output down
+#bindsym $mod+Control+p move workspace to output up
+#bindsym $mod+Control+n move workspace to output down
+bindsym $mod+p focus output left
+bindsym $mod+n focus output right
+bindsym $mod+Control+p move workspace to output left
+bindsym $mod+Control+n move workspace to output right
 
 assign [class="Google-chrome"] $workspace1
 #assign [class="URxvt"] $workspace2
