@@ -11,4 +11,5 @@ set relativenumber
 set hlsearch
 set incsearch
 nnoremap <C-N> :action GotoClass<CR>
+vnoremap <C-N> :action GotoClass<CR>
 nnoremap <C-P> :action ParameterInfo<CR>
