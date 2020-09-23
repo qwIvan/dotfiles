@@ -30,7 +30,7 @@ axel
 b43-fwcutter
 babel-cli
 babel-eslint
-baidupcs-go-git
+baidupcs-go
 baka-mplayer
 baobab
 base
@@ -301,7 +301,7 @@ openbsd-netcat
 os-prober
 otf-fira-mono
 otf-fira-sans
-overmind-bin
+overmind
 p7zip-natspec
 pacgraph
 pacvis-git
@@ -541,7 +541,7 @@ wine-wechat
 wireshark-qt
 wkhtmltopdf
 wmctrl
-woeusb-git
+woeusb
 wps-office
 wqy-microhei
 wqy-zenhei
