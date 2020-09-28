@@ -69,6 +69,7 @@ alias ipsn="sudo iptables -t nat -L -n --line-numbers"
 alias chrome=google-chrome-stable
 alias open=xdg-open
 alias history="fc -i -l 1"
+alias sc-="sudo systemctl"
 alias -g A1="| awk \"{print \\\$1}\""
 alias -g A2="| awk \"{print \\\$2}\""
 alias -g A3="| awk \"{print \\\$3}\""

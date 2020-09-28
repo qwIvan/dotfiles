@@ -237,6 +237,7 @@ lrzip
 lsof
 lutris
 lxappearance
+ly
 lynx
 make
 man-db
@@ -302,7 +303,7 @@ os-prober
 otf-fira-mono
 otf-fira-sans
 overmind
-p7zip-natspec
+p7zip
 pacgraph
 pacvis-git
 papirus-icon-theme
@@ -513,7 +514,7 @@ ulogd
 unace
 unclutter
 unrar
-unzip-natspec
+unzip
 urxvt-perls
 usb_modeswitch
 uwsgi
