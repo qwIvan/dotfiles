@@ -14,8 +14,8 @@ for bin in ~/.gem/ruby/*/bin; do
     export PATH=$PATH:$bin
 done
 QT_QPA_PLATFORMTHEME=gtk2
-#systemctl --user import-environment DISPLAY
+systemctl --user import-environment DISPLAY
 eval `ssh-agent -s`
 ssh-add
 xrdb -merge ~/.Xresources
-exec startxfce4
+exec i3
