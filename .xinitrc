@@ -13,9 +13,9 @@ export PATH=$PATH:/usr/share/bcc/tools/
 for bin in ~/.gem/ruby/*/bin; do
     export PATH=$PATH:$bin
 done
-QT_QPA_PLATFORMTHEME=gtk2
+export QT_QPA_PLATFORMTHEME=gtk2
 systemctl --user import-environment DISPLAY
 eval `ssh-agent -s`
 ssh-add
 xrdb -merge ~/.Xresources
-exec i3
+XDG_SESSION_TYPE=x11 GDK_BACKEND=x11 exec gnome-session

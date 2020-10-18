@@ -2,6 +2,7 @@ accountsservice
 ack
 acpi
 acpid
+adapta-gtk-theme
 adobe-source-code-pro-fonts
 aircrack-ng
 alias-tips-git
@@ -30,6 +31,7 @@ axel
 b43-fwcutter
 babel-cli
 babel-eslint
+baidunetdisk-bin
 baidupcs-go
 baka-mplayer
 baobab
@@ -53,6 +55,7 @@ bypy-git
 caddy
 catfish
 ccze
+certbot
 charles
 cheat
 clisp
@@ -71,8 +74,8 @@ cups-pk-helper
 curlftpfs
 d-feet
 dbeaver
+dconf-editor
 debian-archive-keyring
-deepin-gtk-theme
 deepin-screenshot
 devtools
 devtools-cn-git
@@ -134,8 +137,13 @@ gimp-help-zh_cn
 gist
 git
 gitflow-avh
+github-cli
 glances
+gnome-control-center
 gnome-keyring
+gnome-shell-extension-material-shell
+gnome-shell-extension-paperwm-git
+gnome-tweaks
 go
 google-chrome
 gpart
@@ -250,6 +258,7 @@ mediainfo
 meld
 memtest86-efi
 mesa-vdpau
+minikube
 mitmproxy
 mlocate
 mobile-broadband-provider-info
@@ -263,12 +272,12 @@ mtpfs
 mtr
 multitail
 mutt
+mycli
 mysql-python
 n2n
 nano
 neofetch
 neovim
-nerd-fonts-complete
 netctl
 netdata
 netease-cloud-music
@@ -306,6 +315,7 @@ overmind
 p7zip
 pacgraph
 pacvis-git
+papirus-folders-git
 papirus-icon-theme
 parallel
 patch
@@ -409,6 +419,7 @@ python2-yaml
 python36
 qpdfview
 qt5-charts
+qt5-styleplugins
 rabbitmq
 ranger
 rclone
@@ -444,7 +455,6 @@ smem
 smplayer
 speedtest-cli
 splix
-spotify
 sqlmap
 sshfs
 sshpass
