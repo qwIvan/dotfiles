@@ -58,6 +58,7 @@ ccze
 certbot
 charles
 cheat
+chrome-gnome-shell
 clisp
 cmake
 coffeescript
@@ -72,11 +73,11 @@ cups
 cups-pdf
 cups-pk-helper
 curlftpfs
+cython
 d-feet
 dbeaver
 dconf-editor
 debian-archive-keyring
-deepin-screenshot
 devtools
 devtools-cn-git
 dhclient
@@ -89,6 +90,7 @@ dmraid
 dnsmasq-china-list-git
 docker
 docker-compose
+dolphin-emu
 dos2unix
 dosfstools
 downgrade
@@ -295,8 +297,8 @@ ngrep
 ngrok
 nload
 nmap
+nodejs
 nodejs-jshint
-nodejs-ts-node
 noto-fonts-cjk
 noto-fonts-emoji
 npm
@@ -357,6 +359,7 @@ ptpython
 pulseaudio-zeroconf
 pup
 pushbullet-cli
+pv
 pycharm-professional
 pyenv
 pyflame
@@ -408,6 +411,7 @@ python-tox
 python-twisted
 python-ujson
 python-urwidtrees
+python-virtualenv
 python-xlib
 python-xlrd
 python-xmltodict
@@ -501,6 +505,7 @@ transmission-qt
 trash-cli
 tree
 trizen
+ts-node
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -541,8 +546,6 @@ visual-studio-code-bin
 vulkan-intel
 vulkan-radeon
 w3m
-webstorm
-webstorm-jre
 wechat-devtools
 weechat
 wget
@@ -553,7 +556,7 @@ wireshark-qt
 wkhtmltopdf
 wmctrl
 woeusb
-wps-office
+wps-office-cn
 wqy-microhei
 wqy-zenhei
 wrk
@@ -593,6 +596,7 @@ xorg-xkill
 xorg-xwininfo
 yapf
 yarn
+yay
 yelp
 you-get
 youtube-dl
