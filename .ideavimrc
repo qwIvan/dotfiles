@@ -1,4 +1,4 @@
-let mapleader =" "
+let mapleader=" "
 set easymotion
 set surround
 set multiple-cursors
@@ -13,3 +13,7 @@ set incsearch
 nnoremap <C-N> :action GotoClass<CR>
 vnoremap <C-N> :action GotoClass<CR>
 nnoremap <C-P> :action ParameterInfo<CR>
+nnoremap <Leader>q :q<CR>
+nnoremap <Leader>n :noh<CR>
+nnoremap [c :action VcsShowPrevChangeMarker<CR>
+nnoremap ]c :action VcsShowNextChangeMarker<CR>
