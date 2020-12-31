@@ -103,5 +103,5 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 
 autoload -U +X bashcompinit
 bashcompinit
-export MAKEFLAGS="-j8"
+export MAKEFLAGS="-j12"
 export XZ_DEFAULTS="--threads 0"
