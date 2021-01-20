@@ -14,6 +14,7 @@ import itertools
 import functools
 import collections
 import math
+import importlib
 from decimal import Decimal
 try:
     from sh import cat, cd, ls
@@ -23,6 +24,7 @@ except:
     pass
 from pprint import pprint
 if 'DJANGO_SETTINGS_MODULE' in os.environ:
+    importlib.import_module(os.environ['DJANGO_SETTINGS_MODULE' ])
     try:
         import django
         django.setup()

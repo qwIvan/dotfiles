@@ -1,6 +1,3 @@
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS="@im=fcitx"
 export NODE_PATH=~/.config/yarn/global/node_modules
 export GOPATH=~/go
 export PATH=$GOPATH/bin:$PATH
