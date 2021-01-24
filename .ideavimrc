@@ -1,4 +1,5 @@
 let mapleader=" "
+set keep-english-in-normal
 set easymotion
 set surround
 set multiple-cursors

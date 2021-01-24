@@ -47,6 +47,9 @@ e () {
         vim $@
     fi
 }
+vv () {
+    rgv | sed -n $1P | sed 's/^\s*[0-9]*\s*//g' | awk -F '[-:]' '{printf "pycharm --line %s \"%s\"", $2, $1}' | sh
+}
 alias c=/bin/bat
 alias pareps="le pacaur -Ss"
 alias tpp="tree --prune -P"

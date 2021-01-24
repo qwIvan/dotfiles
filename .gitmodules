@@ -1,0 +1,3 @@
+[submodule "surfingkeys-conf"]
+	path = surfingkeys-conf
+	url = git@github.com:qwIvan/surfingkeys-conf.git
