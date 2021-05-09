@@ -18,3 +18,5 @@ nnoremap <Leader>q :q<CR>
 nnoremap <Leader>n :noh<CR>
 nnoremap [c :action VcsShowPrevChangeMarker<CR>
 nnoremap ]c :action VcsShowNextChangeMarker<CR>
+nmap <Leader>l <Plug>(easymotion-f)
+nmap <Leader>h <Plug>(easymotion-F)

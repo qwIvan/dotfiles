@@ -1,5 +1,5 @@
 export ZSH=/usr/share/oh-my-zsh/
-ZSH_THEME="jonathan"
+ZSH_THEME="ys"
 DISABLE_AUTO_UPDATE="true"
 plugins=(fasd git adb history mvn npm pip web-search extract gradle meteor systemadmin colored-man-pages history-substring-search sprunge httpie urltools common-aliases themes gem github singlechar battery colorize screen archlinux rsync gulp safe-paste vi-mode tmux python sbt coffee compleat dircycle dirpersist docker encode64 pep8 pylint redis-cli scala sublime sudo supervisor systemd vagrant virtualenv cabal docker-compose django bower nmap gnu-utils fancy-ctrl-z postgres zsh-navigation-tools globalias)
 # ruby rvm per-directory-history rails)
@@ -73,6 +73,7 @@ alias chrome=google-chrome-stable
 alias open=xdg-open
 alias history="fc -i -l 1"
 alias sc-="sudo systemctl"
+alias subvolume="btrfs subvolume"
 alias -g A1="| awk \"{print \\\$1}\""
 alias -g A2="| awk \"{print \\\$2}\""
 alias -g A3="| awk \"{print \\\$3}\""

@@ -14,6 +14,7 @@ import itertools
 import functools
 import collections
 import math
+import types
 import importlib
 from decimal import Decimal
 try:
@@ -28,5 +29,7 @@ if 'DJANGO_SETTINGS_MODULE' in os.environ:
     try:
         import django
         django.setup()
+        from django.db.models import *
+        from django.db.models.functions import *
     except Exception as e:
         pass
