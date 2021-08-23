@@ -11,7 +11,7 @@ fi
 
 source /usr/share/pinyin-completion/shell/pinyin-comp.zsh
 source $ZSH/oh-my-zsh.sh
-for z in `ls /usr/share/zsh/plugins/*/*.zsh`;do
+for z in `ls /usr/share/zsh/plugins/*/*.plugin.zsh`;do
   source $z
 done
 i () curl ip.cn/$1
@@ -109,3 +109,6 @@ autoload -U +X bashcompinit
 bashcompinit
 export MAKEFLAGS="-j12"
 export XZ_DEFAULTS="--threads 0"
+
+# https://github.com/zsh-users/zsh-syntax-highlighting/issues/295
+zstyle ':bracketed-paste-magic' active-widgets '.self-*'
