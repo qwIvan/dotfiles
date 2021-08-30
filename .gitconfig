@@ -1,0 +1,11 @@
+[user]
+	name = Ivan
+	email = qwIvan@users.noreply.github.com
+[rerere]
+	enabled = true
+[commit]
+	gpgsign = true
+[merge]
+	conflictstyle = diff3
+[core]
+	autocrlf = input
