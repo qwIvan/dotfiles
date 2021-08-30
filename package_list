@@ -17,6 +17,7 @@ annie
 anything-sync-daemon
 apache
 apcupsd
+appimage-appimage
 arandr
 arch-install-scripts
 archlinux-nix
@@ -107,7 +108,6 @@ downgrade
 dpkg
 dvd+rw-tools
 easy-rsa
-easyconnect
 ecryptfs-utils
 efibootmgr
 ekho
@@ -361,6 +361,7 @@ papirus-folders-git
 papirus-icon-theme
 parallel
 patch
+patchelf
 patchutils
 pavucontrol
 pdnsd
@@ -386,6 +387,7 @@ playerctl
 playonlinux
 plowshare
 pm2
+podman
 polipo
 postgresql
 postgresql-old-upgrade
@@ -520,6 +522,7 @@ sshfs
 sshpass
 steam
 strace
+subsync
 sudo
 supervisor
 syncthing
