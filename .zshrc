@@ -36,17 +36,6 @@ loop () {
     sleep 1
   done
 }
-e () {
-    if [ -z $1 ]; then
-        vim
-    elif [ -f $1 ]; then
-        sudo -u $(stat -c %U $1) vim $@
-    elif [ ! -w $(dirname $1) ]; then
-        sudo -u $(stat -c %U $(dirname $1)) vim $@
-    else
-        vim $@
-    fi
-}
 vv () {
     rgv | sed -n $1P | sed 's/^\s*[0-9]*\s*//g' | awk -F '[:]' '{printf "pycharm --line %s \"%s\"", $2, $1}' | sh
 }
