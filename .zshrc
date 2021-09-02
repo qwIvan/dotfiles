@@ -96,7 +96,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 
 autoload -U +X bashcompinit
 bashcompinit
-export MAKEFLAGS="-j12"
+export MAKEFLAGS="-j$(nproc)"
 export XZ_DEFAULTS="--threads 0"
 
 # https://github.com/zsh-users/zsh-syntax-highlighting/issues/295
