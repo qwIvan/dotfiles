@@ -15,4 +15,5 @@ systemctl --user import-environment DISPLAY
 eval `ssh-agent -s`
 ssh-add
 xrdb -merge ~/.Xresources
+fildem &
 XDG_SESSION_TYPE=x11 GDK_BACKEND=x11 exec gnome-session
