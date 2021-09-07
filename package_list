@@ -18,6 +18,7 @@ anything-sync-daemon
 apache
 apcupsd
 appimage-appimage
+appstream
 arandr
 arch-install-scripts
 archlinux-nix
@@ -241,6 +242,7 @@ jupyter
 kitty
 kubectl
 lib32-nvidia-utils
+lib32-vulkan-intel
 libc++
 libdvdcss
 libgsf
@@ -463,6 +465,7 @@ python2-beautifulsoup4
 python2-pip
 python2-pytest
 python2-yaml
+python3-fildem
 python36
 python37
 python38
@@ -594,6 +597,7 @@ unrar
 unzip
 urxvt-perls
 usb_modeswitch
+utools
 uwsgi
 uwsgi-plugin-python
 vagrant
@@ -614,7 +618,7 @@ weechat
 wget
 whois
 wine-for-wechat
-wine-wechat
+wine-wechat-setup
 wireshark-qt
 wkhtmltopdf
 wmctrl
@@ -636,6 +640,7 @@ xdot
 xdotool
 xf86-input-elographics
 xf86-input-void
+xf86-video-intel
 xfce4-appfinder
 xfce4-artwork
 xfce4-notifyd
