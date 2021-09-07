@@ -1,6 +1,7 @@
 [user]
 	name = Ivan
 	email = qwIvan@users.noreply.github.com
+	signingkey = 9BC3832EB6AA3DD6
 [rerere]
 	enabled = true
 [commit]
