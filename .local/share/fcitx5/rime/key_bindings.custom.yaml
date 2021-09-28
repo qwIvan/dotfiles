@@ -1,0 +1,4 @@
+patch:
+  paging_with_comma_period:
+    - { when: paging, accept: Control+k, send: Page_Up }
+    - { when: has_menu, accept: Control+j, send: Page_Down }
