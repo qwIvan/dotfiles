@@ -82,7 +82,6 @@ cpupower
 crda
 create_ap
 cronie
-cscope
 cups
 cups-pdf
 cups-pk-helper
@@ -140,7 +139,7 @@ fd
 feh
 ffmpegthumbnailer
 fiddler
-firefox
+firefox-appmenu
 firefox-dark-reader
 firefox-i18n-zh-cn
 firejail
@@ -164,6 +163,7 @@ github-cli
 glances
 gnome-control-center
 gnome-shell-extension-argos-git
+gnome-shell-extension-lunar-calendar
 gnome-shell-extension-material-shell
 gnome-shell-extension-paperwm-git
 gnome-shell-extension-resource-monitor
@@ -240,6 +240,7 @@ jnettop
 jpegoptim
 jupyter
 kitty
+knot
 kubectl
 lib32-nvidia-utils
 lib32-vulkan-intel
@@ -568,7 +569,6 @@ transmission-gtk
 transmission-qt
 trash-cli
 tree
-trizen
 ts-node
 ttf-bitstream-vera
 ttf-dejavu
@@ -589,7 +589,6 @@ ubuntu-keyring
 udevil
 udiskie
 udp2raw-tunnel
-ugrep
 ulogd
 unace
 unclutter
@@ -606,6 +605,19 @@ vi
 vidalia
 viewnior
 vifm
+vim-coc-css-git
+vim-coc-eslint-git
+vim-coc-explorer-git
+vim-coc-git-git
+vim-coc-html-git
+vim-coc-json-git
+vim-coc-pyright-git
+vim-coc-sh-git
+vim-coc-snippets-git
+vim-coc-tabnine-git
+vim-coc-tsserver-git
+vim-coc-zsh-git
+vim-fcitx
 virtualbox-guest-iso
 visual-studio-code-bin
 vramfs-git
@@ -613,6 +625,8 @@ vulkan-intel
 vulkan-radeon
 vulkan-tools
 w3m
+waydroid
+waydroid-image
 wechat-devtools
 weechat
 wget
@@ -622,7 +636,7 @@ wine-wechat-setup
 wireshark-qt
 wkhtmltopdf
 wmctrl
-woeusb
+woeusb-gui
 wps-office-cn
 wps-office-fonts
 wps-office-mui-zh-cn
@@ -651,6 +665,7 @@ xfce4-taskmanager
 xfce4-terminal
 xfwm4
 xfwm4-themes
+xmind-2020
 xmlto
 xonsh
 xorg-fonts-100dpi
