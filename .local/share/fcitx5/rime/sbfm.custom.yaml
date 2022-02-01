@@ -1,0 +1,5 @@
+patch:
+  key_binder/bindings/+:
+    - { when: composing, accept: Control+h, send: BackSpace }
+    - { when: composing, accept: Control+bracketleft, send: Escape }
+  engine/translators/@after 2: table_translator@sf

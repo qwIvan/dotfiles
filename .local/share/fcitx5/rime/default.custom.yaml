@@ -1,9 +1,5 @@
+customization:
+  rime_version: 1.5.3
 patch:
   schema_list:
-    - schema: double_pinyin_flypy  # 小鶴雙拼
-    #- schema: xhux  # 小鶴雙形
-    - schema: xhup  # 小鹤音形
-    - schema: xhup_express  # 小鹤音形·连打
-    - schema: xhup_fluency  # 小鹤音形·语句流
-    #- schema: flypy
-    - schema: flypyzc
+    - {schema: sbfm}
