@@ -1,7 +1,7 @@
 export ZSH=/usr/share/oh-my-zsh/
 ZSH_THEME="ys"
 DISABLE_AUTO_UPDATE="true"
-plugins=(fasd git adb history mvn npm pip web-search extract gradle meteor systemadmin colored-man-pages history-substring-search sprunge httpie urltools common-aliases themes gem github singlechar battery colorize screen archlinux rsync gulp safe-paste vi-mode tmux python sbt coffee compleat dircycle dirpersist docker encode64 pep8 pylint redis-cli scala sublime sudo supervisor systemd vagrant virtualenv cabal docker-compose django bower nmap gnu-utils fancy-ctrl-z postgres zsh-navigation-tools globalias kubectl helm)
+plugins=(fasd git adb history mvn npm pip web-search extract gradle meteor systemadmin colored-man-pages history-substring-search sprunge httpie urltools common-aliases themes gem github singlechar battery colorize screen archlinux rsync gulp safe-paste vi-mode tmux python sbt coffee compleat dircycle dirpersist docker encode64 pep8 pylint redis-cli scala sublime sudo supervisor systemd vagrant virtualenv cabal docker-compose bower nmap gnu-utils fancy-ctrl-z postgres zsh-navigation-tools globalias kubectl helm)
 # ruby rvm per-directory-history rails)
 
 ZSH_CACHE_DIR=$HOME/.oh-my-zsh-cache
@@ -74,6 +74,10 @@ alias -g XI="| xargs -i"
 alias -g V="--version"
 alias -g SL="| tr ' ' '\n'"
 alias -g G="| grep -iP"
+alias -g he="--help"
+alias -g co="| clipcopy"
+alias -g pa="| clippaste"
+alias -g J="| jq"
 
 unalias ping
 unalias gm

@@ -2,4 +2,7 @@ patch:
   key_binder/bindings/+:
     - { when: composing, accept: Control+h, send: BackSpace }
     - { when: composing, accept: Control+bracketleft, send: Escape }
+    - { when: ok_second, accept: bracketleft, send_sequence: "{Left}{space}{space}" }
+    - { when: ok_third, accept: bracketleft, send_sequence: "{Left}{Left}{space}{space}" }
+    - { when: ok_fourth, accept: bracketleft, send_sequence: "{Left}{Left}{space}{space}" }
   engine/translators/@after 2: table_translator@sf

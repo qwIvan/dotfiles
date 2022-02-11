@@ -1,5 +1,3 @@
-customization:
-  rime_version: 1.5.3
 patch:
   schema_list:
     - {schema: sbfm}

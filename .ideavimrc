@@ -20,3 +20,4 @@ nnoremap [c :action VcsShowPrevChangeMarker<CR>
 nnoremap ]c :action VcsShowNextChangeMarker<CR>
 nmap <Leader>l <Plug>(easymotion-f)
 nmap <Leader>h <Plug>(easymotion-F)
+nnoremap <Leader>o :action FileStructurePopup<CR>
