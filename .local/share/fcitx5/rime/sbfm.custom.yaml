@@ -8,4 +8,3 @@ patch:
     - { when: ok_third, accept: bracketleft, send_sequence: "{Left}{Left}{space}{space}" }
     - { when: ok_fourth, accept: bracketleft, send_sequence: "{Left}{Left}{space}{space}" }
   engine/translators/@after 2: table_translator@sf
-  ascii_composer/switch_key/Shift_L: commit_code

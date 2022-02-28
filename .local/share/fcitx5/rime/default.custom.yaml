@@ -1,3 +1,4 @@
 patch:
   schema_list:
     - {schema: sbfm}
+  ascii_composer/switch_key/Shift_L: commit_code
