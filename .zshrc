@@ -74,9 +74,9 @@ alias -g XI="| xargs -i"
 alias -g V="--version"
 alias -g SL="| tr ' ' '\n'"
 alias -g G="| grep -iP"
-alias -g he="--help"
-alias -g co="| clipcopy"
-alias -g pa="| clippaste"
+alias -g HE="--help"
+alias -g CO="| clipcopy"
+alias -g PA="| clippaste"
 alias -g J="| jq"
 
 unalias ping
