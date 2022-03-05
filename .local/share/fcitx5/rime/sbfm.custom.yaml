@@ -2,7 +2,7 @@ patch:
   switches/@0/reset: 1
   key_binder/bindings:
     - { when: has_more, accept: Tab, send: Page_Down }
-    - { when: composing, accept: Return, send_sequence: "{Shift+Return}{Caps_Lock}" }
+    - { when: has_menu, accept: Return, send_sequence: "{Shift+Return}{Caps_Lock}" }
     - { when: composing, accept: Control+h, send: BackSpace }
     - { when: composing, accept: Control+bracketleft, send: Escape }
     - { when: last_punct, accept: bracketleft, send_sequence: "{Left}{space}{space}" }
