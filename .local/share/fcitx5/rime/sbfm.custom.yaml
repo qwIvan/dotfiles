@@ -9,4 +9,7 @@ patch:
     - { when: ok_second, accept: bracketleft, send_sequence: "{Left}{space}{space}" }
     - { when: ok_third, accept: bracketleft, send_sequence: "{Left}{Left}{space}{space}" }
     - { when: ok_fourth, accept: bracketleft, send_sequence: "{Left}{Left}{space}{space}" }
+    - { when: ok_second, accept: bracketright, send_sequence: "{Left}{space}{space}" }
+    - { when: ok_third, accept: bracketright, send_sequence: "{Left}{Left}{space}{Left}{space}{space}" }
+    - { when: ok_fourth, accept: bracketright, send_sequence: "{Left}{Left}{space}{Left}{space}{space}" }
   engine/translators/@after 2: table_translator@sf
