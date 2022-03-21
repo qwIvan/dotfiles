@@ -10,3 +10,5 @@
 	conflictstyle = diff3
 [core]
 	autocrlf = input
+[pull]
+	twohead = ort
