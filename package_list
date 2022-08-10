@@ -12,6 +12,9 @@ alsa-utils
 amule
 anbox-git
 anbox-image-gapps-rooted
+android-platform-30
+android-sdk
+android-sdk-build-tools-30.0.2
 android-tools
 android-udev
 anything-sync-daemon
@@ -78,6 +81,7 @@ cmake
 coffeescript
 colordiff
 com.qq.weixin.deepin
+com.qq.weixin.work.deepin
 compsize
 conky-cli
 cpio
@@ -90,6 +94,7 @@ cups-pk-helper
 curlftpfs
 cython
 d-feet
+dark-reader
 dconf-editor
 debian-archive-keyring
 debtap
@@ -155,6 +160,7 @@ fish
 flake8
 flamegraph
 flameshot
+flipper
 freerdp
 frpc
 fzf
@@ -170,6 +176,7 @@ git
 gitflow-avh
 github-cli
 glances
+gnome-calendar
 gnome-network-displays
 gnome-remote-desktop
 gnome-shell-338
@@ -262,6 +269,7 @@ kitty
 knot
 krusader
 kubectl
+kvantum
 lib32-nvidia-utils
 lib32-vulkan-intel
 libc++
@@ -295,6 +303,7 @@ linux-zen
 linux-zen-headers
 linuxqq
 litecli
+logcat-color3
 logrotate
 lostfiles
 lrzip
@@ -339,6 +348,7 @@ mycli
 mysql-python
 n2n
 nano
+navicat16-premium-cs
 neofetch
 neovim
 netctl
@@ -440,6 +450,7 @@ pyflame
 python-aiodns
 python-bcc
 python-beautifulsoup4
+python-better-exceptions
 python-bottleneck
 python-cchardet
 python-click-completion
@@ -465,6 +476,7 @@ python-pipreqs
 python-psycopg2
 python-pudb
 python-pycryptodome
+python-pycryptodomex
 python-pyftpdlib
 python-pygame
 python-pygeoip
@@ -505,6 +517,8 @@ rabbitmq
 ranger
 rclone
 rdesktop
+react-native-cli
+react-native-debugger
 redis
 redis-desktop-manager
 reiserfsprogs
@@ -536,6 +550,7 @@ shadowsocks-v2ray-plugin
 sharutils
 siege
 simple-mtpfs
+smartdeblur-git
 smartdns
 smartdns-china-list-git
 smartmontools
@@ -578,6 +593,7 @@ thefuck
 thunar
 thunar-volman
 thunderbird
+thunderbird-dark-reader
 thunderbird-i18n-zh-cn
 tigervnc
 tinyproxy
@@ -622,7 +638,7 @@ umockdev
 unace
 unclutter
 unrar
-unzip
+unzip-natspec
 urxvt-perls
 usb_modeswitch
 utools
@@ -649,6 +665,7 @@ vim-coc-zsh-git
 vim-fcitx
 virtualbox-guest-iso
 visual-studio-code-bin
+vmware-horizon-client
 vramfs-git
 vulkan-intel
 vulkan-radeon
