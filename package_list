@@ -17,6 +17,7 @@ android-sdk
 android-sdk-build-tools-30.0.2
 android-tools
 android-udev
+antiword
 anything-sync-daemon
 apache
 apcupsd
@@ -108,6 +109,7 @@ dingtalk-bin
 discount
 dmidecode
 dmraid
+docfetcher
 docker
 docker-compose
 dolphin
@@ -139,6 +141,7 @@ fabric
 fakechroot
 fasd
 fastjar
+fasttext
 fcitx5
 fcitx5-configtool
 fcitx5-gtk
@@ -299,8 +302,6 @@ linux-headers
 linux-lts
 linux-lts-headers
 linux-wifi-hotspot
-linux-zen
-linux-zen-headers
 linuxqq
 litecli
 logcat-color3
@@ -391,7 +392,7 @@ os-prober
 otf-fira-mono
 otf-fira-sans
 overmind
-p7zip
+p7zip-natspec
 pacgraph
 pacman
 pacman-static
@@ -601,6 +602,7 @@ tk
 tldr
 tlp
 tlpui-git
+todesk-bin
 tor
 tor-browser
 torsocks
@@ -693,6 +695,7 @@ wrk
 wscat
 x11vnc
 x86_energy_perf_policy
+xcaddy-bin
 xclip
 xcompmgr
 xcursor-simpleandsoft
