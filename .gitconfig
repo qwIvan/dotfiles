@@ -10,3 +10,4 @@
 	conflictstyle = diff3
 [core]
 	autocrlf = input
+	quotepath = false
