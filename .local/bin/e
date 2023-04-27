@@ -3,9 +3,9 @@
 if [ -z $1 ]; then
     vim
 elif [ -f $1 ]; then
-    sudo -E -u $(stat -c %U $1) vim $@
+    sudo -E -u $(stat -c %U $1) vim "$@"
 elif [ ! -w $(dirname $1) ]; then
-    sudo -E -u $(stat -c %U $(dirname $1)) vim $@
+    sudo -E -u $(stat -c %U $(dirname $1)) vim "$@"
 else
-    vim $@
+    vim "$@"
 fi
