@@ -1,15 +1,4 @@
 patch:
   switches/@0/reset: 1
-  key_binder/bindings:
-    - { when: has_more, accept: Tab, send: Page_Down }
-    - { when: has_menu, accept: Return, send_sequence: "{Shift+Return}{Caps_Lock}" }
-    - { when: composing, accept: Control+h, send: BackSpace }
-    - { when: composing, accept: Control+bracketleft, send: Escape }
-    - { when: last_punct, accept: bracketleft, send_sequence: "{Left}{space}{space}" }
-    - { when: ok_second, accept: bracketleft, send_sequence: "{Left}{space}{space}" }
-    - { when: ok_third, accept: bracketleft, send_sequence: "{Left}{Left}{space}{space}" }
-    - { when: ok_fourth, accept: bracketleft, send_sequence: "{Left}{Left}{space}{space}" }
-    - { when: ok_second, accept: bracketright, send_sequence: "{Left}{space}{space}" }
-    - { when: ok_third, accept: bracketright, send_sequence: "{Left}{Left}{space}{Left}{space}{space}" }
-    - { when: ok_fourth, accept: bracketright, send_sequence: "{Left}{Left}{space}{Left}{space}{space}" }
-  engine/translators/@after 2: table_translator@sf
+  key_binder/bindings/+:
+    - { when: has_menu, accept: Return, send_sequence: "{Return}{Caps_Lock}" }
