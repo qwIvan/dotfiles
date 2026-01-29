@@ -1,4 +1,5 @@
 7zip
+aarch64-linux-gnu-binutils
 accountsservice
 ack
 acpi
@@ -17,14 +18,19 @@ alsa-utils
 amd-ucode
 amule
 anbox-git
+android-apktool
+android-sdk-build-tools
+android-studio
 android-tools
 android-udev
 another-redis-desktop-manager-appimage
+antigravity
 anydesk-bin
 anything-sync-daemon
 apache
 apcupsd
 apfsprogs-git
+apifox
 appimage-appimage
 appstream
 arandr
@@ -66,9 +72,11 @@ boost
 bower
 bpython
 breezy
+bridge-utils
 browserify
 btrbk
 btrfs-progs
+bun-bin
 busybox
 byobu
 bypy-git
@@ -80,10 +88,14 @@ certbot
 charles
 cheat
 cheese
+cherry-studio-bin
 chrome-remote-desktop
 chromedriver
 chromium-extension-dark-reader-git
-clash-verge
+clash-verge-rev
+claude-code
+claude-desktop
+claude-desktop-debug
 clisp
 cloudflare-warp-bin
 cloudflared
@@ -111,6 +123,7 @@ debtap
 debugedit
 devtools
 devtools-cn-git
+dex2jar
 dhclient
 dhcp
 dhcpcd
@@ -151,6 +164,7 @@ fabric
 fakechroot
 fasd
 fastjar
+fatresize
 fbreader
 fcitx5
 fcitx5-chinese-addons
@@ -170,7 +184,6 @@ firefox
 firefox-dark-reader
 firejail
 fish
-flake8
 flamegraph
 flameshot
 freerdp
@@ -182,6 +195,7 @@ gconf
 gdb
 gdm
 geckodriver
+gemini-cli-git
 gifsicle
 gimp-help-zh_cn
 gist
@@ -229,9 +243,11 @@ gnome-weather
 go
 goaccess
 google-chrome
+google-cloud-cli
 gpart
 gparted
 gptcommit-bin
+gradle
 grilo-plugins
 groff
 grub
@@ -262,6 +278,7 @@ hddtemp
 helm
 hexchat
 hexedit
+hiddify
 highlight
 hostapd
 hplip
@@ -269,6 +286,7 @@ htop
 httpie
 httping
 httpry
+httptoolkit
 httrack
 hub
 i2p
@@ -277,7 +295,9 @@ i3blocks
 i3lock
 i3status
 i7z
+ib-tws
 icaclient-old
+ida-pro-beta
 ifplugd
 iftop
 imgur.sh
@@ -285,6 +305,7 @@ imgurbash2
 inetutils
 inotify-tools
 intel-ucode
+intellij-idea-ultimate-edition
 inxi
 iotop
 iperf3
@@ -293,11 +314,11 @@ iptstate
 ipw2100-fw
 ipw2200-fw
 ipython
-iwd
 jadx
 java-service-wrapper
-jdk-openjdk
-jdk8-openjdk
+jdk11-openjdk
+jdk17-openjdk
+jdk21-openjdk
 jfsutils
 jhead
 jnettop
@@ -329,6 +350,7 @@ linux
 linux-docs
 linux-firmware
 linux-headers
+linux-lts
 linux-wifi-hotspot
 linuxqq
 litecli
@@ -350,6 +372,7 @@ man-db
 man-pages
 man-pages-zh_cn
 mariadb
+matcha-gtk-theme
 materia-gtk-theme
 maven
 mediainfo
@@ -376,6 +399,7 @@ multitail
 mutt
 mutter
 mycli
+mytop
 n2n
 nano
 nautilus
@@ -414,6 +438,7 @@ numlockx
 nvchecker
 nvm
 oh-my-zsh-git
+openai-codex-autoup-bin
 openbsd-netcat
 opencl-nvidia
 openssl
@@ -430,6 +455,7 @@ papirus-folders-git
 papirus-icon-theme
 parallel
 parsec-bin
+paru
 patch
 patchelf
 patchutils
@@ -459,7 +485,6 @@ pm2
 pnpm
 polipo
 postgresql
-postgresql-old-upgrade
 powerdns
 powerpill
 powertop
@@ -492,6 +517,7 @@ python-edge-tts
 python-eventlet
 python-fastapi
 python-ffmpeg-python
+python-flake8
 python-gevent
 python-google-api-python-client
 python-graphviz
@@ -513,6 +539,7 @@ python-parse
 python-parsel
 python-pipenv
 python-pipreqs
+python-pipx
 python-plotly
 python-poetry
 python-psycopg2
@@ -537,7 +564,7 @@ python-selenium
 python-sh
 python-sqlparse
 python-sshtunnel
-python-streamlit
+python-ta
 python-telegram-bot
 python-telethon
 python-termcolor
@@ -558,6 +585,7 @@ python37
 python39
 qpdfview
 qt5-charts
+radare2
 radeontop
 ranger
 rclone
@@ -583,6 +611,9 @@ rpmextract
 rslsync
 rtorrent
 ruby-bundler
+ruby-foreman
+ruby-youplot
+rustdesk
 rygel
 s-nail
 samba
@@ -590,6 +621,7 @@ scponly
 scrapy
 screen
 screenfetch
+sdkmanager
 search-and-view-git
 shadowsocks
 shadowsocks-libev
@@ -617,6 +649,7 @@ ssfconv
 sshfs
 sshpass
 steam
+steamlink
 strace
 subsync
 sudo
@@ -669,7 +702,6 @@ ttf-dejavu
 ttf-droid
 ttf-fira-mono
 ttf-fira-sans
-ttf-font-awesome
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
@@ -695,6 +727,7 @@ uresourced
 urxvt-perls
 usb_modeswitch
 utools
+uv
 uvicorn
 uwsgi
 uwsgi-plugin-python
@@ -730,7 +763,7 @@ vulkan-tools
 vysor-bin
 w3m
 waydroid
-wechat
+wechat-bin
 wechat-devtools-bin
 weechat
 wemeet-bin
@@ -739,14 +772,15 @@ wget
 whois
 wine
 wireshark-qt
-wkhtmltopdf
 wmctrl
 woeusb-ng
+woff2-font-awesome
 wps-office-cn
 wps-office-fonts
 wps-office-mui-zh-cn
 wqy-microhei
 wqy-zenhei
+wrangler
 wrk
 wscat
 x11vnc
