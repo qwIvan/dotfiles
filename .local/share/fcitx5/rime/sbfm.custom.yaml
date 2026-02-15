@@ -1,4 +1,6 @@
 patch:
   switches/@0/reset: 1
+  switches/@3/reset: 1
+  switches/@4/reset: 3
   key_binder/bindings/+:
     - { when: has_menu, accept: Return, send_sequence: "{Return}{Caps_Lock}" }
